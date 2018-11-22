@@ -4,7 +4,7 @@ Using *Projects* (esoForum for Projects), anyone can create their own forum—ta
 *Projects* uses the esoTalk framework, providing comfortable attractiveness while maintaining speedy performance.  Thanks to simplicity, both maintaining and developing third-party addons for a project are tasks accomplishable by the layperson.
 <br>
 <br>
-![](https://image.ibb.co/k59CSA/whole.png)
+![](https://image.ibb.co/g8KXuq/whole.png)
 
 ### Development
 **Foremost credit is due to [Simon and Toby Zerner](https://tobyzerner.com)**, who originally developed esoTalk (the software upon which esoForum is built) almost a decade ago.  Now, their work is being continued in the form of this project, and the esoForum board.
