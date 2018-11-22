@@ -14,13 +14,13 @@ Current development is brought to you by:
 * `scuba` — an early member and planner of our project.
 
 ### Requirements
-esoProjects needs PHP 5 and a recent version of MySQL.
+esoProjects needs PHP 5 and a recent version of [MySQL](https://dev.mysql.com/downloads/repo/apt/).
 <br>
 Official support is provided for Apache.  It is also tested to have worked on lighttpd.
 
 ---
 
-If you're completely inexperienced with server hosting, we recommend DigitalOcean.  esoForum is currently held up by a $15/mo droplet running Ubuntu 14.04 (16+ does not support PHP 5) and a basic LAMP stack.
+If you're completely inexperienced with server hosting, we recommend [DigitalOcean](https://www.digitalocean.com/pricing/).  esoForum is currently held up by a $15/mo droplet running [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) (16+ does not support PHP 5) and a basic [LAMP stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04).
 
 We also strongly recommend that, for production usage, your forum be served over HTTPS.  This can be easily done by installing LetsEncrypt.  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
 
