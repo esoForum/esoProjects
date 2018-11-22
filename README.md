@@ -6,23 +6,21 @@ Using *Projects* (esoForum for Projects), anyone can create their own forum—ta
 ![](https://image.ibb.co/gr7izq/Screen-Shot-2018-11-21-at-10-48-46-PM.png)
 
 ### Development
-Foremost credit is due to [Simon and Toby Zerner](https://tobyzerner.com), who originally developed esoTalk (the software upon which esoForum is built) almost a decade ago.  Now, their work is being continued in the form of this project, and the esoForum board.
+**Foremost credit is due to [Simon and Toby Zerner](https://tobyzerner.com),** who originally developed esoTalk (the software upon which esoForum is built) almost a decade ago.  Now, their work is being continued in the form of this project, and the esoForum board.
 
 Current development is brought to you by:
 * ir1x (`admin`) — the founder and foremost active developer of esoForum.
 * `scuba` — an early member and planner of our project.
 
-### Features
-We'd like to think that esoProjects can be made ideal for any situtaton, although on another note, it's designed *towards* simplicity and scalability.  If you don't know if esoProjects is for you, here's a quick feature list:
+### Requirements
+esoProjects needs PHP 5 and a recent version of MySQL.
+<br>
+Official support is provided for Apache.  It is also tested to have worked on lighttpd.
 
- * **Lightweight and speedy.**  Some of esoForum's code dates back to the conception of esoTalk, from over ten years ago; the upside of this being, that the Web was *a lot* more lightweight ten years ago, and that modern browsers will have the capacity to display this content in an extremely short amount of time.
+#### Installation
 
- * **Aesthetically pleasing.**  Think 'old' Reddit, or Wikipedia; in the sense that it utilises a basic interface, yet remains straightforward and user-friendly.  By default: there are *no* advertisements, *fancy* graphics — animations can be disabled altogether per-user.  **It's designed for displaying conversations, not stylizing them.**
- 
- * **Quick to learn.**  An esoProject-powered discussion board doesn't try to reinvent the wheel.  If you've used the web before, **you'll be quick to use esoProjects to its fullest potential.**  Even if you're the forum administrator, setup and maintenance is relatively easy and can be novicely accomplished.
- 
-If you're looking for something more modern (that takes a different approach to the classical forum), we recommend [Flarum](https://flarum.org).  If you'd like to use Flarum *and* esoProjects, you'll find a distinct level of familiarity in setup.
+If you're completely inexperienced with server hosting, we recommend DigitalOcean.  esoForum is currently held up by a $15/mo droplet running Ubuntu 14.04 (16+ does not support PHP 5) and a basic LAMP stack.
 
- * **Instant.**  It's built with AJAX (derived from JavaScript).  Replies, edits, and deletions to-and-of posts are shown in real-time for users, without the need to refresh your browser.  Since private messaging is a feature, this functionality **blurs the line between instant messaging and forum discourse.**
+We also strongly recommend that, for production usage, your forum be served over HTTPS.  This can be easily done by installing LetsEncrypt.  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
 
-Last (but not least), esoProjects contains full support for encryption and does not skimp out on security.
+**If all this sounds like a foreign language to you,** we've written some nifty tutorials for novice forum admins.
