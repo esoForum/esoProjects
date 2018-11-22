@@ -17,7 +17,7 @@ esoProjects needs PHP 5 and a recent version of MySQL.
 <br>
 Official support is provided for Apache.  It is also tested to have worked on lighttpd.
 
-#### Installation
+---
 
 If you're completely inexperienced with server hosting, we recommend DigitalOcean.  esoForum is currently held up by a $15/mo droplet running Ubuntu 14.04 (16+ does not support PHP 5) and a basic LAMP stack.
 
