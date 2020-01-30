@@ -1,6 +1,6 @@
 <?php
-// Copyright 2009 Simon Zerner, Toby Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// This file is part of esoForum for Projects.
+// All non-modified code is property of Simon and Toby Zerner.
 
 // Sitemap: generates necessary sitemap files and outputs sitemap.xml.
 
