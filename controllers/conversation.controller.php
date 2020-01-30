@@ -1,5 +1,6 @@
 <?php
-// This file is part of esoTalk. Please see the included license file for usage information.
+// This file is part of esoForum for Projects.
+// All non-modified code is property of Simon and Toby Zerner.
 
 // Conversation controller: Controls anything to do with the conversation view;
 // Posting, editing, pagination, deleting, etc.
