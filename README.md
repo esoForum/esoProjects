@@ -1,7 +1,5 @@
 ## esoForum for Projects
-Using *Projects* (esoForum for Projects), anyone can create their own forum—taking on the same look and feel as esoForum—for a group, organisation, or project. **It's entirely free, forkable, and downloadable.**
-
-*Projects* uses the esoTalk framework, providing comfortable attractiveness while maintaining speedy performance.  Thanks to simplicity, both maintaining and developing third-party addons for a project are tasks accomplishable by the layperson.
+***Projects* (esoForum for Projects) is a web forum software** created for the sandbox discussion site [esoForum](https://esotalk.net) with which anyone can easily **create a functional and speedy forum.**  It's a roughly 200¹ KB ZIP (120² KB GZIP) download.
 <br>
 <br>
 ![](https://image.ibb.co/g8KXuq/whole.png)
