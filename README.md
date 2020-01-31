@@ -7,11 +7,12 @@
 *Projects* is based off the now-defunct [esoTalk](#) forum software, created by Simon and [Toby Zerner](http://tobyzerner.com) — so remember that this isn't affiliated with the original project. Current development is provided by [esoForum](https://esotalk.net) moderators and administrators.
 
 ### Creating your own forum
-**It's very easy to create your own forum** and doesn't require much (if any) command-line experience.  **For an extremely novice tutorial, see this documentation page** but otherwise dependencies are specified below.
+**It's very easy to create your own forum** and doesn't require much (if any) command-line experience.  **For an extremely novice tutorial, see [this tutorial](https://github.com/esoForum/esoProjects/wiki/The-novice's-guide-to-creating-an-esoProject)** but otherwise dependencies are specified below.
 
-1. A recent (latest, recommended) version of **MySQL** and an empty database.
-2. **PHP 5.3-5.6** as version seven is not yet supported.
-3. **PHP GD** for scaling avatars.
+1. **[Apache](https://apache.org)** or [lighttpd](https://www.lighttpd.net).
+2. A recent (latest, recommended) version of **MySQL** and an empty database.
+3. **PHP 5.3-5.6** as version seven is not yet supported.
+4. **PHP GD** for scaling avatars.
 
 **PHP GD isn't *required*** but otherwise your members will have to upload their avatars at an exact 200x200 resolution.
 
