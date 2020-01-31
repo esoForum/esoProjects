@@ -4,23 +4,20 @@
 <br>
 ![](https://image.ibb.co/g8KXuq/whole.png)
 
-### Development
-**Foremost credit is due to [Simon and Toby Zerner](https://tobyzerner.com)**, who originally developed esoTalk (the software upon which esoForum is built) almost a decade ago.  Now, their work is being continued in the form of this project, and the esoForum board.
+*Projects* is based off the now-defunct [esoTalk](#) forum software, created by Simon and [Toby Zerner](http://tobyzerner.com) — so remember that this isn't affiliated with the original project. Current development is provided by [esoForum](https://esotalk.net) moderators and administrators.
 
-Current development is brought to you by:
-* ir1x (`admin`) — the founder and foremost active developer of esoForum.
-* `scuba` — an early member and planner of our project.
+### Creating your own forum
+**It's very easy to create your own forum** and doesn't require much (if any) command-line experience.  **For an extremely novice tutorial, see this documentation page** but otherwise dependencies are specified below.
 
-### Requirements
-esoProjects needs PHP 5 and a recent version of [MySQL](https://dev.mysql.com/downloads/repo/apt/).
-<br>
-Official support is provided for Apache.  It is also tested to have worked on lighttpd.
+1. A recent (latest, recommended) version of **MySQL** and an empty database.
+2. **PHP 5.3-5.6** as version seven is not yet supported.
+3. **PHP GD** for scaling avatars.
 
----
+**PHP GD isn't *required*** but otherwise your members will have to upload their avatars at an exact 200x200 resolution.
 
-If you're completely inexperienced with server hosting, we recommend [DigitalOcean](https://www.digitalocean.com/pricing/).  esoForum is currently held up by a $15/mo droplet running [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) (16+ does not support PHP 5) and a basic [LAMP stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04).
+If you're completely inexperienced with server hosting, we recommend [DigitalOcean](https://www.digitalocean.com/pricing/).  esoForum is currently held up by a $15/mo droplet running [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) and a basic [LAMP stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04).
 
-We also strongly recommend that, for production usage, your forum be served over HTTPS.  This can be easily done by installing LetsEncrypt.  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
+**For a production forum, you should serve all traffic over TLS/HTTPS.**  This can easily be done by installing [LetsEncrypt](https://letsencrypt.org/).  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
 
 **If all this sounds like a foreign language to you**, we've written some nifty tutorials for novice forum admins.
 
