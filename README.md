@@ -17,4 +17,4 @@
 
 If you're completely inexperienced with server hosting, we recommend [DigitalOcean](https://www.digitalocean.com/pricing/).  esoForum is currently held up by a $15/mo droplet running [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) and a basic [LAMP stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04).
 
-**For a production forum, you should serve all traffic over TLS/HTTPS.**  This can easily be done by installing [LetsEncrypt](https://letsencrypt.org/).  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
+**For a production forum, you should serve all traffic over HTTPS/TLS.**  This can easily be done by installing [LetsEncrypt](https://letsencrypt.org/).  esoProjects requires no additional configuration for HTTPS/TLS other than changing the URL in your `config.php` from `http://example.com` -> `https://example.com`.
