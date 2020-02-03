@@ -10,11 +10,9 @@
 **It's very easy to create your own forum** and doesn't require much (if any) command-line experience.  **For an extremely novice tutorial, see [this tutorial](https://github.com/esoForum/esoProjects/wiki/The-novice's-guide-to-creating-an-esoProject)** but otherwise dependencies are specified below.
 
 1. **[Apache](https://apache.org)** or [lighttpd](https://www.lighttpd.net).
-2. A recent (latest, recommended) version of **MySQL** and an empty database.
-3. **PHP 5.3-5.6** as version seven is not yet supported.
-4. **PHP GD** for scaling avatars.
-
-**PHP GD isn't *required*** but otherwise your members will have to upload their avatars at an exact 200x200 resolution.
+2. A recent (latest, recommended) version of **[MySQL](https://www.mysql.com)** and an empty database.
+2. **[PHP 5.3-5.6](https://www.php.net/releases/5_6_0.php)** as version seven is not yet supported.
+4. **PHP-MySQL and PHP-GD** extensions.
 
 If you're completely inexperienced with server hosting, we recommend [DigitalOcean](https://www.digitalocean.com/pricing/).  esoForum is currently held up by a $15/mo droplet running [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) and a basic [LAMP stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04).
 
