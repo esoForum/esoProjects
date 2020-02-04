@@ -95,7 +95,7 @@ function init()
 		if (!$this->user) {
 			$this->addToBar("left", "<form action='" . curLink() . "' method='post' id='login'><div>
  <input id='loginName' name='login[name]' type='text' class='text' autocomplete='username' placeholder='" . (!empty($_POST["login"]["name"]) ? $_POST["login"]["name"] : $language["Username"]) . "'/>
- <input id='loginPassword' name='login[password]' type='password' class='text' autocomplete='current-password' placeholder='********'/>
+ <input id='loginPassword' name='login[password]' type='password' class='text' autocomplete='current-password' placeholder='{$language["Password"]}'/>
  <input id='rememberMe' name='login[rememberMe]' type='checkbox' class='checkbox'/> <label id='rememberChk' for='rememberMe'>{$language["Remember me"]}</label>
  " . $this->skin->button(array("value" => $language["Log in"])) . "
  </div></form>", 100);
