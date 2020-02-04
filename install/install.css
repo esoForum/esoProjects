@@ -48,7 +48,7 @@ label.checkbox, label.radio {cursor:pointer}
   #container {width:unset; margin:unset}
 }
 
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:650px) {
   .form input.text, .form select, .form div {clear:left}
-  .form label {text-align:left; padding-bottom:5px}
+  .form label {text-align:left; padding-bottom:5px; width:auto}
 }
