@@ -98,9 +98,7 @@ function init()
  <input id='loginPassword' name='login[password]' type='password' class='text' autocomplete='current-password' value='********'/>
  <input id='rememberMe' name='login[rememberMe]' type='checkbox' class='checkbox'/> <label id='rememberChk' for='rememberMe'>{$language["Remember me"]}</label>
  " . $this->skin->button(array("value" => $language["Log in"])) . "
- </div></form><script type='text/javascript'>" .
- (empty($_POST["login"]["name"]) ? "makePlaceholder(document.getElementById('loginName'), '{$language["Username"]}');" : "") . "
- makePlaceholder(document.getElementById('loginPassword'), '********');" . 
+ </div></form>", 100);
 			$this->addToBar("left", "<a href='" . makeLink("join") . "' id='mbl-join' title='Join this forum'><span>Join this forum</span></a>", 200);
  			$this->addToBar("left", "<a href='" . makeLink("join") . "' id='nav-join'>{$language["Join this forum"]}</a>", 300);
  			$this->addToBar("left", "<a href='" . makeLink("forgot-password") . "' id='nav-fgpw'>{$language["Forgot your password"]}</a>", 400);
