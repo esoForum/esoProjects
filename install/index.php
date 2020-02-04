@@ -58,7 +58,7 @@ switch ($install->step) {
 
 // Fatal checks.
 case "fatalChecks": ?>
-<h1><img src='logo.svg' alt=''/> Uh oh, something's not right!</h1>
+<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/> Uh oh, something's not right!</h1>
 <p>The following errors were found with your esoProjects setup. They must be resolved before you can continue the installation.</p>
 <hr/>
 <ul>
@@ -72,7 +72,7 @@ case "fatalChecks": ?>
 
 // Warning checks.
 case "warningChecks": ?>
-<h1><img src='logo.svg' alt=''/> Warning!</h1>
+<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/> Warning!</h1>
 <p>The following errors were found with your esoProjects setup. You can continue the esoProjects install without resolving them, but some esoForum functionality may be limited.</p>
 <hr/>
 <ul>
