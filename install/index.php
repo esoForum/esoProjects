@@ -93,7 +93,7 @@ case "info": ?>
 <hr/>
 
 <ul class='form'>
-<li><label>Forum title</label> <input id='forumTitle' name='forumTitle' tabindex='1' type='text' class='text' value='<?php echo @$_POST["forumTitle"]; ?>'/>
+<li><label>Forum title</label> <input id='forumTitle' name='forumTitle' tabindex='1' type='text' class='text' placeholder='e.g. Simon's Krav Maga Forum' value='<?php echo @$_POST["forumTitle"]; ?>'/>
 <?php if (isset($install->errors["forumTitle"])): ?><div class='warning msg'><?php echo $install->errors["forumTitle"]; ?></div><?php endif; ?></li>
 
 <li><label>Default language</label> <div><select id='language' name='language' tabindex='2'>
@@ -110,21 +110,21 @@ case "info": ?>
 <ul class='form'>
 <li><label>MySQL host address</label> <input id='mysqlHost' name='mysqlHost' tabindex='3' type='text' class='text' value='<?php echo isset($_POST["mysqlHost"]) ? $_POST["mysqlHost"] : "localhost"; ?>'/></li>
 
-<li><label>MySQL username</label> <input id='mysqlUser' name='mysqlUser' tabindex='4' type='text' class='text' value='<?php echo @$_POST["mysqlUser"]; ?>'/></li>
+<li><label>MySQL username</label> <input id='mysqlUser' name='mysqlUser' tabindex='4' type='text' class='text' placeholder='simon' value='<?php echo @$_POST["mysqlUser"]; ?>'/></li>
 
 <li><label>MySQL password</label> <input id='mysqlPass' name='mysqlPass' tabindex='5' type='password' class='text' value='<?php echo @$_POST["mysqlPass"]; ?>'/></li>
 
-<li><label>MySQL database</label> <input id='mysqlDB' name='mysqlDB' tabindex='6' type='text' class='text' value='<?php echo @$_POST["mysqlDB"]; ?>'/></li>
+<li><label>MySQL database</label> <input id='mysqlDB' name='mysqlDB' tabindex='6' type='text' class='text' placeholder='esoprojects' value='<?php echo @$_POST["mysqlDB"]; ?>'/></li>
 </ul>
 
 <hr/>
 <p>esoProjects will use the following information to set up your administrator account on your forum.</p>
 
 <ul class='form'>
-<li><label>Administrator username</label> <input id='adminUser' name='adminUser' tabindex='7' type='text' class='text' value='<?php echo @$_POST["adminUser"]; ?>'/>
+<li><label>Administrator username</label> <input id='adminUser' name='adminUser' tabindex='7' type='text' class='text' placeholder='Simon' value='<?php echo @$_POST["adminUser"]; ?>'/>
 <?php if (isset($install->errors["adminUser"])): ?><div class='warning msg'><?php echo $install->errors["adminUser"]; ?></div><?php endif; ?></li>
 	
-<li><label>Administrator email</label> <input id='adminEmail' name='adminEmail' tabindex='8' type='text' class='text' value='<?php echo @$_POST["adminEmail"]; ?>'/>
+<li><label>Administrator email</label> <input id='adminEmail' name='adminEmail' tabindex='8' type='text' class='text' placeholder='simon@example.com' value='<?php echo @$_POST["adminEmail"]; ?>'/>
 <?php if (isset($install->errors["adminEmail"])): ?><span class='warning msg'><?php echo $install->errors["adminEmail"]; ?></span><?php endif; ?></li>
 	
 <li><label>Administrator password</label> <input id='adminPass' name='adminPass' tabindex='9' type='password' class='text' value='<?php echo @$_POST["adminPass"]; ?>'/>
@@ -133,16 +133,6 @@ case "info": ?>
 <li><label>Confirm password</label> <input id='adminConfirm' name='adminConfirm' tabindex='10' type='password' class='text' value='<?php echo @$_POST["adminConfirm"]; ?>'/>
 <?php if (isset($install->errors["adminConfirm"])): ?><span class='warning msg'><?php echo $install->errors["adminConfirm"]; ?></span><?php endif; ?></li>
 </ul>
-
-<script type='text/javascript'>
-// <![CDATA[
-if (!document.getElementById("forumTitle").value) makePlaceholder(document.getElementById("forumTitle"), "e.g. Simon's Krav Maga Forum");
-if (!document.getElementById("mysqlUser").value) makePlaceholder(document.getElementById("mysqlUser"), "simon");
-if (!document.getElementById("mysqlDB").value) makePlaceholder(document.getElementById("mysqlDB"), "esotalk");
-if (!document.getElementById("adminUser").value) makePlaceholder(document.getElementById("adminUser"), "Simon");
-if (!document.getElementById("adminEmail").value) makePlaceholder(document.getElementById("adminEmail"), "simon@example.com");
-// ]]>
-</script>
 
 <br/>
 <a href='#advanced' onclick='toggleAdvanced();return false' title='What, you&#39;re too cool for the normal settings?' tabindex='11'>Advanced options</a>
