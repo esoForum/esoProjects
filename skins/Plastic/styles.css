@@ -28,6 +28,7 @@ h2 {font-size:160%; font-weight:normal}
 h3 {font-size:120%; font-weight:bold}
 .highlight {background:yellow}
 #appearance #preview {margin-bottom:0}
+input::placeholder {color:#aaa}
 
 /* Header */
 #hdr {background:linear-gradient(#fff, #fff, #e4e5ea); overflow:hidden; padding:0 25px; position:relative}
