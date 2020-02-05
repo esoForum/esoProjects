@@ -1,5 +1,5 @@
 /* Installer CSS */
-body {background:#fff; font-size:75%}
+body {background:#fff; font-size:75%; min-width:260px}
 body, input, select, textarea, table {font-family:arial, helvetica, sans-serif; margin:0}
 input, select, textarea {font-size:100%}
 #container {margin:50px auto; width:55em; background:#f5f5ff; padding:20px; font-size:120%; line-height:1.4}
@@ -52,4 +52,8 @@ label.checkbox, label.radio {cursor:pointer}
 @media only screen and (max-width:650px) {
   .form input.text, .form select, .form div {clear:left}
   .form label {text-align:left; padding-bottom:5px; width:auto}
+}
+
+@media only screen and (max-width:400px) {
+  .form input.text, .form select {width:-webkit-fill-available}
 }
