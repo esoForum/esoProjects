@@ -110,7 +110,7 @@ case "info": ?>
 <ul class='form'>
 <li><label>MySQL host address</label> <input id='mysqlHost' name='mysqlHost' tabindex='3' type='text' class='text' value='<?php echo isset($_POST["mysqlHost"]) ? $_POST["mysqlHost"] : "localhost"; ?>'/></li>
 
-<li><label>MySQL username</label> <input id='mysqlUser' name='mysqlUser' tabindex='4' type='text' class='text' placeholder='simon' value='<?php echo @$_POST["mysqlUser"]; ?>'/></li>
+<li><label>MySQL username</label> <input id='mysqlUser' name='mysqlUser' tabindex='4' type='text' class='text' placeholder='esoman' value='<?php echo @$_POST["mysqlUser"]; ?>'/></li>
 
 <li><label>MySQL password</label> <input id='mysqlPass' name='mysqlPass' tabindex='5' type='password' class='text' value='<?php echo @$_POST["mysqlPass"]; ?>'/></li>
 
