@@ -28,7 +28,6 @@ h2 {font-size:160%; font-weight:normal}
 h3 {font-size:120%; font-weight:bold}
 .highlight {background:yellow}
 #appearance #preview {margin-bottom:0}
-input::placeholder {color:#aaa}
 
 /* Header */
 #hdr {background:linear-gradient(#fff, #fff, #e4e5ea); overflow:hidden; padding:0 25px; position:relative}
@@ -326,6 +325,7 @@ form {margin:0}
 input.text, textarea {background:#fff; border:1px solid #bbb; padding:2px}
 input.text:focus, textarea:focus {border-color:#777}
 #cInfo .editable:focus {background:#fff}
+input::placeholder {color:#aaa}
 .placeholder {color:#aaa}
 input.checkbox, input.radio {padding:0; margin:0 2px 0 5px; vertical-align:-2px}
 label.checkbox, label.radio {cursor:pointer}
