@@ -228,7 +228,7 @@ hr {display:none}
 /* Formatting buttons */
 .p .controls {margin:-1px 0 -3px 0}
 .formattingButtons {overflow:hidden; display:block; float:left}
-.p .controls .formattingButtons a {background-image:url(icons.svg); background-repeat:no-repeat; height:18px; margin:0 3px 0 0; width:18px; vertical-align:top; float:left}
+.p .controls .formattingButtons a {background-image:url(icons/icons.svg); background-repeat:no-repeat; height:18px; margin:0 3px 0 0; width:18px; vertical-align:top; float:left}
 .p .controls .formattingButtons a span {display:none}
 .p .controls .formattingButtons a:hover {background-color:#fff; text-decoration:none}
 .p .controls .formattingButtons a:active {background-color:#888}
