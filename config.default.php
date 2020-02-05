@@ -27,8 +27,8 @@ $defaultConfig = array(
 "basePath" => "", // The base path to use when including or writing to any files.
 "gzipOutput" => true, // Whether or not to compress the page output with gzip.
 
-"useFriendlyURLs" => false, // ex. example.com/index.php/conversation/1
-"useModRewrite" => false, // ex. example.com/conversation/1 (requires mod_rewrite and a .htaccess file!)
+"useFriendlyURLs" => true, // ex. example.com/index.php/conversation/1
+"useModRewrite" => true, // ex. example.com/conversation/1 (requires mod_rewrite and a .htaccess file!)
 "skin" => "Plastic", // The default skin (overridden by config/skin.php.)
 "minPasswordLength" => 6,
 "cookieExpire" => 2592000, // 30 days
