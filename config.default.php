@@ -4,7 +4,7 @@
 
 if (!defined("IN_ESOTALK")) exit;
 
-define("ESOTALK_VERSION", "1.0.0");
+define("ESOTALK_VERSION", "1.0");
 
 $defaultConfig = array(
 // This following block is filled out by the installer in config/config.php.
