@@ -59,7 +59,7 @@ switch ($install->step) {
 
 // Fatal checks.
 case "fatalChecks": ?>
-<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/> Uh oh, something's not right!</h1>
+<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/>Uh oh, something's not right!</h1>
 <p>The following errors were found with your esoProjects setup. They must be resolved before you can continue the installation.</p>
 <hr/>
 <ul>
@@ -73,7 +73,7 @@ case "fatalChecks": ?>
 
 // Warning checks.
 case "warningChecks": ?>
-<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/> Warning!</h1>
+<h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/>Warning!</h1>
 <p>The following errors were found with your esoProjects setup. You can continue the esoProjects install without resolving them, but some esoForum functionality may be limited.</p>
 <hr/>
 <ul>
@@ -87,7 +87,7 @@ case "warningChecks": ?>
 
 // Specify setup information.
 case "info": ?>
-<h1><img src='logo.svg' alt=''/> Specify setup information</h1>
+<h1><img src='logo.svg' alt=''/>Specify setup information</h1>
 <p>Welcome to the esoProjects installer! We need a few details from you so we can get your forum set up and ready to go.</p>
 <p>If you have any trouble, get help on <a href='https://esotalk.net/'>esoForum</a>!</p>
 <hr/>
@@ -173,7 +173,7 @@ function toggleAdvanced() {
 
 // Show an installation error.
 case "install": ?>
-<h1><img src='logo.svg' alt=''/> Uh oh! It's a fatal error...</h1>
+<h1><img src='logo.svg' alt=''/>Uh oh! It's a fatal error...</h1>
 <p class='warning msg'>The esoProjects installer encountered an error.</p>
 <p>The installer has encountered a nasty error which is making it impossible to install esoProjects on your server. But don't feel down - <strong>here are a few things you can try</strong>:</p>
 <ul>
@@ -205,7 +205,7 @@ hide(document.getElementById("error"));
 
 // Finish!
 case "finish": ?>
-<h1><img src='logo.svg' alt=''/> Congratulations!</h1>
+<h1><img src='logo.svg' alt=''/>Congratulations!</h1>
 <p>esoProjects has been installed, and your forum should be up and ready to go.</p>
 <p>It's highly recommended that you <strong>remove the <code>install</code> folder</strong> to prevent anyone from hacking your forum.</p>
 
