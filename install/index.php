@@ -93,7 +93,7 @@ case "info": ?>
 <hr/>
 
 <ul class='form'>
-<li><label>Forum title</label> <input id='forumTitle' name='forumTitle' tabindex='1' type='text' class='text' placeholder='e.g. Simon's Krav Maga Forum' value='<?php echo @$_POST["forumTitle"]; ?>'/>
+<li><label>Forum title</label> <input id='forumTitle' name='forumTitle' tabindex='1' type='text' class='text' placeholder="e.g. Simon's Krav Maga Forum" value='<?php echo @$_POST["forumTitle"]; ?>'/>
 <?php if (isset($install->errors["forumTitle"])): ?><div class='warning msg'><?php echo $install->errors["forumTitle"]; ?></div><?php endif; ?></li>
 
 <li><label>Default language</label> <div><select id='language' name='language' tabindex='2'>
