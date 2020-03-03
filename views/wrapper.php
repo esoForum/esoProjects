@@ -42,10 +42,17 @@ if(!defined("IN_ESOTALK"))exit;?>
 <?php $this->controller->render();?>
 </div>
 
-<?php $this->callHook("footer");?>
+<?php $this->callHook("footer"); ?>
 <div id='ftr'>
-<?php if(count($this->footer)):?><ul><?php
-ksort($this->footer);foreach($this->footer as $v)echo "<li>$v</li>";?></ul><?php endif;?>
+<?php if (count($this->footer)): ?><ul><?php
+ksort($this->footer);
+foreach ($this->footer as $v) echo "<li>$v</li>";
+?></ul><?php endif; ?>
+<p id='copyright'>
+<!-- The following text constitutes a copyright notification and, under the terms of the GNU GPL (see LICENSE), may neither be removed nor altered in any way which makes it invisible, affects the hyperlink, or changes the text "Powered by esoTalk". -->
+Powered by <a href='http://esotalk.com/'>esoTalk</a>&trade; <?php if ($this->user["admin"]) echo ESOTALK_VERSION; ?>
+<!-- End copyright notification -->
+</p>
 </div>
 
 </div>
