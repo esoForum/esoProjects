@@ -1,1 +1,72 @@
-var supersleight=function(){var t=!1,n="x.gif",e=function(){for(var n=(t=t?document.getElementById(t):document).all.length-1,e=null;e=t.all[n];n--)null!==e.currentStyle.backgroundImage.match(/\.png/i)&&o(e),"IMG"==e.tagName&&null!==e.src.match(/\.png$/i)&&i(e),"A"!=e.tagName&&"INPUT"!=e.tagName||""!==e.style.position||(e.style.position="relative")},o=function(t){var n="scale",e=t.currentStyle.backgroundImage,o=e.substring(5,e.length-2);"no-repeat"==t.currentStyle.backgroundRepeat&&(n="crop"),t.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+o+"', sizingMethod='"+n+"')",t.style.backgroundImage="url(x.gif)"},i=function(t){var e=t.src;t.style.width=t.width+"px",t.style.height=t.height+"px",t.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+e+"', sizingMethod='scale')",t.src=n};return{init:function(){var t,n;t=e,n=window.onload,"function"!=typeof window.onload?window.onload=t:window.onload=function(){n&&n(),t()}},limitTo:function(n){t=n},run:function(){e()}}}();supersleight.init();
+var supersleight	= function() {
+	
+	var root = false;
+	var applyPositioning = true;
+	
+	// Path to a transparent GIF image
+	var shim			= 'js/x.gif';
+	
+	// RegExp to match above GIF image name
+	var shim_pattern	= /js\/x\.gif$/i;
+	
+	
+	
+	var fnLoadPngs = function() { 
+		if (root) {
+			root = document.getElementById(root);
+		}else{
+			root = document;
+		}
+		for (var i = root.all.length - 1, obj = null; (obj = root.all[i]); i--) {
+			// image elements
+			if (obj.tagName=='IMG' && obj.src.match(/\.png$/i) !== null){
+				el_fnFixPng(obj);
+			}
+			// apply position to 'active' elements
+			if (applyPositioning && (obj.tagName=='A' || obj.tagName=='INPUT') && obj.style.position === ''){
+				obj.style.position = 'relative';
+			}
+		}
+	};
+
+	var el_fnFixPng = function(img) {
+		var src = img.src;
+		img.style.width = img.width + "px";
+		img.style.height = img.height + "px";
+		img.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + src + "', sizingMethod='scale')";
+		img.src = shim;
+	};
+	
+	var addLoadEvent = function(func) {
+		var oldonload = window.onload;
+		if (typeof window.onload != 'function') {
+			window.onload = func;
+		} else {
+			window.onload = function() {
+				if (oldonload) {
+					oldonload();
+				}
+				func();
+			};
+		}
+	};
+	
+	return {
+		init: function() { 
+			addLoadEvent(fnLoadPngs);
+		},
+		
+		limitTo: function(el) {
+			root = el;
+		},
+		
+		run: function() {
+			fnLoadPngs();
+		}
+	};
+}();
+
+// limit to part of the page ... pass an ID to limitTo:
+// supersleight.limitTo('header');
+
+supersleight.init();
