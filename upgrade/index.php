@@ -2,7 +2,7 @@
 // This file is part of esoForum for Projects.
 // All non-modified code is property of Simon and Toby Zerner.
 
-// Upgrader: this page is loaded whenever the build esoTalk version in config.default.php differs from the one the forum
+// Upgrader: this page is loaded whenever the build version in config.default.php differs from the one the forum
 // is up-to-date with (in config.php). Sets up the Upgrade controller.
 
 define("IN_ESOTALK", 1);
