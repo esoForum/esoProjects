@@ -103,7 +103,7 @@ $queries[] = "CREATE TABLE {$config["tablePrefix"]}searches (
 	searchTime int unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8";
 
-// Create the a member for the administrator.
+// Create the account for the administrator.
 $color = rand(1, 27);
 $queries[] = "INSERT INTO {$config["tablePrefix"]}members (memberId, name, email, password, color, account, language) VALUES 
 (1, '{$_SESSION["install"]["adminUser"]}', '{$_SESSION["install"]["adminEmail"]}', '" . md5($config["salt"] . $_SESSION["install"]["adminPass"]) . "', $color, 'Administrator', '{$_SESSION["install"]["language"]}')";
