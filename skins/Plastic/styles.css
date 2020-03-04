@@ -317,7 +317,7 @@ blockquote p {margin-bottom:.75em}
 /* Footer */
 #ftr {font-size:90%; margin:5px 25px 20px; overflow:hidden}
 #ftr ul {margin:0; padding:0}
-#ftr #copyright {display:grid; padding-top:10px; border-top:1px solid #ccc}
+#ftr #copyright {padding-top:10px; border-top:1px solid #ccc}
 #ftr #cpyr2 {padding-top:5px}
 
 /* Inputs, buttons, and other form elements */
