@@ -20,17 +20,17 @@ function init()
 	// Perform the upgrade, depending on what version the user is currently at.
 	global $versions;
 	
-	// 1.0.0 alpha 5 -> 1.0.0 beta 1
+	// 1.0 alpha 5 -> 1.0 beta 1
 	if ($versions["esoTalk"] == "1.0.0a5") {
 		$this->upgrade_100b1();
-		$versions["esoTalk"] = "1.0.0b1";
+		$versions["esoTalk"] = "1.0b1";
 		writeConfigFile("../config/versions.php", '$versions', $versions);
 	}
 	
-	// 1.0.0 beta 1 -> 1.0.0 beta 2
-	if ($versions["esoTalk"] == "1.0.0b1") {
+	// 1.0 beta 1 -> 1.0 release
+	if ($versions["esoTalk"] == "1.0b1") {
 		$this->upgrade_100b2();
-		$versions["esoTalk"] = "1.0.0b2";
+		$versions["esoTalk"] = "1.0";
 		writeConfigFile("../config/versions.php", '$versions', $versions);
 	}
 	
@@ -43,10 +43,10 @@ function init()
 	// Now, prepare a success message to be displayed!
 	$messageHead = "<script type='text/javascript' src='js/esotalk.js'></script>";	
 	$messageTitle = "You're good to go!";
-	$messageBody = "<p>esoTalk has successfully been upgraded. Here's some stuff you should do now:</p>
+	$messageBody = "<p>esoProjects has successfully been upgraded. Here's some stuff you should do now:</p>
 	<ul>
 	<li><strong>Delete the <code>upgrade</code> directory</strong> to prevent your forum from being hacked!</li>
-	<li><a href='{$config["baseURL"]}'>Visit your forum</a> and make sure everything is working - if not, get help at the <a href='https://demo.esotalk.net'>esoTalk support forum</a>.</li>
+	<li><a href='{$config["baseURL"]}'>Visit your forum</a> and make sure everything is working - if not, get help by <a href='https://github.com/esoForum/esoProjects/issues/new'>opening an issue</a>.</li>
 	<li>If you're interested, <a href='javascript:toggleAdvanced()'>see advanced information</a> about what happened during the upgrade process.</li>
 	</ul>
 	<div class='info' id='advanced'>";
@@ -102,9 +102,9 @@ function query($query)
 function fatalError($message)
 {
 	$messageTitle = "Uh oh! It's a fatal error...";
-	$messageBody = "<p>esoTalk has encountered a nasty error which is making it impossible to upgrade your esoTalk installation. But don't feel down - <strong>here are a few things you can try</strong>:</p><ul>
+	$messageBody = "<p>esoProjects has encountered a nasty error which is making it impossible to upgrade your esoProjects installation. But don't feel down - <strong>here are a few things you can try</strong>:</p><ul>
 	<li><strong><a href=''>Try again</a></strong>. Everyone makes mistakes - maybe the computer made one this time!</li>
-	<li><strong>Get help.</strong> Go on the <a href='https://demo.esotalk.net' title='Don&#039;t worry, we&#039;re friendly!'>esoTalk support forum</a> and <a href='https://demo.esotalk.net/search/tag:upgrade'>search</a> to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</li>
+	<li><strong>Get help.</strong> Go on the <a href='https://github.com/esoForum/esoProjects/issues'>project repository</a> to see if anyone else is having the same problem as you are. If not, open a new issue, including the error details below.</li>
 	<li>Try hitting the computer - that sometimes works for me.</li>
 	</ul>
 	<div class='info'>$message</div>";
@@ -187,7 +187,7 @@ Sitemap: {$config["baseURL"]}sitemap.php");
 	// Delete init.php, classes.php, database.php, formatter.php, and functions.php from the root directory.
 	$filesToDelete = array("init.php", "classes.php", "database.php", "functions.php");
 	foreach ($filesToDelete as $file) {
-		@unlink("../$file") or $this->warning("esoTalk could not delete <code>/$file</code>. Please delete it manually.");
+		@unlink("../$file") or $this->warning("esoProjects could not delete <code>/$file</code>. Please delete it manually.");
 	}
 }
 
