@@ -1,1 +1,2270 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('f 9(o){q F.9p(o)||1z};f X(79,Q){h 5F=[];h 4H=79.1t("*");L(h i=0;i<4H.12;i++){h 5J=4H[i].Q.68(" ");L(h j Z 5J)6(5J[j]==Q)5F.Y(4H[i])}q 5F};f 6h(78){q 9n.4b.9l.9m(78)==="[9q 9r]"};f 2d(){6(1f O.77=="3q")q O.77;E 6(1f F.2s.2p=="3q")q F.2s.2p;E 6(1f F.R.2p=="3q")q F.R.2p;q 0};f 9v(){6(1f F.2s.4S=="3q")q[F.2s.76,F.2s.4S];E 6(1f F.R.4S=="3q")q[F.R.76,F.R.4S];q[0,0]};f 3z(){6(1f O.7a=="3q")q[O.9u,O.7a];E 6(1f F.2s.7b=="3q")q[F.2s.9k,F.2s.7b];q[0,0]};f 1P(4p){h 17=0;6(4p.7f){9b{17+=4p.8y}6Z(4p=4p.7f)}q 17};K.7e=f(t,b,c,d){q-c*((t=t/d-1)*t*t*t-1)+b};h 25=f(4l,3s){3s=3s||{};8.4l=4l;8.2B=1z;8.1G=3s.1G||0;8.1r=3s.1r||0;8.35=3s.35||20;8.59=3s.59||K.7e;8.49=0;8.4w=S};25.4b.3k=f(){4s(8.2B);8.4w=S};25.4b.1E=f(){6(!8.4w)q;6(1f m!="1q"&&m.99)8.6A();E{8.4w=v;8.67()}};25.4b.67=f(){h 1m=8;6(6h(8.1G)&&6h(8.1r)){8.49++;h P=[];L(h i Z 8.1G)P.Y(8.59(8.49,8.1G[i],8.1r[i]-8.1G[i],8.35))}E h P=8.59(8.49++,8.1G,8.1r-8.1G,8.35);8.4l(P);6(8.49<=8.35)8.2B=3M(f(){1m.67()},10);E 8.6A()};25.4b.6A=f(){8.4w=S;8.4l(8.1r,S)};f 55(A,2o){6(1f A.1T=="1q")A.1T=A.w.28!="3d";A.1T?1X(A,2o):2i(A,2o)};f 2i(A,2o){A.w.28="";A.1T=S;5t(A,2o)};f 1X(A,2o){A.w.28="3d";A.1T=v;5t(A,2o)};f 4o(A){6(!A)q v;6(A.56.Q.1K("T")!=-1)q A.56;T=F.6t("B");T.w.6p="3C";T.Q="T";A.56.9h(T,A);T.5S(A);q T};f 5t(A,2o){6(!2o)q;5c(2o.1m){2g"5y":h T=4o(A);6(!T.w.28)T.w.28=A.1T?"3d":"7d";6(!T.w.1Z)T.w.1Z=A.1T?0:1;A.w.28="";h 7c=T.1s;h 4A=1Q(T.w.1Z);T.w.28="7d";T.w.6p="3C";h 74=T.1s;6(T.1m)T.1m.3k();T.1m=2c 25(f(3J,1O){T.w.1L=K.4G(3J[0])+"1V";T.w.1Z=3J[1];6(1O){T.w.1L="";6(!A.1T)T.w.28="3d"}},{1G:[7c,4A],1r:[A.1T?74:0,A.1T?1:0]});T.1m.1E();24;2g"4y":A.w.28="";h 4A=1f A.w.1Z!="1q"?1Q(A.w.1Z):1;6(A.1m)A.1m.3k();A.1m=2c 25(f(1Z,1O){A.w.1Z=1Z;A.w.7u="7t(1Z="+K.4G(1Z*1w)+")";6(1O&&!A.1T)A.w.28="3d"},{1G:4A,1r:A.1T?1:0});A.1m.1E()}}h 5f;f 5p(2E){6(5f)5f.3k();(5f=2c 25(f(17){O.4d(0,17)},{1G:2d(),1r:2E})).1E()}f 9x(A,1N){A.5Z=f(){6(A.3T){A.C="";A.3T=v;A.Q=A.Q.1j("33","")}};A.4I=f(){6(A.C==""){A.3T=S;A.C=1N;6(A.Q.1K("33")<0)A.Q+=" 33"}};A.C="";A.4I()};f 1A(1v){6(1v.Q.1K("9P")!=-1&&1v.Q.1K("73")==-1)1v.Q+=" 73";E 6(1v.Q.1K("1v")!=-1&&1v.Q.1K("6W")==-1)1v.Q+=" 6W";E 6(1v.Q.1K("2Y")==-1)1v.Q+=" 2Y";6(1v.1t("2l")[0])1v.1t("2l")[0].2Y="S";E 1v.2Y="S"};f 23(1v){1v.Q=1v.Q.1j(/(9N|9R|d)9S/g,"");6(1v.1t("2l")[0])1v.1t("2l")[0].2Y="";E 1v.2Y=""};f 9W(){6(!9("6V"))O.2I=O.2I;h 17=2d();9("6V").34();O.4d(0,17);5p(0)}f 9V(3U,2h){M.y({"W":m.14+"1a.19","u":"1b=2h&3U="+3U});2h.Q=2h.Q=="64"?"4Y":"64";2h.1t("1p")[0].U=m.1i[2h.Q=="4Y"?"8w":"8l"];6(9("c"+3U))9("c"+3U).Q=2h.Q=="4Y"?"3Z":""};f 5h(5O){6(!5O)q m.1i["9U"];h 1n=m.3b-5O;6(1n<1)q m.1i["9L 9K"];6(1n>=6U){h 5d=K.36(1n/6U);q m.1i[(5d==1?"9B":"5d")+" 1n"].1j("%d",5d)}E 6(1n>=6S){h 5g=K.36(1n/6S);q m.1i[(5g==1?"96":"5g")+" 1n"].1j("%d",5g)}E 6(1n>=6T){h 5k=K.36(1n/6T);q m.1i[(5k==1?"9D":"5k")+" 1n"].1j("%d",5k)}E 6(1n>=6X){h 5i=K.36(1n/6X);q m.1i[(5i==1?"9J":"5i")+" 1n"].1j("%d",5i)}E 6(1n>=6Y){h 5b=K.36(1n/6Y);q m.1i[(5b==1?"9I":"5b")+" 1n"].1j("%d",5b)}E 6(1n>=60){h 5a=K.36(1n/60);q m.1i[(5a==1?"9H":"5a")+" 1n"].1j("%d",5a)}E 6(1n>=1){h 2r=K.36(1n/1);q m.1i[(2r==1?"9G":"2r")+" 1n"].1j("%d",2r)}}h 1W={1R:1z,N:{},5o:f(){8.1R=9("N");8.1R.U="";8.1R.w.28="";8.1R.w.4c="3X";8.1R.w.17="0";8.1R.w.1y="1w%";8.1R.w.7x="95";6(6d){8.1R.w.4c="7w";8.1R.2N.7v("17","5M(F.2s.2p)");F.R.2N.6R="7E-3I";F.R.2N.7D="W(8L.7C)";F.R.2N.7B="3X"}},65:f(1c,3h,1N,71,72){6(!8.N[1c]){8.N[1c]={B:F.6t("B")};8.1R.5S(8.N[1c].B)}8.N[1c].B.Q="8Q "+3h;8.N[1c].B.U=(!72?"<a 2R=\'8F:1W.2L(\\""+1c+"\\")\' 1J=\'8N\'>x</a>":"")+1N;8.N[1c].3h=3h;8.N[1c].1N=1N;4s(8.N[1c].2B);6(71)8.N[1c].2B=3M(f(){1W.2L(1c)},m.94*3V);8.N[1c].B.w.17=-8.N[1c].B.1s+"1V";8.6y(1c,"2i")},2L:f(1c){6(!8.N[1c])q v;8.6y(1c,"1X")},6y:f(1c,3h){6(8.N[1c].1m)8.N[1c].1m.3k();h 2u=8.N[1c].B;h 3H=4o(2u);h 1R=8.1R;2u.w.4c="8Y";5c(3h){2g"2i":8.N[1c].1m=2c 25(f(17,1O){2u.w.17=17+"1V";3H.w.1L=2u.1s+17+"1V";F.R.w.70=1R.1s+"1V";6(1O)3H.w.1L=2u.w.17=""},{1G:1Q(2u.w.17),1r:0,35:10});24;2g"1X":8.N[1c].1m=2c 25(f(17,1O){2u.w.17=17+"1V";3H.w.1L=2u.1s+17+"1V";F.R.w.70=1R.1s+"1V";6(1O){3H.56.7k(3H);4s(1W.N[1c].2B);8h 1W.N[1c]}},{1G:0,1r:-2u.1s,35:10});24;8x:q v}8.N[1c].1m.1E()},4R:f(){L(h i Z 8.N)8.2L(i)}};h M={3G:0,2U:v,4z:v,43:v,7g:3,29:[],y:f(y){6(!y||8.2U)q v;6(!y.1e)y.1e=f(){};8.29.Y(y);8.6w()},6w:f(){6(!8.29.12)q;6Z(8.29.12&&8.29[0].7m){8.29.91().1e();6(M.3G<1)1X(9("2M"),{1m:"4y"})}L(h i Z 8.29){6(8.3G>=8.7g)24;6(!8.29[i].2a||8.29[i].3I)8.5q(8.29[i])}},5q:f(y){8.3G++;y.3I=v;y.2a=O.7h?2c 7h("90.92"):2c 8W();y.2a.8X("8V",y.W,S);y.2a.8U("8T-8Z","8I/x-8J-8P-8O");6(!8.2M&&!y.2f&&1f O.45=="1q"){O.45=O.3K;O.3K=f 3K(){q m.1i["8G"]}}y.2a.8H=f(){6(y.2a.9A==4){M.3G--;6(M.3G<1){M.2M=v;6(!y.2f){6(9("2M"))1X(9("2M"),{1m:"4y"});O.3K=O.45||1z;6(O.45)O.45=1q}}6(y.2a.7y==0)q;6(y.2a.7y!=b4){M.6f(y);q v}E 6(M.4z&&!y.2f){M.4z=v;1W.4R()}b3{y.4n=5M("("+y.2a.b2+")")}b6(e){M.6f(y);q v}y.P=y.4n.P;y.N=y.4n.N;M.2U=v;L(h i Z y.N){1W.65(i,y.N[i][0],y.N[i][1],y.N[i][2],i=="2U"?S:v);6(i=="2U")M.2U=S}6(y.N.12<1)y.N=v;6(y.4n.2k){m.2k=y.4n.2k;h 4j=F.1t("a");L(h i=0;i<4j.12;i++){6(4j[i].2R.1K("2k=")!=-1)4j[i].2R=4j[i].2R.1j(/2k=[^&]+/i,"2k="+m.2k)}h 4r=F.1t("2l");L(h i=0;i<4r.12;i++){6(4r[i].3h=="3C"&&4r[i].1u=="2k")4r[i].C=m.2k}}6(M.2U){6(!9("4P")){h B=F.6t("B");B.o="4P";B.w.2f="#bb";B.w.1Z="0.75";B.w.4c="3X";B.w.17=B.w.6Q="86";h d=3z();B.w.1y=d[0]+"1V";B.w.1L=d[1]+"1V";B.w.7x="b9";F.R.5S(B);6(6d){B.w.4c="7w";B.2N.7v("17","5M(F.2s.2p)");F.R.2N.6R="7E-3I";F.R.2N.7D="W(x.7C)";F.R.2N.7B="3X";B.w.7u="7t(1Z=75)"}}9("aQ").34();y.3I=S}E{y.7m=S;M.6w()}}};y.2a.aU("4B="+(m.3t?m.3t:"")+"&2k="+m.2k+"&"+(y.u?y.u:""));8.2M=S;6(!y.2f&&9("2M"))2i(9("2M"),{1m:"4y"})},aZ:f(){1W.4R();M.y(M.43);M.43=v},6f:f(y){8.4z=S;y.3I=S;6(!8.43||!y.2f)8.43=y;8.29=[];1W.65("7l","aX",m.1i["7l"],v)},7i:f(4B){8.2U=v;1W.4R();6(9("4P"))F.R.7k(9("4P"));m.3t=4B?4B:""},6m:f(3v){8.29.bm({"W":m.14+"1a.19","u":"6m[1u]="+m.3t+"&6m[3v]="+3v,"1e":f(){M.7i(m.3t)}});8.5q(8.29[0])}};h 5={be:v,50:1z,2H:0,4D:0,4g:0,z:[],o:v,1I:"",H:[],G:0,I:0,2G:1z,3e:0,2V:v,2z:4,2B:1z,47:v,32:v,2j:0,54:v,5o:f(){6(m.18){8.o=m.18.o;8.I=m.18.I;8.G=m.18.G;8.2G=m.18.2G;8.3e=m.18.3e;8.2z=m.18.2z}4t(f(){m.3b++},3V);6(9("7j"))9("7j").w.28="3d";6(8.o){8.3j(8.2z=m.5W);4t(f(){h 4O=O.2I.3r.1j("#","");6(bg(4O)||5.G==4O)q;5.1C(3c(4O)||0)},5v);6(9("2q").7n.7o()=="2l"){9("2q").5Z=f(){8.4M=8.C};9("2q").4I=f(){6(8.C!=8.4M)5.66(8.C)};9("2q").38=f(e){6(!e)e=O.21;6(e.2m==13){8.7s();q v}}}6(9("3n").7n.7o()=="2l"){9("3n").5Z=f(){8.4M=8.C};9("3n").4I=f(){6(8.C!=8.4M)5.69(8.C)};9("3n").38=f(e){6(!e)e=O.21;6(e.2m==13){8.7s();q v}}}}5.1I=1f 9("2q").C!="1q"?9("2q").C:9("2q").U;6(9("3Q")){9("3Q").1l=f 1l(){5.2t(9("2t").C);q v};9("2t").38=f(e){6(!e)e=O.21;6(e.2m==13){5.2t(9("2t").C);q v}E 23(9("3Q"))};1A(9("3Q"));6(9("2t").7r)9("2t").7r("aV",f(){23(9("3Q"))})}5.7q();6(9("1x"))5.4Z();O.3K=5.41;F.3A=f(e){6(!e)e=O.21;6(e.2m==16)5.54=S};F.3P=f(e){6(!e)e=O.21;6(e.2m==16)5.54=v}},7q:f(){z=[9("3S"),9("aN")];L(h i Z z){1F={"1S":z[i],"1k":X(z[i],"ag")[0],"2X":X(z[i],"2X")[0],"3R":X(z[i],"3R")[0],"5R":X(z[i],"5R")[0],"4J":X(z[i],"4J")[0],"4q":X(z[i],"4q")[0],"2n":X(z[i],"2n")[0],"5K":X(z[i],"af")[0],"5L":X(z[i],"ae")[0],"4W":X(z[i],"aO")[0]};1F.1k.ad=f(){q v};1F.1k.ah="ai";1F.1k.w.am="3d";1F.2X.1l=5.7M;1F.2n.1l=f(){5.1C(5.3e)};1F.1k.al=5.8E;1F.1k.6C=5.5x;5.47=v;1F.1k.7p=1F.2n.7p=f(){5.47=S};1F.1k.7F=1F.2n.7F=f(){5.47=v};1F.3R.1l=5.7K;1F.4q.1l=5.7P;1F.5R.1l=5.7O;1F.4J.1l=5.7N;5.z[i]=1F}5.4D=1Q(5.z[0].1k.w.1U);5.2H=1Q(5.z[0].1k.w.1y);5.4g=1Q(5.z[0].2n.w.1y);F.aj=5.7G;F.6C=5.5x},4Z:f(){5.32=v;6(!9("1x-J").C){1A(9("2C"));1A(9("3a"))}1A(9("2b"));9("1x-J").3P=f 3P(){6(8.C){23(9("2b"));23(9("2C"));5.32=S}E{1A(9("2b"));1A(9("2C"));5.32=v}};9("1x-ab").aa=v;6(9("2b"))9("2b").1t("2l")[0].1l=f 1l(){5.2b();q v};6(9("3a"))9("3a").1t("2l")[0].1l=f 1l(){5.3a();q v};6(9("2C"))9("2C").1t("2l")[0].1l=f 1l(){6(5.o)5.4V();E 5.48();q v};9("1x-J").38=f 38(e){6(!e)e=O.21;6(e.7I&&e.2m==13){6(5.32){6(5.o)5.4V();E 5.48()}q v}}},3o:f(G,1h,62){G=K.15(0,K.1o(5.I,3c(G)));5.G=O.2I.3r=G;h 1o,15;4F=K.1o(G+m.1d,5.I);L(h i=G;i<4F;i++){6(1f 5.H[i]=="1q"){6(1f 1o=="1q")1o=i;15=i}}6(1f 1o!="1q"){M.y({"W":m.14+"1a.19?1g=18","1e":f(){6(H=8.P)L(h i Z H)5.H[i]=H[i];6(1o>=5.G&&15<=5.G+m.1d&&!62)5.3g(1h)},"u":"1b=a3&o="+5.o+"&1E="+1o+"&1r="+15+(5.2V?"&2V="+4F:"")})}E{6(!62)5.3g(1h);6(5.2V){M.y({"W":m.14+"1a.19?1g=18","u":"1b=2V&o="+5.o+"&2V="+4F})}}5.2V=v},3j:f(2r){2r=K.15(1,2r);6(m.6F>0)2r=K.1o(2r,m.6F);4s(5.2B);5.2B=3M(f(){5.6J()},2r*3V)},a1:f(6n){m.4L=6n;5.1C(5.G);M.y({"W":m.14+"1a.19?1g=18","u":"1b=9Z&4L="+6n,"2f":S})},6J:f(){6(5.2j>0)q;M.y({"W":m.14+"1a.19?1g=18","u":"1b=a4&o="+5.o+"&2G="+5.2G+(5.G+m.1d>=5.I?"&2w="+5.I:""),"2f":S,"1e":f(){m.3b=8.P.3b;6(!8.P.2A){5.3j(5.2z*=m.6L);q}L(h i Z 8.P.2A)5.H[i]=8.P.2A[i];h 2w=5.I;5.I=8.P.I;5.2G=8.P.2G;h 2A=5.I-2w;6(!2A)5.3j(5.2z*=m.6L);E 5.3j(5.2z=m.5W);5.2Z=1P(5.z[1].1S)-2d();5.4g+=2A*(1w/5.I);L(h i=2w;i<5.I;i++)5.H[i].4X=S;6(5.G+m.1d>=2w){6(2A>m.1d)5.1C(2w,"17");E 6(5.G+m.1d<=5.I)5.1C(5.I-m.1d,"4U");E 5.1C(5.G)}E 5.1C(5.G)}})},3g:f(1h){h 15=K.1o(5.G+m.1d,5.I);h 2v=v;5c(m.4L||"5B"){2g"5B":2v=5.G%2?"l":"r";24;2g"a5":2v="r";24;2g"6Q":2v="l";24}h 11=[];L(h k=5.G;k<15;k++){6(1f 5.H[k]=="1q"){11.Y("<B 1J=\'p 6D\'><B 1J=\'6c\'><3F>a8 1Y</3F></B></B>");5I}h u=5.H[k];h 6i=v;6(u.3f){11.Y("<6I/><B 1J=\'p 6D\' o=\'p",u.o,"\'><B 1J=\'6c\'>","<B 1J=\'6P\'>","<3F>"+u.1u+"</3F> ","<1p 1I=\'",u.6H,"\'><a 2R=\'",6G(u.o),"\'>",5h(u.3b),"</a></1p> ","<1p>",a6(u.3f),"</1p> ","</B>","<B 1J=\'26\'>");6(u.6N)11.Y("<1p>",O[!u.R?"an":"ao"](u.o),"</1p> <1p>",aG(u.o),"</1p> ");11.Y("</B></B>");6(u.R)11.Y("<B 1J=\'R\'>",u.R,"</B>");11.Y("</B>");5I}6(k==5.G||1f 5.H[k-1]=="1q"||5.H[k-1]["1u"]!=u.1u||5.H[k-1]["3f"]){11.Y("<6I/><B 1J=\'p ");6(2v)11.Y(2v);11.Y(" c",u.2S,"\'");6(1f 5.H[k+1]=="1q"||5.H[k+1]["1u"]!=u.1u||5.H[k+1]["3f"]){6i=S;11.Y(" o=\'p",u.o,"\'")}11.Y("><B 1J=\'aF\'>")}11.Y("<B",(!6i?" o=\'p"+u.o+"\'":""),">","<B 1J=\'6c\'>","<B 1J=\'6P\'>","<3F>",6K(u.2T,u.1u),"</3F> ","<1p 1I=\'",u.6H,"\'><a 2R=\'",6G(u.o),"\'>",5h(u.3b),"</a></1p> ");6(u.6B)11.Y("<1p>",aI(u.aM,5h(u.6B)),"</1p> ");6(u.46.12>0){11.Y("<1p><3W aJ=\'5.6j(",u.2T,",8.C)\' 1u=\'42\'>");L(h i Z u.46){11.Y("<6M C=\'",u.46[i],"\'");6(u.46[i]==u.57)11.Y(" 4Q=\'4Q\'");11.Y(">",m.1i[u.46[i]],"</6M>")}11.Y("</3W></1p> ")}E 6(u.57!="aA")11.Y("<1p>",m.1i[u.57],"</1p> ");6(u.6O)11.Y("<1p>",at(u.6O),"</1p> ");L(h i Z u.6E)11.Y("<1p>",u.6E[i],"</1p> ");11.Y("</B><B 1J=\'26\'>");6(9("1x"))11.Y(ar(u.o)," ");6(u.6N)11.Y(ap(u.o)," ",aq(u.o)," ");L(h i Z u.26)11.Y(u.26[i]," ");11.Y("</B></B><B 1J=\'R\'>",u.R,"</B></B>");6(k==15-1||1f 5.H[k+1]=="1q"||5.H[k+1]["1u"]!=u.1u||5.H[k+1]["3f"]){11.Y("</B>");6(2v)11.Y("<B 1J=\'6a\'>",6K(u.2T,"<7J 7H=\'"+(u.6a||("au/"+m.av+"/6a"+(2v=="l"?"az":"ay")+".ax"))+"\' aw=\'\'/>"),"</B>");11.Y("<B 1J=\'ba\'></B></B>");6(m.4L=="5B"&&1f 5.H[k+1]!="1q"&&!5.H[k+1]["3f"])2v=2v=="r"?"l":"r"}}9("5P").U=11.7Z("");h 4f=X(9("5P"),"as");L(h i=0;i<4f.12;i++){h 6k=4f[i].2R.68("/");6(4f[i].D=3c(6k[6k.12-2])){4f[i].1l=f 1l(){L(h i Z 5.H){6(5.H[i].o==8.D){6(i>=5.G-m.1d)5.1h(9("p"+8.D).8y);E 5.1C(i,"17");q v}}}}}6(6d&&5Q){5Q.aB("5P");5Q.aK()}6(1h=="58"){5.1h(1h);1h=1q}L(h i=5.G;i<15;i++){6(5.H[i].4X){5.6g(9("p"+5.H[i].o));5.H[i].4X=v}}5.1h(1h)},1h:f(1h){6(1f 1h=="1q"||1h==1z)q v;5.2E=v;5c(1h){2g"17":6(2d()>1P(5.z[0].1S)-10)5.2E=1P(5.z[0].1S)-10;24;2g"58":6(2d()<1P(5.z[1].1S)+5.z[1].1S.1s+10-3z()[1])5.2E=1P(5.z[1].1S)+5.z[1].1S.1s+10-3z()[1];24;2g"3S":O.4d(0,1P(5.z[1].1S)-5.2Z);q;2g"4U":6(5.I<=m.1d)q;O.4d(0,1P(5.z[1].1S)-5.2Z);q;2g"1x":5.2E=1P(9("1x"))+9("1x").1s-3z()[1]+10;24;8x:5.2E=3c(1h)}6(5.2E)5p(5.2E)},41:f 3K(){6(5.2j>0)q m.1i["aH"];E 6(5.32)q m.1i["aD"]},8E:f(e){6(!e)e=O.21;F.R.w.8A="aC-aE";5.44=8;5.50=e.4K;5.1U=1Q(5.z[0].1k.w.1U);5.2Z=1P(5.z[1].1S)-2d();6(5.4k)5.4k.3k()},5x:f(e){6(!e)e=O.21;F.R.w.8A="a7";6(5.44)5.5H(1Q(5.z[0].1k.w.1U),5.44==5.z[1].1k?"3S":1z);5.44=v;5.50=1z},7G:f(e){6(!e)e=O.21;6(5.44&&e.4K){h 7S=e.4K-5.50;h 8j=(7S/5.z[0].2X.61)*1w;5.5A(1Q(5.1U)+8j);h G=K.4G(1Q(5.z[0].1k.w.1U)*(5.I-m.1d)/K.15(1w-5.2H,1));L(h i Z 5.z){5.z[i].5K.U=K.15(3c(G)+1,1);5.z[i].5L.U=K.1o(K.15(G,0)+m.1d,5.I);5.z[i].1k.1I=5.z[i].1k.82.U.1j(/<.+?>/g,"")}}},84:f(){6(8.4k)8.4k.3k();(8.4k=2c 25(f(1Y){5.5A(1Y[0]);5.7X(1Y[1]);5.7W(1Y[2])},{1G:[1Q(8.z[0].1k.w.1U),1Q(8.z[0].1k.w.1y),1Q(8.z[0].2n.w.1y)],1r:[8.4D,8.2H,8.4g]})).1E()},5A:f(1U){1U=K.15(0,K.1o(1w-1Q(8.z[0].1k.w.1y),1U));h 6b=1w-1U-1Q(8.z[0].1k.w.1y);L(i Z 5.z){5.z[i].1k.w.1U=1U+"%";5.z[i].1k.w.6b=6b+"%"}},7X:f(1y){1y=K.15(0,K.1o(1w,1y));L(i Z 5.z)5.z[i].1k.w.1y=1y+"%"},7W:f(1y){1y=K.15(0,K.1o(1w,1y));L(i Z 5.z){5.z[i].2n.w.1U=(1w-1y)+"%";5.z[i].2n.w.1y=1y+"%"}},7P:f(){6(!8.Q||8.Q.1K("2Y")==-1)5.1C(K.1o(5.G+m.1d,5.I-1),"17");q v},7K:f(){6(!8.Q||8.Q.1K("2Y")==-1){5.2Z=1P(5.z[1].1S)-2d();5.1C(K.15(0,5.G-m.1d),8==5.z[1].3R?"3S":"58")}q v},7O:f(){5.1C(0,"17");q v},7N:f(){5.2Z=1P(5.z[1].1S)-2d();5.1C(K.15(0,5.I-m.1d),8==5.z[1].4J?"3S":"58");q v},7M:f(e){6(!e)e=O.21;6(5.47)q v;h 80=e.4K-5.z[0].2X.ak;h 8a=(80/5.z[0].2X.61)*1w;h 4N=K.15(0,K.1o(1w-5.2H,8a-5.2H/2));5.2Z=1P(5.z[1].1S)-2d();5.5H(4N,8==5.z[1].2X?"3S":1z)},1C:f(G,1h){O[5.I?"2i":"1X"](9("bi"));6(5.2j>0&&!3u(5.41()))G=5.G;E 5.2j=0;L(h i Z 5.z){5.z[i].5K.U=K.15(3c(G)+1,1);5.z[i].5L.U=K.1o(K.15(G,0)+m.1d,5.I);5.z[i].4W.U=5.I;5.z[i].1k.1I=5.z[i].1k.82.U.1j(/<.+?>/g,"");6(G<=0)1A(5.z[i].3R);E 23(5.z[i].3R);6(G+m.1d>=5.I)1A(5.z[i].4q);E 23(5.z[i].4q)}h 5Y=bh/5.z[0].2X.61;h 81=K.15(m.1d/5.I,5Y)*1w;6(5.I<=m.1d)h 4C=1w/5.I;E h 4C=(1w-81)/(5.I-m.1d);5.2H=K.15(4C*K.1o(5.I-G,m.1d),5Y*1w);5.4D=K.1o(1w-5.2H,G*4C);6(K.1o(G+m.1d,5.I)>5.3e){5.3e=K.1o(G+m.1d,5.I);5.4g=K.15(1w-5.3e*(1w/5.I),0);5.2V=S}5.84();5.3o(G,1h)},5H:f(4N,1h){h 85=K.4G(4N*(5.I-m.1d)/K.15(1w-5.2H,1));5.1C(85,1h)},4V:f(){22=9("1x-J").C;1A(9("2C"));1A(9("2b"));h 15=0;L(h i Z 5.H){i=3c(i)+1;6(i>15)15=i}M.y({"W":m.14+"1a.19?1g=18","u":"1b=4V&o="+5.o+"&22="+1B(22)+"&I="+5.I+"&bl="+15,"1e":f(){6(8.N){23(9("2C"));23(9("2b"));q}1W.2L("bf");1W.2L("89");1X(X(9("3i"),"3E")[0]);9("1x-J").C="";5.5U("1x",v);5.4Z();L(h i Z 8.P.H)5.H[i]=8.P.H[i];2w=5.I;5.I=8.P.I;5.2G=m.3b=8.P.2G;2A=5.I-2w;5.2Z=1P(5.z[1].1S)-2d();L(i=2w;i<5.I;i++)5.H[i].4X=S;6(2A>m.1d)5.1C(2w);E 6(5.G+m.1d<=5.I)5.1C(5.I-m.1d,"4U");E 5.1C(5.G,"4U");5.3j(5.2z=m.5W)}})},6g:f(u){h T=4o(u);h 1L=T.1s;T.w.1L="86";3M(f(){(T.1m=2c 25(f(3J,1O){T.w.1L=1O?"":3J[0]+"1V";T.w.1Z=1O?"":3J[1]},{1G:[0,0],1r:[1L,1]})).1E()},1)},5r:f(u,2P){h T=4o(u);(T.1m=2c 25(f(1L,1O){T.w.1L=1O?"":1L+"1V"},{1G:2P,1r:T.1s})).1E()},4x:f(u,2P){u.w.6p="3C";(u.1m=2c 25(f(1L,1O){u.w.1L=1O?"":1L+"1V"},{1G:2P,1r:u.1s})).1E()},48:f(3E){h 1I=1B(9("2q").3T?"":9("2q").C);h 22=1B(9("1x-J").C);h 3m=1B(9("3n").3T?"":9("3n").C);1A(9("2C"));1A(9("2b"));M.y({"W":m.14+"1a.19?1g=18","u":"1b=48&22="+22+"&1I="+1I+"&3m="+3m+(3E?"&3E=S":""),"1e":f(){6(8.N){23(9("2C"));23(9("2b"))}E 6(!8.N&&8.P.88){5.32=v;F.2I=8.P.88}}})},bn:f 1l(){q 3u(m.1i["bc"])},2b:f(){6(!5.o){5.48(S);q}M.y({"W":m.14+"1a.19?1g=18","u":"1b=2b&o="+5.o+"&22="+1B(9("1x-J").C),"1e":f(){6(8.N)q;1W.2L("89");2i(X(9("3i"),"3E")[0]);1A(9("2b"));23(9("3a"));5.32=v}})},3a:f(){6(!8.I){O.2I=O.2I.68("?")[0]+"?8h";q}M.y({"W":m.14+"1a.19?1g=18","u":"1b=3a&o="+5.o,"1e":f(){1X(X(9("3i"),"3E")[0]);9("1x-J").C="";5.5U("1x",v);5.4Z()}})},8e:f(D){6(5.2j>0&&!3u(5.41()))q v;E 5.2j=0;5.3o(5.G,1z,S);M.y({"W":m.14+"1a.19?1g=18","u":"1b=8e&D="+D,"1e":f(){6(8.N)q;L(h i Z 5.H){6(5.H[i].o==D){5.H[i].3f=m.3t;5.H[i].R="";h 3l=9("p"+D).1s;5.3g();5.4x(9("p"+D),3l);24}}}})},8b:f(D){6(5.2j>0&&!3u(5.41()))q v;E 5.2j=0;5.3o(5.G,1z,S);M.y({"W":m.14+"1a.19?1g=18","1e":f(){6(8.N)q;L(h i Z 8.P)5.H[i]=8.P[i];h 3l=9("p"+D).1s;5.3g();5.6g(9("p"+D))},"u":"1b=8b&D="+D})},8c:f(D){5.3o(5.G,1z,S);M.y({"W":m.14+"1a.19?1g=18","u":"1b=8c&D="+D,"1e":f(){6(8.N)q;L(h i Z 5.H){6(5.H[i].o==D){5.H[i].R=8.P;h 3l=9("p"+D).1s;5.3g();5.4x(9("p"+D),3l);24}}}})},aY:f(D){5.3o(5.G,1z,S);L(h i Z 5.H){6(5.H[i].o==D){5.H[i].R="";3l=9("p"+D).1s;5.3g();5.4x(9("p"+D),3l);24}}},7U:f(D){6(9("p"+D).6o)q;9("p"+D).6o=S;M.y({"W":m.14+"1a.19?1g=18","u":"1b=bd&D="+D,"1e":f(){6(8.N)q;5.2j++;h 2P=9("p"+D).1s;h 26=X(9("p"+D),"26")[0];h R=X(9("p"+D),"R")[0];26.40=26.U;R.40=R.U;R.Q+=" 7T";26.U=8.P.26;R.U=8.P.R;5.5r(9("p"+D),2P);h 1h=1P(9("p"+D))+9("p"+D).1s-3z()[1]+10;6(2d()<1h)5.1h(1h);9("p"+D+"-J").38=f 38(e){6(!e)e=O.21;6(e.7I&&e.2m==13){5.7Y(D,8.C);q v}}}})},7Y:f(D,22){h 4h=X(X(9("p"+D),"aP")[0],"1v");L(h i Z 4h)1A(4h[i]);M.y({"W":m.14+"1a.19?1g=18","1e":f(){6(8.N){L(h i Z 4h)23(4h[i]);q}X(9("p"+D),"R")[0].40=8.P.22;5.7R(D);L(h i Z 5.H){6(5.H[i].o==D){5.H[i].R=8.P.22;24}}},"u":"1b=7U&D="+D+"&22="+1B(22)})},7R:f(D){5.2j--;9("p"+D).6o=v;h 26=X(9("p"+D),"26")[0];h R=X(9("p"+D),"R")[0];R.Q=R.Q.1j(" 7T","");h 2P=9("p"+D).1s;26.U=26.40;R.U=R.40;5.5r(9("p"+D),2P);5.3j(5.2z)},8D:f(){h 3O=X(9("3i"),"aR")[0];55(3O);9("aS").U=m.1i[3O.1T?"aT":"b0"];M.y({"W":m.14+"1a.19?1g=18","u":"1b=8D&o="+5.o})},8m:f(){3O=X(9("3i"),"b1")[0];55(3O);9("b8").U=m.1i[3O.1T?"9Y":"b7"];M.y({"W":m.14+"1a.19?1g=18","u":"1b=8m&o="+5.o})},2t:f(1u){6(!1u)q;M.y({"W":m.14+"1a.19?1g=18","1e":f(){9("2t").C="";1A(9("3Q"));6(8.N)q;9("8k").U=8.P.8r;2i(X(9("3i"),"6s")[0])},"u":"1b=2t&3y="+1B(1u)+(5.o?"&o="+5.o:"")})},8v:f(1u){M.y({"W":m.14+"1a.19?1g=18","1e":f(){9("8k").U=8.P.8r;6(!8.P.6s)1X(X(9("3i"),"6s")[0])},"u":"1b=8v&3y="+1B(1u)+(5.o?"&o="+5.o:"")})},69:f(3m){6(!5.o)q v;M.y({"W":m.14+"1a.19?1g=18","1e":f(){9("3n").C=8.P},"u":"1b=69&o="+5.o+"&3m="+1B(3m)})},66:f(1I){6(!5.o)q v;M.y({"W":m.14+"1a.19?1g=18","1e":f(){F.1I=F.1I.1j(5.1I,8.P);9("2q").C=5.1I=8.P},"u":"1b=66&o="+5.o+"&1I="+1B(1I)})},6j:f(2T,42){M.y({"W":m.14+"1a.19?1g=18","1e":f(){6(8.N)q;L(h i Z 5.H){6(5.H[i].2T==2T)5.H[i].57=42}5.3o(5.G)},"u":"1b=6j&2T="+1B(2T)+"&42="+1B(42)})},b5:f(o){5.2D(9(o+"-J"),"<b>","</b>")},ac:f(o){5.2D(9(o+"-J"),"<i>","</i>")},8R:f(o){5.2D(9(o+"-J"),"<s>","</s>")},8M:f(o){5.2D(9(o+"-J"),"<8i>","</8i>")},7V:f(o){5.2D(9(o+"-J"),"<a 2R=\'2a://6v.6u\'>","</a>","2a://6v.6u","7V 1N")},7L:f(o){5.2D(9(o+"-J"),"<7J 7H=\'","\'>","","2a://6v.6u/7L.8S")},3X:f(o){5.2D(9(o+"-J"),"<8d>","</8d>")},51:f(o,1u,51){5.2D(9(o+"-J"),"<53><52>"+(1u?1u:"8g")+"</52> "+(51?51:""),"</53>",(!1u?"8g":1z))},8K:f(D){M.y({"W":m.14+"1a.19?1g=18","1e":f(){h 17=2d();5.87(9("1x-J"),"<53><52>"+8.P.3y+"</52> "+8.P.22+"</53>\\n");O.4d(0,17);6(!5.54)5.1h("1x")},"u":"1b=9X&D="+D})},87:f(J,1N){J.34();J.C+=1N;J.34();9("1x-J").3P()},2D:f(J,2F,4i,30,5E){h 2p=J.2p;6(1f J.37!="1q"){h 1E=J.37,1r=J.9F;6(J.C.5G(1E,1E+1)==" ")1E++;6(J.C.5G(1r-1,1r)==" ")1r--;h 1D=J.C.5G(1E,1r);h 37=1E}E 6(F.1D.3x){h 1D=F.1D.3x().1N;h 37=0}1D=1D?1D:(5E?5E:"");h 1N=2F+1D+(1f 4i!="1q"?4i:2F);6(1f J.37!="1q")J.C=J.C.4e(0,1E)+1N+J.C.4e(1r);E 6(F.1D&&F.1D.3x){J.34();2e=F.1D.3x();2e.1N=1N.1j(/\\r?\\n/g,"\\r\\n");2e.3W()}E J.C+=1N;J.2p=2p;J.34();6(1f J.5m=="1q"){2e=F.1D.3x();4m=(1f 4i!="1q"?4i:2F).12;6(30){83=2F.1K(30);5u=83+30.12;2e.5C("3D",-4m-1D.12-30.12-2F.12+5u);2e.5z("3D",-4m-1D.12-2F.12+5u)}E{2e.5C("3D",-4m-1D.12);2e.5z("3D",-4m)}2e.3W()}E{6(30){4v=37+2F.1K(30);5V=4v+30.12}E{4v=37+2F.12;5V=4v+1D.12}J.5m(4v,5V)}9("1x-J").3P()},5U:f(o,2y){6(2y){1X(X(9(o),"8f")[0]);9(o+"-2y").U="";M.y({"W":m.14+"1a.19?1g=18","1e":f(){9(o+"-2y").w.9E=9(o+"-J").1s+"1V";1X(9(o+"-J"));2i(9(o+"-2y"));9(o+"-2y").U=8.P},"u":"1b=9y&22="+1B(9(o+"-J").C)})}E{2i(X(9(o),"8f")[0]);2i(9(o+"-J"));1X(9(o+"-2y"))}}};h V={4u:"",2W:v,5j:1z,3Y:1z,5o:f(){9("9C").1t("2l")[0].1l=f 1l(){V.1M(9("1H").C);q v};9("1H").3A=f 3A(e){6(!e)e=O.21;6(e.2m==13){V.1M(9("1H").C);q v}E 6(e.2m==27){6(9("1H").C!="")3M(f(){V.1M("")},1);q v}};9("9M").1l=f 1l(){V.1M("");q v};4t(f(){h 3r=O.2I.3r.1j("#","");6(3r.12<1)q;h 5w=9O(3r.4e(7));6(V.4u!=5w){V.1M(5w)}},5v);V.5T();V.5e();h t=9("3m").1t("a");L(h i=0;i<t.12;i++){t[i].1l=f 1l(){V.3N(V.4a(8.U));q v};t[i].5n=f 5n(){V.1M((V.2W?"!":"")+m.1i["3N:"]+V.4a(8.U));q v}}h g=9("9w").1t("a");L(h i=0;i<g.12;i++){g[i].1l=f 1l(){V.3w(V.4a(8.U));q v};g[i].5n=f 5n(){V.1M((V.2W?"!":"")+V.4a(8.U));q v}}F.3A=f(e){6(!e)e=O.21;6(e.2m==16)V.2W=S};F.3P=f(e){6(!e)e=O.21;6(e.2m==16)V.2W=v}},5T:f(){6(!m.8C)q;6(8.5j)6x(8.5j);8.5j=4t(f(){V.5s()},m.8C*3V)},5e:f(){6(!m.8z)q;6(8.3Y)6x(8.3Y);8.3Y=4t(f(){V.6z()},m.8z*3V)},4a:f(C){q C.1j(/\\9i|&9d;/5l," ").1j(/&9c;/5l,">").1j(/&98;/5l,"<").1j(/&97;/5l,"&")},1M:f(3p,8o){V.4u=9("1H").C=3p;O.2I.3r="1M:"+(3p?1B(3p):"");V.5T();V.5e();M.y({"W":m.14+"1a.19?1g=1M","u":"1b=1M&3p="+1B(3p),"2f":8o,"1e":f(){6(8.N)q;9("9a").U=8.P;1W.2L("9j")}})},6z:f(){h 2J="";h 3B=9("4E").1t("8u");L(h i=0;i<3B.12;i++)2J+=3B[i].o.4e(1)+",";M.y({"W":m.14+"1a.19?1g=1M","u":"1b=6z&2J="+2J+"&3p="+1B(V.4u),"2f":S,"1e":f(){6(!8.P.9s)q;9("8q").w.28="9t-31";2i(9("8q").1t("B")[0],{1m:"5y"});6x(V.3Y)}})},5s:f(){h 2J="";h 3B=9("4E").1t("8u");h 4W=K.1o(3B.12,20);L(h i=0;i<4W;i++)2J+=3B[i].o.4e(1)+",";6(!2J)q;M.y({"W":m.14+"1a.19?1g=1M","u":"1b=5s&2J="+2J,"2f":S,"1e":f(){6(!8.P)q;L(h i Z 8.P.4E){6(!9("c"+i))5I;h 31=9("c"+i);h 1Y=8.P.4E[i];6(1Y.I>1){X(31,"8s")[0].U=1Y.8s;X(31,"8t")[0].U=1Y.8t}X(31,"I")[0].U=1Y.I;31.1t("9o")[0].Q=1Y.2n?"":"a9";h 2h,5N;6((5N=X(31,"2h")[0])&&(2h=5N.1t("a")[0])){2h.Q=1Y.3Z?"4Y":"64";2h.1t("1p")[0].U=m.1i[1Y.3Z?"8w":"8l"];31.Q=1Y.3Z?"3Z":""}}L(h i Z 8.P.8B){6(9("8p-"+i))9("8p-"+i).U=8.P.8B[i]}}})},9g:f(){V.1M(9("1H").C+(9("1H").C?" + ":"")+m.1i["9e 9f"])},9T:f(){V.1M(V.4u);V.5e()},3w:f(3w){h 6l=9("1H").C.12;h 2K=3w.1j(/([?^():\\[\\]])/g,"\\\\$1");h 5X=2c 7Q(8.2W?"( ?(- *|!)"+2K+" *$|^ *!"+2K+" *\\\\+ ?| ?(- *|!)"+2K+"|^ *!"+2K+" *$)":"( ?\\\\+ *"+2K+" *$|^ *"+2K+" *\\\\+ ?| ?\\\\+ *"+2K+"|^ *"+2K+" *$)","i");6(9("1H").C.9z(5X))9("1H").C=9("1H").C.1j(5X,"");E{h 2Q=(9("1H").C?(8.2W?" - ":" + "):(8.2W?"!":""))+3w;9("1H").34();9("1H").C+=2Q;h 2O,33;6(2Q.1K("?")!=-1){2O=2Q.1K("?");33="?"}E 6(2Q.1K(":"+m.1i["3y"])!=-1){2O=2Q.1K(":"+m.1i["3y"])+1;33=m.1i["3y"]}6(2O){6(1f 9("1H").5m=="1q"){h 2e=F.1D.3x();2e.5C("3D",-2Q.12+2O);2e.5z("3D",-2Q.12+2O+33.12);2e.3W()}E 9("1H").5m(6l+2O,6l+2O+33.12)}}},3N:f(3N){V.3w(m.1i["3N:"]+3N)}};h 39={3L:{},6e:{},5o:f(){h 5D=v;L(h i Z 8.3L){9(i).3A=39.8n;6(!8.3L[i])5D=S}6(5D)1A(9("6q"))},8n:f(){h 2x=8;4s(39.6e[2x.o]);39.6e[2x.o]=3M(f(){M.y({"W":m.14+"1a.19?1g=7Z","1e":f(){39.3L[2x.o]=8.P.aW;4T=9(2x.o+"-4T");4T.U=8.P.4T;h 6r=S;L(h j Z 39.3L){6(!39.3L[j])6r=v}6(6r)23(9("6q"));E 1A(9("6q"))},"u":"1b=bk&2x="+2x.o+"&C="+1B(2x.C)+(2x.o=="3u"?"&3v="+1B(9("3v").C):"")});6(2x.o=="3v")9("3u").3A()},5v)}};h bj={7z:f(2S){6((2c 7Q("c"+2S+"$")).a2(9("2y").Q))q;M.y({"W":m.14+"1a.19?1g=a0","1e":f(){6(8.N)q;h 7A=9("aL").1t("a");L(h i=0,c;c=7A[i];i++)c.Q=c.Q.1j("4Q","");9("2S-"+2S).Q+=" 4Q";9("2y").Q=9("2y").Q.1j(/c\\d+/,"c"+2S)},"u":"1b=7z&2S="+2S,"2f":v})},93:f(o){55(9(o+"63"),{1m:"5y"});9(o).Q=9(o+"63").1T?"":"3C"},9Q:f(o){1X(9(o+"63"));9(o).Q="3C"}};',62,706,'|||||Conversation|if||this|getById||||||function||var|||||esoTalk||id||return||||post|false|style||request|paginations|element|div|value|postId|else|document|startFrom|posts|postCount|textarea|Math|for|Ajax|messages|window|result|className|body|true|overflowDiv|innerHTML|Search|url|getElementsByClassName|push|in||html|length||baseURL|max||top|conversation|php|ajax|action|key|postsPerPage|success|typeof|controller|scrollTo|language|replace|viewingPosts|onclick|animation|ago|min|span|undefined|end|offsetHeight|getElementsByTagName|name|button|100|reply|width|null|disable|encodeURIComponent|moveTo|selection|start|pg|begin|searchText|title|class|indexOf|height|search|text|final|getOffsetTop|parseFloat|container|bar|showing|marginLeft|px|Messages|hide|data|opacity||event|content|enable|break|Animation|controls||display|queue|http|saveDraft|new|getScrollTop|range|background|case|star|show|editingPosts|token|input|keyCode|unread|options|scrollTop|cTitle|seconds|documentElement|addMember|inside|side|oldPostCount|field|preview|autoReloadInterval|newPosts|timeout|postReply|wrapText|scrollDest|tagStart|lastActionTime|handleWidth|location|conversationIds|safe|hideMessage|loading|runtimeStyle|placeholderIndex|startHeight|insert|href|color|memberId|beenLoggedOut|updateLastRead|negativeGambit|middle|disabled|scrollStart|selectArgument|row|editingReply|placeholder|focus|duration|floor|selectionStart|onkeypress|Join|discardDraft|time|parseInt|none|lastRead|deleteMember|displayPosts|type|cLabels|setReloadTimeout|stop|oldHeight|tags|cTags|reloadPosts|query|number|hash|parameters|user|confirm|password|gambit|createRange|member|getClientDimensions|onkeydown|rows|hidden|character|draft|h3|activeRequests|outside|repeat|values|onbeforeunload|fieldsValidated|setTimeout|tag|label|onkeyup|addMemberSubmit|previous|pagination|placeholderFlag|conversationId|1000|select|fixed|checkForNewResultsTimeout|starred|old|beforeUnload|group|disconnectedRequest|draggingHandle|_onbeforeunload|accounts|disableJumpTo|startConversation|frame|desanitize|prototype|position|scroll|substr|postLinks|unreadWidth|buttons|tagEnd|links|paginationAnimation|callback|tagEndLength|json|createOverflowDiv|obj|next|inputs|clearTimeout|setInterval|currentSearch|newStart|stopped|animateDeletePost|fade|disconnected|initOpacity|loggedInAs|percentPerPost|handlePos|conversations|maxPost|round|elements|onblur|last|clientX|avatarAlignment|initValue|startFromPercent|newHash|beenLoggedOutShadow|selected|clearMessages|scrollHeight|message|newReply|addReply|count|animateNew|star1|initReply|mouseStart|quote|cite|blockquote|multiQuote|toggle|parentNode|account|bottom|easing|minutes|hours|switch|years|resetCheckForNewResultsTimeout|scrollAnimation|months|relativeTime|days|updateCurrentResultsTimeout|weeks|gi|setSelectionRange|ondblclick|init|animateScroll|doRequest|animateEditPost|updateCurrentResults|animate|argEnd|500|newSearch|mouseUp|verticalSlide|moveEnd|moveHandle|alternate|moveStart|disableButton|defaultArgumentValue|found|substring|moveToPercent|continue|classes|from|to|eval|cell|then|cPosts|supersleight|first|appendChild|resetUpdateCurrentResultsTimeout|togglePreview|newEnd|autoReloadIntervalStart|regexp|minPercent|onfocus||offsetWidth|dontDisplay|Form|star0|showMessage|saveTitle|nextFrame|split|saveTags|avatar|marginRight|hdr|isIE6|timeouts|disconnect|animateNewPost|isArray|singlePost|changeMemberGroup|linkParts|initialLength|login|alignment|editing|overflow|joinSubmit|formCompleted|private|createElement|com|example|doNextRequest|clearInterval|animateMessage|checkForNewResults|finalize|editTime|onmouseup|deleted|info|autoReloadIntervalLimit|makePermalink|date|hr|checkForNewPosts|makeMemberLink|autoReloadIntervalMultiplier|option|canEdit|lastAction|pInfo|left|backgroundRepeat|2626560|604800|31536000|loginName|buttonDisabled|86400|3600|while|paddingTop|disappear|hideX|bigDisabled|finalHeight||scrollWidth|pageYOffset|array|parent|innerHeight|clientHeight|initHeight|block|easeOutQuart|offsetParent|maxSimultaneousRequests|ActiveXObject|dismissLoggedOut|saveTitleTags|removeChild|ajaxDisconnected|completed|tagName|toLowerCase|onmouseover|initPagination|addEventListener|blur|alpha|filter|setExpression|absolute|zIndex|status|changeColor|colors|backgroundAttachment|gif|backgroundImage|no|onmouseout|mouseMove|src|ctrlKey|img|prevPage|image|jumpTo|lastPage|firstPage|nextPage|RegExp|cancelEdit|offsetPixels|edit|editPost|link|resizeUnread|resizeHandle|saveEditPost|join|pixels|curHandleWidth|firstChild|argStart|animatePagination|postNum|0px|insertText|redirect|emptyPost|clickPercent|restorePost|showDeletedPost|pre|deletePost|formattingButtons|Name|delete|h1|offsetPercent|allowedList|Unstarred|toggleLock|validateField|hideLoading|statistic|newResults|list|lastPostMember|lastPostTime|tr|removeMember|Starred|default|offsetTop|checkForNewResultsInterval|cursor|statistics|updateCurrentResultsInterval|toggleSticky|mouseDown|javascript|ajaxRequestPending|onreadystatechange|application|www|quotePost|iTrickedYouIE|header|close|urlencoded|form|msg|strikethrough|jpg|Content|setRequestHeader|POST|XMLHttpRequest|open|relative|Type|Microsoft|shift|XMLHTTP|toggleFieldset|messageDisplayTime|9000|month|amp|lt|disableAnimation|searchResults|do|gt|nbsp|more|results|viewMore|insertBefore|u00a0|waitToSearch|clientWidth|toString|call|Object|strong|getElementById|object|Array|newActivity|table|innerWidth|getScrollDimensions|gambits|makePlaceholder|getPostFormatted|match|readyState|year|submit|week|minHeight|selectionEnd|second|minute|hour|day|now|Just|reset|buttonD|decodeURIComponent|big|hideFieldset|bigD|isabled|showNewActivity|Never|toggleStar|showLogin|getPost|Unlock|saveAvatarAlignment|settings|changeAvatarAlignment|test|getPosts|getNewPosts|right|makeDeletedBy|auto|Missing|read|checked|previewCheckbox|italic|onselectstart|pgTo|pgFrom|viewing|unselectable|on|onmousemove|offsetLeft|onmousedown|MozUserSelect|makeShowDeletedLink|makeHideDeletedLink|makeEditLink|makeDeleteLink|makeQuoteLink|postLink|makeLastAction|skins|skin|alt|png|Right|Left|Member|limitTo|col|confirmDiscard|resize|parts|makeRestoreLink|confirmLeave|makeEditedBy|onchange|run|palette|editMember|paginationBottom|pgCount|editButtons|loginMsgPassword|sticky|stickyLink|Unsticky|send|textInput|validated|warning|hideDeletedPost|resumeAfterDisconnection|Sticky|locked|responseText|try|200|bold|catch|Lock|lockLink|8999|clear|000|confirmDeleteConversation|getEditPost|dragging|waitToReply|isNaN|125|cBody|Settings|validate|haveDataUpTo|unshift|deleteConversation'.split('|'),0,{}))
+// This file is part of esoForum for Projects.
+// All non-modified code is property of Simon and Toby Zerner.
+
+// JavaScript: contains scripts for global functions, animations, messages, conversations, searching,
+// joining the forum, and the settings page.
+
+// document.getElementById shortcut.
+function getById(id) {
+	return document.getElementById(id) || null;
+};
+
+// Get elements by their class name.
+function getElementsByClassName(parent, className) {
+	var found = [];
+	var elements = parent.getElementsByTagName("*");
+	for (var i = 0; i < elements.length; i++) {
+		var classes = elements[i].className.split(" ");
+		for (var j in classes) if (classes[j] == className) found.push(elements[i]);
+	}
+	return found;
+};
+
+// Determine whether an object is an array or not.
+function isArray(array) {
+  return Object.prototype.toString.call(array) === "[object Array]";
+};
+
+// Functions to get the scrollTop, scrollHeight/Width, and clientHeight/Width (as different browsers make this
+// difficult!)
+function getScrollTop() {
+	if (typeof window.pageYOffset == "number") return window.pageYOffset;
+	else if (typeof document.documentElement.scrollTop == "number") return document.documentElement.scrollTop;
+	else if (typeof document.body.scrollTop == "number") return document.body.scrollTop;
+	return 0;
+};
+function getScrollDimensions() {
+	if (typeof document.documentElement.scrollHeight == "number") return [document.documentElement.scrollWidth, document.documentElement.scrollHeight];
+	else if (typeof document.body.scrollHeight == "number") return [document.body.scrollWidth, document.body.scrollHeight];
+	return [0, 0];
+};
+function getClientDimensions() {
+	if (typeof window.innerHeight == "number") return [window.innerWidth, window.innerHeight];
+	else if (typeof document.documentElement.clientHeight == "number") return [document.documentElement.clientWidth, document.documentElement.clientHeight];
+	return [0, 0];
+};
+
+// Get the offsetTop of an element that is embedded in relatively positioned elements.
+function getOffsetTop(obj) {
+	var top = 0;
+	if (obj.offsetParent) {
+		do {top += obj.offsetTop}
+		while (obj = obj.offsetParent);
+	}
+	return top;
+};
+
+
+/*
+Easing Equations v1.5
+May 1, 2003
+(c) 2003 Robert Penner, all rights reserved. 
+This work is subject to the terms in http://www.robertpenner.com/easing_terms_of_use.html.  
+*/
+Math.easeOutQuart = function (t, b, c, d) {
+	return -c * ((t=t/d-1)*t*t*t - 1) + b;
+};
+
+
+// Animation class: enables quick and easy animations. Example usage:
+// (new Animation(function(height) {element.height = height + "px";}, {begin: 0, end: 100})).start();
+var Animation = function(callback, parameters) {
+	parameters = parameters || {};
+	this.callback = callback;
+	this.timeout = null;
+	this.begin = parameters.begin || 0;
+	this.end = parameters.end || 0;
+	this.duration = parameters.duration || 20;
+	this.easing = parameters.easing || Math.easeOutQuart;
+	this.frame = 0;
+	this.stopped = true;	
+};
+
+// Stop the animation.
+Animation.prototype.stop = function() {
+	clearTimeout(this.timeout);
+	this.stopped = true;
+};
+
+// Start the animation.
+Animation.prototype.start = function() {
+	if (!this.stopped) return;
+	
+	// If the user has disabled animations, skip straight to the final frame.
+	if (typeof esoTalk != "undefined" && esoTalk.disableAnimation) this.finalize();
+	
+	// Otherwise, proceed to the first frame of animation.
+	else {
+		this.stopped = false;
+		this.nextFrame();
+	}
+};
+
+// Apply the next frame in the animation.
+Animation.prototype.nextFrame = function() {
+	var animation = this;
+	
+	// If the begin and end parameters are arrays, progress each of the elements individually.
+	if (isArray(this.begin) && isArray(this.end)) {
+		this.frame++;
+		var result = [];
+		for (var i in this.begin) result.push(this.easing(this.frame, this.begin[i], this.end[i] - this.begin[i], this.duration));
+	}
+	// Otherwise, progress the value normally. 
+	else var result = this.easing(this.frame++, this.begin, this.end - this.begin, this.duration);
+	
+	// Call the animation callback with the new value(s).
+	this.callback(result);
+	
+	// Set a timeout for the next frame, or finalize the animation if finished.
+	if (this.frame <= this.duration) this.timeout = setTimeout(function(){animation.nextFrame();}, 10);
+	else this.finalize();
+};
+
+// Finalize the animation; call the animation callback with the final value.
+Animation.prototype.finalize = function() {
+	this.stopped = true;
+	this.callback(this.end, true);
+};
+
+
+// Show/hide an element. An animation can be applied using options = {animation: type}.
+function toggle(element, options) {
+	if (typeof element.showing == "undefined") element.showing = element.style.display != "none";
+	element.showing ? hide(element, options) : show(element, options);
+};
+function show(element, options) {
+	element.style.display = "";
+	element.showing = true;
+	animate(element, options);
+};
+function hide(element, options) {
+	element.style.display = "none";
+	element.showing = false;
+	animate(element, options);
+};
+
+// Wrap a new div around an element with overflow:hidden, so we can change the height of the element for animations.
+function createOverflowDiv(element) {
+	if (!element) return false;
+	
+	// If there's already an overflow div, use that.
+	if (element.parentNode.className.indexOf("overflowDiv") != -1) return element.parentNode;
+	
+	// Otherwise, create one, insert it before the post, and move the post inside it.
+	overflowDiv = document.createElement("div");
+	overflowDiv.style.overflow = "hidden";
+	overflowDiv.className = "overflowDiv";
+	element.parentNode.insertBefore(overflowDiv, element);
+	overflowDiv.appendChild(element);
+	return overflowDiv;
+};
+
+// Animate the showing/hiding of an element.
+function animate(element, options) {
+	if (!options) return;
+	switch (options.animation) {
+		case "verticalSlide":
+					
+			// Create an overflow div to perform the animation on. Set some default attributes.
+			var overflowDiv = createOverflowDiv(element);
+			if (!overflowDiv.style.display) overflowDiv.style.display = element.showing ? "none" : "block";
+			if (!overflowDiv.style.opacity) overflowDiv.style.opacity = element.showing ? 0 : 1;
+			
+			// Get the starting height and opacity of the overflow div.
+			element.style.display = "";
+			var initHeight = overflowDiv.offsetHeight;
+			var initOpacity = parseFloat(overflowDiv.style.opacity);
+			
+			// Now show the overflow div and get the final height from it.
+			overflowDiv.style.display = "block";
+			overflowDiv.style.overflow = "hidden";
+			var finalHeight = overflowDiv.offsetHeight;
+						
+			// Set up the animation on the overflow div.
+			if (overflowDiv.animation) overflowDiv.animation.stop();
+			overflowDiv.animation = new Animation(function(values, final) {
+				overflowDiv.style.height = Math.round(values[0]) + "px";
+				overflowDiv.style.opacity = values[1];
+				
+				// If this is the final frame, let the height be automatic and hide the overflow div if necessary.
+				if (final) {
+					overflowDiv.style.height = "";
+					if (!element.showing) overflowDiv.style.display = "none";
+				}
+			}, {begin: [initHeight, initOpacity], end: [element.showing ? finalHeight : 0, element.showing ? 1 : 0]});
+			overflowDiv.animation.start();
+			break;
+			
+		case "fade":
+			element.style.display = "";
+			var initOpacity = typeof element.style.opacity != "undefined" ? parseFloat(element.style.opacity) : 1;
+			if (element.animation) element.animation.stop();
+			element.animation = new Animation(function(opacity, final) {
+				element.style.opacity = opacity;
+				element.style.filter = "alpha(opacity=" + Math.round(opacity * 100) + ")";
+				if (final && !element.showing) element.style.display = "none";
+			}, {begin: initOpacity, end: element.showing ? 1 : 0});
+			element.animation.start();
+	}
+}
+
+// Animate a scroll.
+var scrollAnimation;
+function animateScroll(scrollDest) {
+	if (scrollAnimation) scrollAnimation.stop();
+	(scrollAnimation = new Animation(function(top) {window.scroll(0, top);}, {begin: getScrollTop(), end: scrollDest})).start();
+}
+
+// Make an input a placeholder (grey text that disappears when you click on it.)
+function makePlaceholder(element, text) {
+	element.onfocus = function() {
+		if (element.placeholderFlag) {
+			element.value = "";
+			element.placeholderFlag = false;
+			element.className = element.className.replace("placeholder", "");
+		}
+	};
+	element.onblur = function() {
+		if (element.value == "") {
+			element.placeholderFlag = true;
+			element.value = text;
+			if (element.className.indexOf("placeholder") < 0) element.className += " placeholder";
+		}
+	};
+	element.value = "";
+	element.onblur();
+};
+
+// Disable a button (add the [big]disabled class.)
+function disable(button) {
+	if (button.className.indexOf("big") != -1 && button.className.indexOf("bigDisabled") == -1) button.className += " bigDisabled";
+	else if (button.className.indexOf("button") != -1 && button.className.indexOf("buttonDisabled") == -1) button.className += " buttonDisabled";
+	else if (button.className.indexOf("disabled") == -1) button.className += " disabled";
+	if (button.getElementsByTagName("input")[0]) button.getElementsByTagName("input")[0].disabled = "true";
+	else button.disabled = "true";
+};
+
+// Enable a button (remove the [big]disabled class.)
+function enable(button) {
+	button.className = button.className.replace(/(buttonD|bigD|d)isabled/g, "");
+	if (button.getElementsByTagName("input")[0]) button.getElementsByTagName("input")[0].disabled = "";
+	else button.disabled = "";
+};
+
+// Show the login form (we're really just scrolling up to it.)
+function showLogin() {
+	if (!getById("loginName")) window.location = window.location;
+	var top = getScrollTop();
+	getById("loginName").focus();
+	window.scroll(0, top);
+	animateScroll(0);
+}
+
+// Toggle the state of a star.
+function toggleStar(conversationId, star) {
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php",
+		"post": "action=star&conversationId=" + conversationId
+	});
+	star.className = star.className == "star0" ? "star1" : "star0";
+	star.getElementsByTagName("span")[0].innerHTML = esoTalk.language[star.className == "star1" ? "Starred" : "Unstarred"];
+	if (getById("c" + conversationId)) getById("c" + conversationId).className = star.className == "star1" ? "starred" : "";
+};
+
+// Work out the relative difference between the current time and a given timestamp.
+// Returns a human-friendly string, ex. '1 hour ago'.
+function relativeTime(then)
+{	
+	// If there is no then, we can only assume that whatever it is never happened...
+	if (!then) return esoTalk.language["Never"];
+	
+	// Work out how many seconds it has been since then.
+	var ago = esoTalk.time - then;
+	
+	// If then happened less than 1 second ago (or is yet to happen,) say "Just now".
+	if (ago < 1) return esoTalk.language["Just now"];
+
+	// 31536000 seconds = 1 year
+	if (ago >= 31536000) {
+		var years = Math.floor(ago / 31536000);
+		return esoTalk.language[(years == 1 ? "year" : "years") + " ago"].replace("%d", years);
+	}
+	// 2626560 seconds = 1 month
+	else if (ago >= 2626560) {
+		var months = Math.floor(ago / 2626560);
+		return esoTalk.language[(months == 1 ? "month" : "months") + " ago"].replace("%d", months);
+	}
+	// 604800 seconds = 1 week
+	else if (ago >= 604800) {
+		var weeks = Math.floor(ago / 604800);
+		return esoTalk.language[(weeks == 1 ? "week" : "weeks") + " ago"].replace("%d", weeks);
+	}
+	// 86400 seconds = 1 day
+	else if (ago >= 86400) {
+		var days = Math.floor(ago / 86400);
+		return esoTalk.language[(days == 1 ? "day" : "days") + " ago"].replace("%d", days);
+	}
+	// 3600 seconds = 1 hour
+	else if (ago >= 3600) {
+		var hours = Math.floor(ago / 3600);
+		return esoTalk.language[(hours == 1 ? "hour" : "hours") + " ago"].replace("%d", hours);
+	}
+	// 60 seconds = 1 minute
+	else if (ago >= 60) {
+		var minutes = Math.floor(ago / 60);
+		return esoTalk.language[(minutes == 1 ? "minute" : "minutes") + " ago"].replace("%d", minutes);
+	}
+	// 1 second = 1 second. Duh.
+	else if (ago >= 1) {
+		var seconds = Math.floor(ago / 1);
+		return esoTalk.language[(seconds == 1 ? "second" : "seconds") + " ago"].replace("%d", seconds);
+	}
+}
+
+
+// Messages system.
+var Messages = {
+
+container: null,
+messages: {},
+
+// Initialize: set up the messages container.
+init: function() {
+	this.container = getById("messages");
+	this.container.innerHTML = "";
+	// Vegeta, what does the scouter say about his power level?
+	this.container.style.display = "";
+	this.container.style.position = "fixed";
+	this.container.style.top = "0";
+	this.container.style.width = "100%";
+	this.container.style.zIndex = /*IT'S OVER*/"9000";/*!!!!!*/
+	
+	// If we're using IE6, we need to emulate position:fixed. What fun.
+	if (isIE6) {
+		this.container.style.position = "absolute";
+		this.container.runtimeStyle.setExpression("top", "eval(document.documentElement.scrollTop)");
+		// The fixed element will flicker when the page is scrolled. Fix this by applying a "background image" to the
+		// body. Thanks http://ie7-js.googlecode.com/svn/trunk/src/ie7-fixed.js!
+		document.body.runtimeStyle.backgroundRepeat = "no-repeat";
+		document.body.runtimeStyle.backgroundImage = "url(iTrickedYouIE.gif)";
+		document.body.runtimeStyle.backgroundAttachment = "fixed";
+	}
+},
+
+// Show a message in the message container.
+showMessage: function(key, type, text, disappear, hideX) {
+	
+	// If this message is not already in the messages array, create an entry for it.
+	if (!this.messages[key]) {
+		this.messages[key] = {div: document.createElement("div")};
+		this.container.appendChild(this.messages[key].div);
+	}
+	
+	// Update the message details.
+	this.messages[key].div.className = "msg " + type;
+	this.messages[key].div.innerHTML = (!hideX ? "<a href='javascript:Messages.hideMessage(\"" + key + "\")' class='close'>x</a>" : "") + text;
+	this.messages[key].type = type;
+	this.messages[key].text = text;
+	clearTimeout(this.messages[key].timeout);
+	
+	// Set a timeout if this message is supposed to automatically disappear.
+	if (disappear) this.messages[key].timeout = setTimeout(function(){Messages.hideMessage(key);}, esoTalk.messageDisplayTime * 1000);
+	this.messages[key].div.style.top = -this.messages[key].div.offsetHeight + "px";
+	
+	// Animate the message.
+	this.animateMessage(key, "show");
+},
+
+// Hide a specific message.
+hideMessage: function(key) {
+	if (!this.messages[key]) return false;
+	this.animateMessage(key, "hide");
+},
+
+// Animate an individual message. type can be "show" or "hide".
+animateMessage: function(key, type) {
+	if (this.messages[key].animation) this.messages[key].animation.stop();
+	var inside = this.messages[key].div;
+	var outside = createOverflowDiv(inside);
+	var container = this.container;
+	inside.style.position = "relative";
+	switch (type) {
+		case "show":
+			this.messages[key].animation = new Animation(function(top, final) {
+				inside.style.top = top + "px";
+				outside.style.height = inside.offsetHeight + top + "px";
+				document.body.style.paddingTop = container.offsetHeight + "px";
+				if (final) outside.style.height = inside.style.top = "";
+			}, {begin: parseFloat(inside.style.top), end: 0, duration: 10});
+			break;
+			
+		case "hide":
+			this.messages[key].animation = new Animation(function(top, final) {
+				inside.style.top = top + "px";
+				outside.style.height = inside.offsetHeight + top + "px";
+				document.body.style.paddingTop = container.offsetHeight + "px";
+				if (final) {
+					outside.parentNode.removeChild(outside);
+					clearTimeout(Messages.messages[key].timeout);
+					delete Messages.messages[key];
+				}
+			}, {begin: 0, end: -inside.offsetHeight, duration: 10});
+			break;
+			
+		default: return false;
+	}
+	this.messages[key].animation.start();
+},
+
+// Hide all messages.
+clearMessages: function() {
+	for (var i in this.messages) this.hideMessage(i);
+}
+
+};
+
+
+
+// Ajax system.
+var Ajax = {
+
+activeRequests: 0, // Number of currently running requests.
+beenLoggedOut: false, // Has the user been logged out since we loaded the page? If so, disable ajax until it's resolved.
+disconnected: false, // If we've been disconnected from the server...
+disconnectedRequest: false, // The request to repeat after being disconnected from the server.
+maxSimultaneousRequests: 3, // Maximum number of ajax requests going at the same time.
+queue: [], // A queue of requests waiting to be started or waiting to finish.
+
+// Add a request to the request queue.
+request: function(request) {
+	if (!request || this.beenLoggedOut) return false;
+	if (!request.success) request.success = function() {};
+	this.queue.push(request);
+	this.doNextRequest();
+},
+
+// Do the next request in the queue.
+// Because we are doing simultaneous requests, requests must wait for their predecessors to finish before they can fire
+// their success event. This function fires the first request in the queue's success event if it is completed, and then
+// starts as many requests as it can.
+doNextRequest: function() {
+	if (!this.queue.length) return;
+	while (this.queue.length && this.queue[0].completed) {
+		this.queue.shift().success();
+		if (Ajax.activeRequests < 1) hide(getById("loading"), {animation: "fade"});
+	}
+	for (var i in this.queue) {
+		if (this.activeRequests >= this.maxSimultaneousRequests) break;
+		if (!this.queue[i].http || this.queue[i].repeat) this.doRequest(this.queue[i]);
+	}
+},
+
+// Start a request.
+doRequest: function(request) {
+	this.activeRequests++;
+	request.repeat = false;
+	request.http = window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : new XMLHttpRequest();
+	// Open a connection.
+	request.http.open("POST", request.url, true);
+	request.http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	
+	// If another ajax request isn't already loading, change the window onbeforeunload.
+	// Add an onbeforeunload to prevent the user from quitting during a request, but only if it's not a background
+	// request.
+	if (!this.loading && !request.background && typeof window._onbeforeunload == "undefined") {
+		window._onbeforeunload = window.onbeforeunload;
+		window.onbeforeunload = function onbeforeunload() {return esoTalk.language["ajaxRequestPending"];};
+	}
+	
+	// Set the onreadystatechange function to check for errors, messages, and then run the request's success function.
+	request.http.onreadystatechange = function() {
+		
+		// (readyState 4 = completed loading)
+		if (request.http.readyState == 4) {
+		
+			// We're not loading anymore. If there's an element with the id "loading", hide it.
+			Ajax.activeRequests--;
+			if (Ajax.activeRequests < 1) {
+				Ajax.loading = false;
+				if (!request.background) {
+					if (getById("loading")) hide(getById("loading"), {animation: "fade"});
+					window.onbeforeunload = window._onbeforeunload || null;
+					if (window._onbeforeunload) window._onbeforeunload = undefined;
+				}
+			}
+			
+			// Check the status code to see if the request went OK (200). If we had problems, alert the user.
+			if (request.http.status == 0) return; // Null status code.
+			// Something other than 200 - disconnect the ajax system.
+			if (request.http.status != 200) {
+				Ajax.disconnect(request);
+				return false;
+			}
+			// If the ajax system is disconnected but this request was successful, reconnect.
+			else if (Ajax.disconnected && !request.background) {
+				Ajax.disconnected = false;
+				Messages.clearMessages();
+			}
+			
+			// Make the result into a nice JSON array. If there's a syntax error, disconnect the ajax system.
+			try {request.json = eval("(" + request.http.responseText + ")");}
+			catch (e) {
+				Ajax.disconnect(request);
+				return false;
+			}
+			request.result = request.json.result;
+			request.messages = request.json.messages;
+			Ajax.beenLoggedOut = false;
+						
+			// Did we get any messages? Show them via the messages system.
+			for (var i in request.messages) {
+				Messages.showMessage(i, request.messages[i][0], request.messages[i][1], request.messages[i][2], i == "beenLoggedOut" ? true : false);
+				// If the message is "beenLoggedOut" (ie. user has been logged out), we'll have to deal with it later.
+				if (i == "beenLoggedOut") Ajax.beenLoggedOut = true;
+			}
+		
+			// Set the request's messages variable to false if there were no messages.
+			if (request.messages.length < 1) request.messages = false;
+			
+			// Has the token changed? If so, update all hidden token inputs/links on the page.
+			if (request.json.token) {
+				esoTalk.token = request.json.token;
+				var links = document.getElementsByTagName("a");
+				for (var i = 0; i < links.length; i++) {
+					if (links[i].href.indexOf("token=") != -1)
+						links[i].href = links[i].href.replace(/token=[^&]+/i, "token=" + esoTalk.token);
+				}
+				var inputs = document.getElementsByTagName("input");
+				for (var i = 0; i < inputs.length; i++) {
+					if (inputs[i].type == "hidden" && inputs[i].name == "token") inputs[i].value = esoTalk.token;
+				}
+			}
+
+			// If the user has been logged out and our "beenLoggedOut" message is displaying...
+			if (Ajax.beenLoggedOut) {
+				
+				// Show a big shadow over the page.
+				if (!getById("beenLoggedOutShadow")) {
+					var div = document.createElement("div");
+					div.id = "beenLoggedOutShadow";
+					div.style.background = "#000";
+					div.style.opacity = "0.75";
+					div.style.position = "fixed";
+					div.style.top = div.style.left = "0px";
+					var d = getClientDimensions();
+					div.style.width = d[0] + "px";
+					div.style.height = d[1] + "px";
+					div.style.zIndex = "8999";
+					document.body.appendChild(div);
+					
+					// If we're using IE6, we need to emulate position:fixed.
+					if (isIE6) {
+						div.style.position = "absolute";
+						div.runtimeStyle.setExpression("top", "eval(document.documentElement.scrollTop)");
+						// The fixed element will flicker when the page is scrolled. Fix this by applying a "background 
+						// image" to the body. Thanks http://ie7-js.googlecode.com/svn/trunk/src/ie7-fixed.js!
+						document.body.runtimeStyle.backgroundRepeat = "no-repeat";
+						document.body.runtimeStyle.backgroundImage = "url(x.gif)";
+						document.body.runtimeStyle.backgroundAttachment = "fixed";
+						div.style.filter = "alpha(opacity=75)";
+					}
+				}
+				// Focus on the password input.
+				getById("loginMsgPassword").focus();
+				request.repeat = true;
+			}
+
+			// Everything went OK. Do the next request.
+			else {
+				request.completed = true;
+				Ajax.doNextRequest();
+			}
+		}
+	};
+		 
+	// Send the request data - the currently logged in user (so we can check if we're still logged in), the current 
+	// token, and the request-specific post data.
+	request.http.send("loggedInAs=" + (esoTalk.user ? esoTalk.user : "") + "&token=" + esoTalk.token + "&" + (request.post ? request.post : ""));
+	
+	// Now we're loading... If there's an element with the id "loading", show it.
+	this.loading = true;
+	if (!request.background && getById("loading")) show(getById("loading"), {animation: "fade"});
+},
+
+// Resume normal activity after recovering from a disconnection: clear messages and repeat the request that failed.
+resumeAfterDisconnection: function() {
+	Messages.clearMessages();
+	Ajax.request(Ajax.disconnectedRequest);
+	Ajax.disconnectedRequest = false;
+},
+
+// Show a disconnection message: set the failed request to be repeated, clear the request queue, and show the message.
+disconnect: function(request) {
+	this.disconnected = true;
+	request.repeat = true;
+	if (!this.disconnectedRequest || !request.background) this.disconnectedRequest = request;
+	this.queue = [];
+	Messages.showMessage("ajaxDisconnected", "warning", esoTalk.language["ajaxDisconnected"], false);
+},
+
+// Dismiss the "beenLoggedOut" message by pressing cancel or successfully logging in.
+dismissLoggedOut: function(loggedInAs) {
+	this.beenLoggedOut = false;
+	// Hide the message and the shadow.
+	Messages.clearMessages();
+	if (getById("beenLoggedOutShadow")) document.body.removeChild(getById("beenLoggedOutShadow"));
+	// Set the new 'logged in' user.
+	esoTalk.user = loggedInAs ? loggedInAs : "";
+},
+
+// Login from the form in the "beenLoggedOut" message.
+login: function(password) {
+	this.queue.unshift({
+		"url": esoTalk.baseURL + "ajax.php",
+		"post": "login[name]=" + esoTalk.user + "&login[password]=" + password,
+		"success": function(){Ajax.dismissLoggedOut(esoTalk.user)}
+	});
+	this.doRequest(this.queue[0]);
+}
+ 
+};
+
+
+
+// Conversation JavaScript
+var Conversation = {
+
+// Pagination bar variables
+dragging: false, // Are we dragging a pagination bar? Which one?
+mouseStart: null, // The start position of the mouse (onmousedown) to calculate the relative position of the handle.
+handleWidth: 0, // The width of the handle (%).
+handlePos: 0, // The position of the handle (%) - i.e. the handle's marginLeft.
+unreadWidth: 0, // The width of the unread area (%).
+paginations: [], // An array of the pagination bars (0 => top bar, 1 => bottom bar).
+
+// Conversation details
+id: false, // The conversation ID.
+title: "", // The title of the conversation.
+posts: [], // Array of all the posts we have data for - i.e. the post cache.
+startFrom: 0, // What post are we starting from?
+postCount: 0, // The total number of posts in the conversation.
+lastActionTime: null, // The conversation's last action time.
+lastRead: 0, // The last post in the conversation the user has read (start of the unread bar).
+updateLastRead: false, // A flag for whether or not to make an AJAX request to update the last read when fetching posts.
+
+autoReloadInterval: 4, // The number of seconds in which to check for new posts.
+timeout: null, // A timeout to periodically check for new posts.
+disableJumpTo: false, // A flag for when the [viewing] part of the pagination bar is moused-over.
+editingReply: false, // Are we typing a reply?
+editingPosts: 0, // Number of posts being edited.
+multiQuote: false, // If this flag is true, we won't scroll to the reply area when the user clicks 'quote' on a post.
+
+// Initialize: set up the conversation, a timeout to check for new posts, watch window.location.hash, etc.
+init: function() {
+	
+	// Get conversation information from the esoTalk variable.
+	if (esoTalk.conversation) {
+		this.id = esoTalk.conversation.id;
+		this.postCount = esoTalk.conversation.postCount;
+		this.startFrom = esoTalk.conversation.startFrom;
+		this.lastActionTime = esoTalk.conversation.lastActionTime;
+		this.lastRead = esoTalk.conversation.lastRead;
+		this.autoReloadInterval = esoTalk.conversation.autoReloadInterval;
+	}
+	
+	setInterval(function() {esoTalk.time++}, 1000);
+
+	// Hide the save title/tags button.
+	if (getById("saveTitleTags")) getById("saveTitleTags").style.display = "none";
+	
+	// If we're not starting a new conversation...
+	if (this.id) {
+		
+		this.setReloadTimeout(this.autoReloadInterval = esoTalk.autoReloadIntervalStart);
+		
+		// Keep watch for any changes to the hash in the url - reload the posts if it does change.
+		setInterval(function() {
+			var newHash = window.location.hash.replace("#", "");
+			if (isNaN(newHash) || Conversation.startFrom == newHash) return;
+			Conversation.moveTo(parseInt(newHash) || 0);
+		}, 500);
+
+		// Initialize the title/tag inputs.
+		if (getById("cTitle").tagName.toLowerCase() == "input") {
+			getById("cTitle").onfocus = function(){this.initValue=this.value;};
+			getById("cTitle").onblur = function(){if(this.value!=this.initValue)Conversation.saveTitle(this.value);};
+			getById("cTitle").onkeypress = function(e){if(!e)e=window.event;if(e.keyCode==13){this.blur();return false;}};
+		}
+		if (getById("cTags").tagName.toLowerCase() == "input") {
+			getById("cTags").onfocus = function(){this.initValue=this.value;};
+			getById("cTags").onblur = function(){if(this.value!=this.initValue)Conversation.saveTags(this.value);};
+			getById("cTags").onkeypress = function(e){if(!e)e=window.event;if(e.keyCode==13){this.blur();return false;}};
+		}
+	}
+	
+	// Get the conversation title.
+	Conversation.title = typeof getById("cTitle").value != "undefined" ? getById("cTitle").value : getById("cTitle").innerHTML;
+	
+	// Initialize the add member form.
+	if (getById("addMemberSubmit")) {
+		getById("addMemberSubmit").onclick = function onclick() {Conversation.addMember(getById("addMember").value); return false;};
+		getById("addMember").onkeypress = function(e) {
+			if (!e) e = window.event;
+			if (e.keyCode == 13) {Conversation.addMember(getById("addMember").value); return false;}
+			else enable(getById("addMemberSubmit"));
+		};
+		disable(getById("addMemberSubmit"));
+		// Add a textInput event handler so the button is enabled when typing special characters in Safari.
+		if (getById("addMember").addEventListener) getById("addMember").addEventListener("textInput", function() {
+			enable(getById("addMemberSubmit"));
+		});
+	}
+	
+	// Initialize the pagination bars.
+	Conversation.initPagination();
+	
+	// If there's a reply box, initilize it.
+	if (getById("reply")) Conversation.initReply();
+	
+	// Add an onbeforeunload handler (to warn the user if they have an unsaved post/draft).
+	window.onbeforeunload = Conversation.beforeUnload;
+	
+	// Add events to tell whether the shift key is being held down. If so, don't scroll when the user clicks 'quote'.
+	document.onkeydown = function(e) {
+		if (!e) e = window.event;
+		if (e.keyCode == 16) Conversation.multiQuote = true;
+	};
+	document.onkeyup = function(e) {
+		if (!e) e = window.event;
+		if (e.keyCode == 16) Conversation.multiQuote = false;
+	};
+},
+
+// Initialize the pagination bars: add click and mouse handling events.
+initPagination: function() {
+	
+	// Loop through the bars and create an easy-to-access array of their child elements
+	paginations = [getById("pagination"), getById("paginationBottom")];
+	for (var i in paginations) {
+		pg = {
+			"bar": paginations[i],
+			"viewingPosts": getElementsByClassName(paginations[i], "viewing")[0],
+			"middle": getElementsByClassName(paginations[i], "middle")[0],
+			"previous": getElementsByClassName(paginations[i], "previous")[0],
+			"first": getElementsByClassName(paginations[i], "first")[0],
+			"last": getElementsByClassName(paginations[i], "last")[0],
+			"next": getElementsByClassName(paginations[i], "next")[0],
+			"unread": getElementsByClassName(paginations[i], "unread")[0],
+			"from": getElementsByClassName(paginations[i], "pgFrom")[0],
+			"to": getElementsByClassName(paginations[i], "pgTo")[0],
+			"count": getElementsByClassName(paginations[i], "pgCount")[0]
+		};
+		// Disable selection on the handle.
+		pg.viewingPosts.onselectstart = function() {return false;};
+		pg.viewingPosts.unselectable = "on";
+		pg.viewingPosts.style.MozUserSelect = "none";
+		
+		// Add some mouse handlers.
+		pg.middle.onclick = Conversation.jumpTo;
+		pg.unread.onclick = function() {Conversation.moveTo(Conversation.lastRead);};
+		pg.viewingPosts.onmousedown = Conversation.mouseDown;
+		pg.viewingPosts.onmouseup = Conversation.mouseUp;
+		
+		// When the mouse is over viewingPosts or unread, prevent the jumpTo click from being activated.
+		Conversation.disableJumpTo = false;
+		pg.viewingPosts.onmouseover = pg.unread.onmouseover = function(){Conversation.disableJumpTo=true;};
+		pg.viewingPosts.onmouseout = pg.unread.onmouseout = function(){Conversation.disableJumpTo=false;};
+		
+		// Add click events to the buttons.
+		pg.previous.onclick = Conversation.prevPage;
+		pg.next.onclick = Conversation.nextPage;
+		pg.first.onclick = Conversation.firstPage;
+		pg.last.onclick = Conversation.lastPage;
+		Conversation.paginations[i] = pg;
+	}
+	
+	// Make sure we have the handle/unread position/width.
+	Conversation.handlePos = parseFloat(Conversation.paginations[0].viewingPosts.style.marginLeft);
+	Conversation.handleWidth = parseFloat(Conversation.paginations[0].viewingPosts.style.width);
+	Conversation.unreadWidth = parseFloat(Conversation.paginations[0].unread.style.width);
+	
+	// Add document mouse handlers.
+	document.onmousemove = Conversation.mouseMove;
+	document.onmouseup = Conversation.mouseUp;
+},
+
+// Initialize the reply section: disable/enable buttons, add click events, etc.
+initReply: function() {
+	
+	Conversation.editingReply = false;
+	
+	// Disable the "post reply" button if there's not a draft. Disable the save draft button regardless.
+	if (!getById("reply-textarea").value) {disable(getById("postReply")); disable(getById("discardDraft"));}
+	disable(getById("saveDraft"));
+	
+	// Add event handlers on the textarea to enable/disable buttons.
+	getById("reply-textarea").onkeyup = function onkeyup() {
+		if (this.value) {enable(getById("saveDraft")); enable(getById("postReply")); Conversation.editingReply = true;}
+		else {disable(getById("saveDraft")); disable(getById("postReply")); Conversation.editingReply = false;}
+	};
+	getById("reply-previewCheckbox").checked = false;
+	
+	// Add click events to the buttons.
+	if (getById("saveDraft")) getById("saveDraft").getElementsByTagName("input")[0].onclick = function onclick() {Conversation.saveDraft(); return false;};
+	if (getById("discardDraft")) getById("discardDraft").getElementsByTagName("input")[0].onclick = function onclick() {Conversation.discardDraft(); return false;};
+	if (getById("postReply")) getById("postReply").getElementsByTagName("input")[0].onclick = function onclick() {
+		if (Conversation.id) Conversation.addReply();
+		else Conversation.startConversation();
+		return false;
+	};
+	
+	// Register the Ctrl+Enter shortcut.
+	getById("reply-textarea").onkeypress = function onkeypress(e) {
+		if (!e) e = window.event;
+		if (e.ctrlKey && e.keyCode == 13) {
+			if (Conversation.editingReply) {
+				if (Conversation.id) Conversation.addReply();
+				else Conversation.startConversation();
+			}
+			return false;
+		}
+	}
+},
+
+// Reload the conversation post display, starting from a specific post.
+reloadPosts: function(startFrom, scrollTo, dontDisplay) {
+	
+	// Make sure startFrom is a number within range.
+	startFrom = Math.max(0, Math.min(Conversation.postCount, parseInt(startFrom)));
+	
+	// Update the window hash.
+	Conversation.startFrom = window.location.hash = startFrom;
+	
+	// Do we need to make an ajax request to get more post information?
+	// Within the posts we will be viewing, what are the first and last ones we _don't_ have? We'll need to fetch those.
+	var min, max;
+	maxPost = Math.min(startFrom + esoTalk.postsPerPage, Conversation.postCount);
+	for (var i = startFrom; i < maxPost; i++) {
+		if (typeof Conversation.posts[i] == "undefined") {
+			if (typeof min == "undefined") min = i;
+			max = i;
+		}
+	}
+	
+	// If we do need to fetch some posts from the server...
+	if (typeof min != "undefined") {
+			
+		// Make the ajax request.
+		Ajax.request({
+			"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+			"success": function() {
+				// Update our post cache with this new data.
+				if (posts = this.result) for (var i in posts) Conversation.posts[i] = posts[i];
+				
+				// Only update the post display if the first/last post numbers of these ajax results are consistent with 
+				// where we should be viewing. (Prevents blank display when a user clicks 'Next' or 'Previous' multiple 
+				// times in a row.)
+				if (min >= Conversation.startFrom && max <= Conversation.startFrom + esoTalk.postsPerPage && !dontDisplay) Conversation.displayPosts(scrollTo);
+			},
+			"post": "action=getPosts&id=" + Conversation.id + "&start=" + min + "&end=" + max + (Conversation.updateLastRead ? "&updateLastRead=" + maxPost : "")
+		});
+	
+	}
+	// If we don't need to get any more data, just display the data we already have.
+	else {
+		if (!dontDisplay) Conversation.displayPosts(scrollTo);
+		
+		// Update the user's last read post if necessary.
+		if (Conversation.updateLastRead) {
+			Ajax.request({
+				"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+				"post": "action=updateLastRead&id=" + Conversation.id + "&updateLastRead=" + maxPost
+			});
+		}
+	}
+	Conversation.updateLastRead = false;
+},
+
+// Return a timeout to check for new posts.
+setReloadTimeout: function(seconds) {
+	seconds = Math.max(1, seconds);
+	if (esoTalk.autoReloadIntervalLimit > 0) seconds = Math.min(seconds, esoTalk.autoReloadIntervalLimit);
+	clearTimeout(Conversation.timeout);
+	Conversation.timeout = setTimeout(function() {Conversation.checkForNewPosts();}, seconds * 1000);
+},
+
+// Change and save a guest's avatar alignment.
+changeAvatarAlignment: function(alignment) {
+	esoTalk.avatarAlignment = alignment;
+	Conversation.moveTo(Conversation.startFrom);
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=saveAvatarAlignment&avatarAlignment=" + alignment,
+		"background": true
+	});
+},
+
+// Check if there are any new posts in the conversation, and update the conversation display as appropriate.
+checkForNewPosts: function() {
+	if (Conversation.editingPosts > 0) return;
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=getNewPosts&id=" + Conversation.id + "&lastActionTime=" + Conversation.lastActionTime + (Conversation.startFrom + esoTalk.postsPerPage >= Conversation.postCount ? "&oldPostCount=" + Conversation.postCount : ""),
+		"background": true,
+		"success": function() {
+			
+			// Update the esoTalk 'clock'.
+			esoTalk.time = this.result.time;
+			
+			// If there are no updated or new posts, set a longer timeout to check again.
+			if (!this.result.newPosts) {
+				Conversation.setReloadTimeout(Conversation.autoReloadInterval *= esoTalk.autoReloadIntervalMultiplier);
+				return;
+			}
+			
+			// Update our post cache with the new posts.
+			for (var i in this.result.newPosts) Conversation.posts[i] = this.result.newPosts[i];
+			var oldPostCount = Conversation.postCount;
+			Conversation.postCount = this.result.postCount;
+			Conversation.lastActionTime = this.result.lastActionTime;
+			var newPosts = Conversation.postCount - oldPostCount;
+			
+			// If there are no new posts, set a longer timeout to check again. Otherwise, reset the timeout length.
+			if (!newPosts) Conversation.setReloadTimeout(Conversation.autoReloadInterval *= esoTalk.autoReloadIntervalMultiplier);
+			else Conversation.setReloadTimeout(Conversation.autoReloadInterval = esoTalk.autoReloadIntervalStart);
+			
+			// Store the current position of the bottom pagination bar within the browser's window so it won't move
+			// when changing the post area HTML.
+			Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+			
+			// Show the unread area.
+			Conversation.unreadWidth += newPosts * (100 / Conversation.postCount);
+			
+			// Mark the new posts for animation.
+			for (var i = oldPostCount; i < Conversation.postCount; i++) Conversation.posts[i].animateNew = true;
+			
+			// If we were viewing the last post, move to the _new_ last post.
+			if (Conversation.startFrom + esoTalk.postsPerPage >= oldPostCount) {
+				
+				// If the amount of new posts is greater than the posts per page, go to the first new post.
+				if (newPosts > esoTalk.postsPerPage) Conversation.moveTo(oldPostCount, "top");
+				
+				// If we're _just_ on the edge of the conversation, move forward the amount of new posts
+				else if (Conversation.startFrom + esoTalk.postsPerPage <= Conversation.postCount) Conversation.moveTo(Conversation.postCount - esoTalk.postsPerPage, "newReply");
+				
+				// Otherwise, just display from where we currently are.
+				else Conversation.moveTo(Conversation.startFrom);
+				
+			} else Conversation.moveTo(Conversation.startFrom);
+		}
+	});
+},
+
+// Update the post area with new post HTML.
+displayPosts: function(scrollTo) {
+	
+	// Work out some initial details.
+	var max = Math.min(Conversation.startFrom + esoTalk.postsPerPage, Conversation.postCount);
+	var side = false;
+	switch (esoTalk.avatarAlignment || "alternate") {
+		case "alternate": side = Conversation.startFrom % 2 ? "l" : "r"; break;
+		case "right": side = "r"; break;
+		case "left": side = "l"; break;
+	}
+	var html = [];
+	
+	// Loop through all the posts we are displaying and add their HTML.
+	for (var k = Conversation.startFrom; k < max; k++) {
+
+		// Hmmm... missing data!
+		if (typeof Conversation.posts[k] == "undefined") {
+			html.push("<div class='p deleted'><div class='hdr'><h3>Missing data</h3></div></div>");
+			continue;
+		}
+
+		var post = Conversation.posts[k];
+		var singlePost = false; // If this post is the only consecutive one by the same member.
+
+		// If this post is deleted...
+		if (post.deleteMember) {
+			html.push("<hr/><div class='p deleted' id='p", post.id, "'><div class='hdr'>",
+				"<div class='pInfo'>",
+				"<h3>" + post.name + "</h3> ",
+				"<span title='", post.date, "'><a href='", makePermalink(post.id), "'>", relativeTime(post.time), "</a></span> ",
+				"<span>", makeDeletedBy(post.deleteMember), "</span> ",
+				"</div>",
+				"<div class='controls'>");
+			if (post.canEdit) html.push("<span>", window[!post.body ? "makeShowDeletedLink" : "makeHideDeletedLink"](post.id), "</span> <span>", makeRestoreLink(post.id), "</span> ");
+			html.push("</div></div>");
+			if (post.body) html.push("<div class='body'>", post.body, "</div>");
+			html.push("</div>");
+			continue;
+		}
+
+		// If the post before this one is by a different member to this one, start a new post 'group'.
+		if (k == Conversation.startFrom || typeof Conversation.posts[k - 1] == "undefined" || Conversation.posts[k - 1]["name"] != post.name || Conversation.posts[k - 1]["deleteMember"]) {
+			html.push("<hr/><div class='p "); if (side) html.push(side); html.push(" c", post.color, "'");
+			
+			// If this post is in its own group, assign the ID to the whole post (not just the post 'part').
+			if (typeof Conversation.posts[k + 1] == "undefined" || Conversation.posts[k + 1]["name"] != post.name || Conversation.posts[k + 1]["deleteMember"]) {
+				singlePost = true;
+				html.push(" id='p", post.id, "'");
+			}
+			
+			html.push("><div class='parts'>");
+		}
+
+		// Regardless of post 'groups', output this individual post.
+		html.push("<div", (!singlePost ? " id='p" + post.id + "'" : ""), ">",
+			"<div class='hdr'>",
+			"<div class='pInfo'>",
+			"<h3>", makeMemberLink(post.memberId, post.name), "</h3> ",
+			"<span title='", post.date, "'><a href='", makePermalink(post.id), "'>", relativeTime(post.time), "</a></span> ");
+		if (post.editTime) html.push("<span>", makeEditedBy(post.editMember, relativeTime(post.editTime)), "</span> ");
+		// Output the member's account.
+		if (post.accounts.length > 0) {
+			html.push("<span><select onchange='Conversation.changeMemberGroup(", post.memberId, ",this.value)' name='group'>");
+			for (var i in post.accounts) {
+				html.push("<option value='", post.accounts[i], "'");
+				if (post.accounts[i] == post.account) html.push(" selected='selected'");
+				html.push(">", esoTalk.language[post.accounts[i]], "</option>");
+			}
+			html.push("</select></span> ");
+		} else if (post.account != "Member") html.push("<span>", esoTalk.language[post.account], "</span> ");
+		// Other post details.
+		if (post.lastAction) html.push("<span>", makeLastAction(post.lastAction), "</span> ");
+		for (var i in post.info) html.push("<span>", post.info[i], "</span> ");
+		// Post controls.
+		html.push("</div><div class='controls'>");
+		if (getById("reply")) html.push(makeQuoteLink(post.id), " ");
+		if (post.canEdit) html.push(makeEditLink(post.id), " ", makeDeleteLink(post.id), " ");
+		for (var i in post.controls) html.push(post.controls[i], " ");
+		html.push("</div></div><div class='body'>", post.body, "</div></div>");
+
+		// If the post after this one is by a different member to this one, end the post 'group'.
+		if (k == max - 1 || typeof Conversation.posts[k + 1] == "undefined" || Conversation.posts[k + 1]["name"] != post.name || Conversation.posts[k + 1]["deleteMember"]) {
+			html.push("</div>"); if (side) html.push("<div class='avatar'>", makeMemberLink(post.memberId, "<img src='" + (post.avatar || ("skins/" + esoTalk.skin + "/avatar" + (side == "l" ? "Left" : "Right") + ".png")) + "' alt=''/>"), "</div>");
+			html.push("<div class='clear'></div></div>");
+			
+			// Switch sides now that we're at the end of the group - only if the next post is not deleted!
+			if (esoTalk.avatarAlignment == "alternate" && typeof Conversation.posts[k + 1] != "undefined" && !Conversation.posts[k + 1]["deleteMember"]) side = side == "r" ? "l" : "r";
+		}
+	}
+
+	getById("cPosts").innerHTML = html.join("");
+	
+	// Loop through all post links (i.e. "go to this post" links) and add a click handler to check if the post they are
+	// directed at is in the current conversation post cache. If it is, just scroll up to it.
+	var postLinks = getElementsByClassName(getById("cPosts"), "postLink");
+	for (var i = 0; i < postLinks.length; i++) {
+		var linkParts = postLinks[i].href.split("/");
+		// If we can get a proper postId from the link...
+		if (postLinks[i].postId = parseInt(linkParts[linkParts.length - 2])) {
+			postLinks[i].onclick = function onclick() {
+				for (var i in Conversation.posts) {
+					if (Conversation.posts[i].id == this.postId) {
+						// If the post is on the current page, scroll up to it.
+						if (i >= Conversation.startFrom - esoTalk.postsPerPage) Conversation.scrollTo(getById("p" + this.postId).offsetTop);
+						// Otherwise, move the pagination to where this post is.
+						else Conversation.moveTo(i, "top");
+						return false;
+					}
+				}
+			}
+		}
+	}
+	
+	// Run the IE6 PNG transparency script (because we have updated the page content.)
+	if (isIE6 && supersleight) {
+		supersleight.limitTo("cPosts");
+		supersleight.run();
+	}
+	
+	// Scroll to the bottom if necessary (we have to do this before animation of the posts).
+	if (scrollTo == "bottom") {
+		Conversation.scrollTo(scrollTo);
+		scrollTo = undefined;
+	}
+	
+	// Animate new posts.
+	for (var i = Conversation.startFrom; i < max; i++) {
+		if (Conversation.posts[i].animateNew) {
+			Conversation.animateNewPost(getById("p" + Conversation.posts[i].id));
+			Conversation.posts[i].animateNew = false;
+		}
+	}
+	
+	Conversation.scrollTo(scrollTo);
+},
+
+// Scroll to a specific position on the conversation page.
+scrollTo: function(scrollTo) {
+	if (typeof scrollTo == "undefined" || scrollTo == null) return false;
+	Conversation.scrollDest = false;
+	switch (scrollTo) {
+		
+		// Scroll to the top pagination bar.
+		case "top":
+			if (getScrollTop() > getOffsetTop(Conversation.paginations[0].bar) - 10)
+				Conversation.scrollDest = getOffsetTop(Conversation.paginations[0].bar) - 10;
+			break;
+		
+		// Scroll to the bottom pagination bar.
+		case "bottom":
+			if (getScrollTop() < getOffsetTop(Conversation.paginations[1].bar) + Conversation.paginations[1].bar.offsetHeight + 10 - getClientDimensions()[1])
+				Conversation.scrollDest = getOffsetTop(Conversation.paginations[1].bar) + Conversation.paginations[1].bar.offsetHeight + 10 - getClientDimensions()[1];
+			break;
+		
+		// Scroll back to where the bottom pagination bar was on the screen (when content height above it changes).
+		case "pagination":
+			window.scroll(0, getOffsetTop(Conversation.paginations[1].bar) - Conversation.scrollStart);
+			return;
+			
+		// Same as above.
+		case "newReply":
+			if (Conversation.postCount <= esoTalk.postsPerPage) return;
+			window.scroll(0, getOffsetTop(Conversation.paginations[1].bar) - Conversation.scrollStart);
+			return;
+			
+		// Scroll to the reply area.
+		case "reply":
+			Conversation.scrollDest = getOffsetTop(getById("reply")) + getById("reply").offsetHeight - getClientDimensions()[1] + 10;
+			break;
+			
+		default: Conversation.scrollDest = parseInt(scrollTo);
+	}
+	// Animate the scroll.
+	if (Conversation.scrollDest) animateScroll(Conversation.scrollDest);
+},
+
+// On page exit, display a confirmation message if the user is editing posts or hasn't saved their reply.
+beforeUnload: function onbeforeunload() {
+	if (Conversation.editingPosts > 0) return esoTalk.language["confirmLeave"];
+	else if (Conversation.editingReply) return esoTalk.language["confirmDiscard"];
+},
+
+// Start dragging the pagination bar.
+mouseDown: function(e) {
+	if (!e) e = window.event;
+	document.body.style.cursor = "col-resize";
+	Conversation.draggingHandle = this;
+	Conversation.mouseStart = e.clientX;
+	Conversation.marginLeft = parseFloat(Conversation.paginations[0].viewingPosts.style.marginLeft);
+	Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+	if (Conversation.paginationAnimation) Conversation.paginationAnimation.stop();
+},
+
+// Stop dragging the pagination bar.
+mouseUp: function(e) {
+	if (!e) e = window.event;
+	document.body.style.cursor = "auto";
+	if (Conversation.draggingHandle) 
+		Conversation.moveToPercent(parseFloat(Conversation.paginations[0].viewingPosts.style.marginLeft), Conversation.draggingHandle == Conversation.paginations[1].viewingPosts ? "pagination" : null);
+	Conversation.draggingHandle = false;
+	Conversation.mouseStart = null;
+},
+
+// Drag the handle of the pagination bar.
+mouseMove: function(e) {
+	if (!e) e = window.event;
+	if (Conversation.draggingHandle && e.clientX) {
+		// Work out the pagination handle's position in terms of %.
+		var offsetPixels = e.clientX - Conversation.mouseStart;
+		var offsetPercent = (offsetPixels / Conversation.paginations[0].middle.offsetWidth) * 100;
+		Conversation.moveHandle(parseFloat(Conversation.marginLeft) + offsetPercent);
+		
+		// Update the numbers in '1-20 of 38 posts'.
+		var startFrom = Math.round(parseFloat(Conversation.paginations[0].viewingPosts.style.marginLeft)
+			* (Conversation.postCount - esoTalk.postsPerPage) / Math.max(100 - Conversation.handleWidth, 1));
+		for (var i in Conversation.paginations) {
+			Conversation.paginations[i].from.innerHTML = Math.max(parseInt(startFrom) + 1, 1);
+			Conversation.paginations[i].to.innerHTML = Math.min(Math.max(startFrom, 0) + esoTalk.postsPerPage, Conversation.postCount);
+			Conversation.paginations[i].viewingPosts.title = Conversation.paginations[i].viewingPosts.firstChild.innerHTML.replace(/<.+?>/g, "");
+		}
+	}
+},
+
+// Animate the pagination bar moving and resizing.
+animatePagination: function() {
+	if (this.paginationAnimation) this.paginationAnimation.stop();
+	(this.paginationAnimation = new Animation(function(data) {
+		Conversation.moveHandle(data[0]);
+		Conversation.resizeHandle(data[1]);
+		Conversation.resizeUnread(data[2]);
+	}, {
+		begin: [parseFloat(this.paginations[0].viewingPosts.style.marginLeft), parseFloat(this.paginations[0].viewingPosts.style.width), parseFloat(this.paginations[0].unread.style.width)],
+		end: [this.handlePos, this.handleWidth, this.unreadWidth]
+	})).start();
+},
+
+// Move the handle to a specific position - update the handle's marginLeft/Right.
+moveHandle: function(marginLeft) {
+	marginLeft = Math.max(0, Math.min(100 - parseFloat(this.paginations[0].viewingPosts.style.width), marginLeft));
+	var marginRight = 100 - marginLeft - parseFloat(this.paginations[0].viewingPosts.style.width);
+	for (i in Conversation.paginations) {
+		Conversation.paginations[i].viewingPosts.style.marginLeft = marginLeft + "%";
+		Conversation.paginations[i].viewingPosts.style.marginRight = marginRight + "%";
+	}
+},
+
+// Resize the handle - change the handle's width.
+resizeHandle: function(width) {
+	width = Math.max(0, Math.min(100, width));
+	for (i in Conversation.paginations) Conversation.paginations[i].viewingPosts.style.width = width + "%";
+},
+
+// Resize the unread area.
+resizeUnread: function(width) {
+	width = Math.max(0, Math.min(100, width));
+	for (i in Conversation.paginations) {
+		Conversation.paginations[i].unread.style.marginLeft = (100 - width) + "%";
+		Conversation.paginations[i].unread.style.width = width + "%";
+	}
+},
+
+// Go to the next page.
+nextPage: function() {
+	if (!this.className || this.className.indexOf("disabled") == -1)
+		Conversation.moveTo(Math.min(Conversation.startFrom + esoTalk.postsPerPage, Conversation.postCount - 1), "top");
+	return false;
+},
+
+// Go to the previous page.
+prevPage: function() {
+	if (!this.className || this.className.indexOf("disabled") == -1) {
+		Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+		Conversation.moveTo(Math.max(0, Conversation.startFrom - esoTalk.postsPerPage), this == Conversation.paginations[1].previous ? "pagination" : "bottom");
+	}
+	return false;
+},
+
+// Go to the first page.
+firstPage: function() {
+	Conversation.moveTo(0, "top");
+	return false;
+},
+
+// Go to the last page.
+lastPage: function() {
+	Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+	Conversation.moveTo(Math.max(0, Conversation.postCount - esoTalk.postsPerPage), this == Conversation.paginations[1].last ? "pagination" : "bottom");
+	return false;
+},
+
+// Jump to a specific position on the pagination bar. Works out what post number is associated with the pixel position 
+// on the bar.
+jumpTo: function(e) {
+	if (!e) e = window.event;
+	
+	// If the user is clicking on the unread link or dragging the viewing area, we have no business here!
+	if (Conversation.disableJumpTo) return false;
+	
+	// Where did the user click in terms of pixels and percent?
+	var pixels = e.clientX - Conversation.paginations[0].middle.offsetLeft;
+	var clickPercent = (pixels / Conversation.paginations[0].middle.offsetWidth) * 100;
+	
+	// Move the handle so its middle is where the user clicked.
+	var startFromPercent = Math.max(0, Math.min(100 - Conversation.handleWidth, clickPercent - Conversation.handleWidth / 2));
+	Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+	Conversation.moveToPercent(startFromPercent, this == Conversation.paginations[1].middle ? "pagination" : null);
+},
+
+// Move to a specific position. Takes care of pagination, animation, and reloading the posts.
+moveTo: function(startFrom, scrollTo) {
+	window[Conversation.postCount ? "show" : "hide"](getById("cBody"));
+	
+	// Check if we're editing any posts - if we are, confirm it with the user.
+	if (Conversation.editingPosts > 0 && !confirm(Conversation.beforeUnload())) startFrom = Conversation.startFrom;
+	else Conversation.editingPosts = 0;
+	
+	// Update the numbers in '1-20 of 38 posts', and disable/enable previous/next buttons if necessary.
+	for (var i in Conversation.paginations) {
+		Conversation.paginations[i].from.innerHTML = Math.max(parseInt(startFrom) + 1, 1);
+		Conversation.paginations[i].to.innerHTML = Math.min(Math.max(startFrom, 0) + esoTalk.postsPerPage, Conversation.postCount);
+		Conversation.paginations[i].count.innerHTML = Conversation.postCount;
+		Conversation.paginations[i].viewingPosts.title = Conversation.paginations[i].viewingPosts.firstChild.innerHTML.replace(/<.+?>/g, "");
+		if (startFrom <= 0) disable(Conversation.paginations[i].previous);
+		else enable(Conversation.paginations[i].previous);
+		if (startFrom + esoTalk.postsPerPage >= Conversation.postCount) disable(Conversation.paginations[i].next);
+		else enable(Conversation.paginations[i].next);
+	}
+	
+	// Work out where the handle should be in terms of %.
+	var minPercent = 125 / Conversation.paginations[0].middle.offsetWidth;
+	var curHandleWidth = Math.max(esoTalk.postsPerPage / Conversation.postCount, minPercent) * 100;
+	if (Conversation.postCount <= esoTalk.postsPerPage) var percentPerPost = 100 / Conversation.postCount;
+	else var percentPerPost = (100 - curHandleWidth) / (Conversation.postCount - esoTalk.postsPerPage);
+	
+	// Work out how wide the handle can be.
+	Conversation.handleWidth = Math.max(percentPerPost * Math.min(Conversation.postCount - startFrom, esoTalk.postsPerPage), minPercent * 100);
+	Conversation.handlePos = Math.min(100 - Conversation.handleWidth, startFrom * percentPerPost);
+	
+	// Are we overlapping the unread section?
+	if (Math.min(startFrom + esoTalk.postsPerPage, Conversation.postCount) > Conversation.lastRead) {
+		Conversation.lastRead = Math.min(startFrom + esoTalk.postsPerPage, Conversation.postCount);
+		Conversation.unreadWidth = Math.max(100 - Conversation.lastRead * (100 / Conversation.postCount), 0);
+		Conversation.updateLastRead = true;
+	}
+	
+	// Animate the handle - let it slide!
+	Conversation.animatePagination();
+	
+	// Update the posts that are displaying.
+	Conversation.reloadPosts(startFrom, scrollTo);
+},
+
+// Move to a specific post, but work out what post from a position (percent) in the bar.
+moveToPercent: function(startFromPercent, scrollTo) {
+	var postNum = Math.round(startFromPercent * (Conversation.postCount - esoTalk.postsPerPage) / Math.max(100 - Conversation.handleWidth, 1));
+	Conversation.moveTo(postNum, scrollTo);
+},
+
+// Add a reply.
+addReply: function() {
+	content = getById("reply-textarea").value;
+	
+	// Disable the reply/draft buttons.
+	disable(getById("postReply")); disable(getById("saveDraft"));
+	
+	// What is the last post in the conversation we have data for? We'll need to get any posts we don't have.
+	var max = 0;
+	for (var i in Conversation.posts) {
+		i = parseInt(i) + 1;
+		if (i > max) max = i;
+	}
+	
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=addReply&id=" + Conversation.id + "&content=" + encodeURIComponent(content) + "&postCount=" + Conversation.postCount + "&haveDataUpTo=" + max,
+		"success": function() {			
+			// If there are messages, enable the reply/draft buttons and don't continue.
+			if (this.messages) {
+				enable(getById("postReply")); enable(getById("saveDraft"));
+				return;
+			}
+			
+			// Hide messages which may have been previously triggered.
+			Messages.hideMessage("waitToReply");
+			Messages.hideMessage("emptyPost");
+			
+			// Hide the draft label, clear the textarea, and initialize the reply area again.
+			hide(getElementsByClassName(getById("cLabels"), "draft")[0]);
+			getById("reply-textarea").value = "";
+			Conversation.togglePreview("reply", false);
+			Conversation.initReply();
+				
+			// Update our post cache with the posts that were returned.
+			for (var i in this.result.posts) Conversation.posts[i] = this.result.posts[i];
+			oldPostCount = Conversation.postCount;
+			Conversation.postCount = this.result.postCount;
+			Conversation.lastActionTime = esoTalk.time = this.result.lastActionTime;
+			newPosts = Conversation.postCount - oldPostCount;
+			Conversation.scrollStart = getOffsetTop(Conversation.paginations[1].bar) - getScrollTop();
+				
+			// Mark the new posts for animation.
+			for (i = oldPostCount; i < Conversation.postCount; i++) Conversation.posts[i].animateNew = true;
+				
+			// Move the to last post.
+			// If the amount of new posts is greater than the posts per page, go to the first new post.
+			if (newPosts > esoTalk.postsPerPage) Conversation.moveTo(oldPostCount);
+			// If we're _just_ on the edge of the conversation, move forward the amount of new posts.
+			else if (Conversation.startFrom + esoTalk.postsPerPage <= Conversation.postCount) Conversation.moveTo(Conversation.postCount - esoTalk.postsPerPage, "newReply");
+			// Otherwise, just display from where we currently are.
+			else Conversation.moveTo(Conversation.startFrom, "newReply");
+			
+			// Reset the post-checking timeout.
+			Conversation.setReloadTimeout(Conversation.autoReloadInterval = esoTalk.autoReloadIntervalStart);
+		}
+	});
+},
+
+// Animate a new post (e.g. reply), fading it in and expanding its height from 0.
+animateNewPost: function(post) {
+	var overflowDiv = createOverflowDiv(post);
+	var height = overflowDiv.offsetHeight;
+	overflowDiv.style.height = "0px";
+	setTimeout(function(){(overflowDiv.animation = new Animation(function(values, final) {
+		overflowDiv.style.height = final ? "" : values[0] + "px";
+		overflowDiv.style.opacity = final ? "" : values[1];
+	}, {begin: [0, 0], end: [height, 1]})).start()}, 1);
+},
+
+// Animate a post expanding/shrinking to the correct height when being edited.
+animateEditPost: function(post, startHeight) {
+	var overflowDiv = createOverflowDiv(post);
+	(overflowDiv.animation = new Animation(function(height, final) {
+		overflowDiv.style.height = final ? "" : height + "px";
+	}, {begin: startHeight, end: overflowDiv.offsetHeight})).start();
+},
+
+// Animate a post being deleted, shrinking it from its height when it was not deleted (startHeight).
+animateDeletePost: function(post, startHeight) {
+	post.style.overflow = "hidden";
+	(post.animation = new Animation(function(height, final) {
+		post.style.height = final ? "" : height + "px";
+	}, {begin: startHeight, end: post.offsetHeight})).start();
+},
+
+// Start a new conversation.
+startConversation: function(draft) {
+
+	// Prepare the conversation data.
+	var title = encodeURIComponent(getById("cTitle").placeholderFlag ? "" : getById("cTitle").value);
+	var content = encodeURIComponent(getById("reply-textarea").value);
+	var tags = encodeURIComponent(getById("cTags").placeholderFlag ? "" : getById("cTags").value);
+	
+	// Disable the post reply and save draft buttons.
+	disable(getById("postReply")); disable(getById("saveDraft"));
+	
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=startConversation&content=" + content + "&title=" + title + "&tags=" + tags + (draft ? "&draft=true" : ""),
+		"success": function() {
+			// If there was an error, enable the buttons.
+			if (this.messages) {enable(getById("postReply")); enable(getById("saveDraft"));}
+			// Otherwise, redirect to the new conversation page.
+			else if (!this.messages && this.result.redirect) {
+				Conversation.editingReply = false;
+				document.location = this.result.redirect;
+			}
+		}
+	});
+},
+
+// Confirm the deletion of the conversation.
+deleteConversation: function onclick() {return confirm(esoTalk.language["confirmDeleteConversation"]);},
+
+// Save a draft.
+saveDraft: function() {
+	
+	// If this is a new conversation, just use the startConversation function
+	if (!Conversation.id) {
+		Conversation.startConversation(true);
+		return;
+	}
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=saveDraft&id=" + Conversation.id + "&content=" + encodeURIComponent(getById("reply-textarea").value),
+		"success": function() {
+			if (this.messages) return;
+			Messages.hideMessage("emptyPost");
+			
+			// Show the draft label, disable the save draft button, and enable the discard draft button.
+			show(getElementsByClassName(getById("cLabels"), "draft")[0]);
+			disable(getById("saveDraft")); enable(getById("discardDraft"));
+			Conversation.editingReply = false;
+		}
+	});
+},
+
+// Discard a draft.
+discardDraft: function() {
+	
+	// If there are no posts in the conversation (ie. it's a draft conversation), delete the conversation.
+	if (!this.postCount) {
+		window.location = window.location.split("?")[0] + "?delete";
+		return;
+	}
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=discardDraft&id=" + Conversation.id,
+		"success": function() {
+			
+			// Hide the draft label and reinitialize the reply area.
+			hide(getElementsByClassName(getById("cLabels"), "draft")[0]);
+			getById("reply-textarea").value = "";
+			Conversation.togglePreview("reply", false);
+			Conversation.initReply();
+		}
+	});
+},
+
+// Delete a post.
+deletePost: function(postId) {
+	
+	// Check if we're editing any posts - if we are, confirm it with the user.
+	if (Conversation.editingPosts > 0 && !confirm(Conversation.beforeUnload())) return false;
+	else Conversation.editingPosts = 0;
+	
+	// Reload the posts on this page so we can redisplay them when needed.
+	Conversation.reloadPosts(Conversation.startFrom, null, true);
+	
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=deletePost&postId=" + postId,
+		"success": function() {
+			if (this.messages) return;
+			
+			// Find the post we just deleted and change its deleteMember to the current user, then redisplay the posts.
+			for (var i in Conversation.posts) {
+				if (Conversation.posts[i].id == postId) {
+					Conversation.posts[i].deleteMember = esoTalk.user;
+					Conversation.posts[i].body = "";
+					var oldHeight = getById("p" + postId).offsetHeight;
+					Conversation.displayPosts();
+					Conversation.animateDeletePost(getById("p" + postId), oldHeight);
+					break;
+				}
+			}
+		}
+	});
+},
+
+// Restore a deleted post.
+restorePost: function(postId) {
+	
+	// Check if we're editing any posts - if we are, confirm it with the user.
+	if (Conversation.editingPosts > 0 && !confirm(Conversation.beforeUnload())) return false;
+	else Conversation.editingPosts = 0;
+	
+	// Reload the posts on this page so we can redisplay them when needed.
+	Conversation.reloadPosts(Conversation.startFrom, null, true);
+
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			if (this.messages) return;
+			
+			// Update the post cache with the restored post, and redisplay the posts.
+			for (var i in this.result) Conversation.posts[i] = this.result[i];
+			var oldHeight = getById("p" + postId).offsetHeight;
+			Conversation.displayPosts();
+			Conversation.animateNewPost(getById("p" + postId));
+		},
+		"post": "action=restorePost&postId=" + postId
+	});
+},
+
+// Show a deleted post.
+showDeletedPost: function(postId) {
+	
+	// Reload the posts on this page so we can redisplay them when needed.
+	Conversation.reloadPosts(Conversation.startFrom, null, true);
+	
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=showDeletedPost&postId=" + postId,
+		"success": function() {
+			if (this.messages) return;
+			
+			// Find the post we're showing and update its body, then redisplay the posts.
+			for (var i in Conversation.posts) {
+				if (Conversation.posts[i].id == postId) {
+					Conversation.posts[i].body = this.result;
+					var oldHeight = getById("p" + postId).offsetHeight;
+					Conversation.displayPosts();
+					Conversation.animateDeletePost(getById("p" + postId), oldHeight);
+					break;
+				}
+			}
+		}
+	});
+},
+
+// Hide a deleted post.
+hideDeletedPost: function(postId) {
+	
+	// Reload the posts on this page so we can redisplay them when needed.
+	Conversation.reloadPosts(Conversation.startFrom, null, true);
+	
+	// Find the post we're hiding and clear its body, then redisplay the posts.
+	for (var i in Conversation.posts) {
+		if (Conversation.posts[i].id == postId) {
+			Conversation.posts[i].body = "";
+			oldHeight = getById("p" + postId).offsetHeight;
+			Conversation.displayPosts();
+			Conversation.animateDeletePost(getById("p" + postId), oldHeight);
+			break;
+		}
+	}
+},
+
+// Edit a post - make the post area into a textarea.
+editPost: function(postId) {
+	
+	// If we're already editing this post, don't do anything.
+	if (getById("p" + postId).editing) return;
+	getById("p" + postId).editing = true;
+	
+	// Get the editing controls and textarea HTML with an ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=getEditPost&postId=" + postId,
+		"success": function() {
+			if (this.messages) return;
+			Conversation.editingPosts++;
+			var startHeight = getById("p" + postId).offsetHeight;
+
+			// Update the post controls and body HTML.
+			var controls = getElementsByClassName(getById("p" + postId), "controls")[0];
+			var body = getElementsByClassName(getById("p" + postId), "body")[0];
+			controls.old = controls.innerHTML;
+			body.old = body.innerHTML;
+			body.className += " edit";
+			controls.innerHTML = this.result.controls;
+			body.innerHTML = this.result.body;
+			
+			// Animate the post.
+			Conversation.animateEditPost(getById("p" + postId), startHeight);
+			
+			// Scroll to the bottom of the edit area if necessary.
+			var scrollTo = getOffsetTop(getById("p" + postId)) + getById("p" + postId).offsetHeight - getClientDimensions()[1] + 10;
+			if (getScrollTop() < scrollTo) Conversation.scrollTo(scrollTo);
+			
+			// Regsiter the Ctrl+Enter shortcut on the post's textarea.
+			getById("p" + postId + "-textarea").onkeypress = function onkeypress(e) {
+				if (!e) e = window.event;
+				if (e.ctrlKey && e.keyCode == 13) {
+					Conversation.saveEditPost(postId, this.value);
+					return false;
+				}
+			}
+		}
+	});
+},
+
+// Save an edited post to the database.
+saveEditPost: function(postId, content) {
+
+	// Disable the buttons.
+	var buttons = getElementsByClassName(getElementsByClassName(getById("p" + postId), "editButtons")[0], "button");
+	for (var i in buttons) disable(buttons[i]);
+	
+	// Make the ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			// If there was an error, enable the buttons.
+			if (this.messages) {
+				for (var i in buttons) enable(buttons[i]);
+				return;
+			}
+			// Success! Revert the post back to normal.
+			getElementsByClassName(getById("p" + postId), "body")[0].old = this.result.content;
+			Conversation.cancelEdit(postId);
+			// In the post cache, find the post we just edited and change its content to the new content.
+			for (var i in Conversation.posts) {
+				if (Conversation.posts[i].id == postId) {
+					Conversation.posts[i].body = this.result.content;
+					break;
+				}
+			}
+		},
+		"post": "action=editPost&postId=" + postId + "&content=" + encodeURIComponent(content)
+	});
+},
+
+// Cancel editing a post.
+cancelEdit: function(postId) {
+	Conversation.editingPosts--;
+	getById("p" + postId).editing = false;
+	
+	// Change the post control and body HTML back to what it was before.
+	var controls = getElementsByClassName(getById("p" + postId), "controls")[0];
+	var body = getElementsByClassName(getById("p" + postId), "body")[0];
+	body.className = body.className.replace(" edit", "");
+	var startHeight = getById("p" + postId).offsetHeight;
+	controls.innerHTML = controls.old;
+	body.innerHTML = body.old;
+	
+	// Animate the post.
+	Conversation.animateEditPost(getById("p" + postId), startHeight);
+	
+	// Set the post-checking timeout.
+	Conversation.setReloadTimeout(Conversation.autoReloadInterval);
+},
+
+// Toggle sticky.
+toggleSticky: function() {
+	var label = getElementsByClassName(getById("cLabels"), "sticky")[0];
+	toggle(label);
+	getById("stickyLink").innerHTML = esoTalk.language[label.showing ? "Unsticky" : "Sticky"];
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=toggleSticky&id=" + Conversation.id
+	});
+},
+
+// Toggle lock.
+toggleLock: function() {
+	label = getElementsByClassName(getById("cLabels"), "locked")[0];
+	toggle(label);
+	getById("lockLink").innerHTML = esoTalk.language[label.showing ? "Unlock" : "Lock"];
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"post": "action=toggleLock&id=" + Conversation.id
+	});
+},
+
+// Add a member to the members allowed list.
+addMember: function(name) {
+	if (!name) return;
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			// Reset the add member form.
+			getById("addMember").value = "";
+			disable(getById("addMemberSubmit"));
+			if (this.messages) return;
+			
+			// Update the members allowed list and show the private label.
+			getById("allowedList").innerHTML = this.result.list;
+			show(getElementsByClassName(getById("cLabels"), "private")[0]);
+		}, 
+		"post": "action=addMember&member=" + encodeURIComponent(name) + (Conversation.id ? "&id=" + Conversation.id : "")
+	});
+},
+
+// Remove a member from the members allowed list.
+removeMember: function(name) {
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			// Update the members allowed list and hide the private label.
+			getById("allowedList").innerHTML = this.result.list;
+			if (!this.result.private) hide(getElementsByClassName(getById("cLabels"), "private")[0]);
+		},
+		"post": "action=removeMember&member=" + encodeURIComponent(name) + (Conversation.id ? "&id=" + Conversation.id : "")
+	});
+},
+
+// Save the tags.
+saveTags: function(tags) {
+	if (!Conversation.id) return false;
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {getById("cTags").value = this.result;},
+		"post": "action=saveTags&id=" + Conversation.id + "&tags=" + encodeURIComponent(tags)
+	});
+},
+
+// Save the title.
+saveTitle: function(title) {
+	if (!Conversation.id) return false;
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			// Update the title in the page titlebar as well as in the title input.
+			document.title = document.title.replace(Conversation.title, this.result);
+			getById("cTitle").value = Conversation.title = this.result;
+		},
+		"post": "action=saveTitle&id=" + Conversation.id + "&title=" + encodeURIComponent(title)
+	});
+},
+
+// Change a member's group.
+changeMemberGroup: function(memberId, group) {
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			if (this.messages) return;
+			
+			// Update all posts in the post cache by this member, and redisplay the posts.
+			for (var i in Conversation.posts) {
+				if (Conversation.posts[i].memberId == memberId) Conversation.posts[i].account = group;
+			}
+			Conversation.reloadPosts(Conversation.startFrom);
+		},
+		"post": "action=changeMemberGroup&memberId=" + encodeURIComponent(memberId) + "&group=" + encodeURIComponent(group)
+	});
+},
+
+// Formatting buttons.
+bold: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<b>", "</b>");},
+italic: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<i>", "</i>");},
+strikethrough: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<s>", "</s>");},
+header: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<h1>", "</h1>");},
+link: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<a href='http://example.com'>", "</a>", "http://example.com", "link text");},
+image: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<img src='", "'>", "", "http://example.com/image.jpg");},
+fixed: function(id) {Conversation.wrapText(getById(id + "-textarea"), "<pre>", "</pre>");},
+
+// Quotes.
+quote: function(id, name, quote) {
+	Conversation.wrapText(getById(id + "-textarea"), "<blockquote><cite>" + (name ? name : "Name") + "</cite> " + (quote ? quote : ""), "</blockquote>", (!name ? "Name" : null));
+},
+// Quote a post.
+quotePost: function(postId) {
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+		"success": function() {
+			var top = getScrollTop();
+			// Add the quote to the reply textarea.
+			Conversation.insertText(getById("reply-textarea"), "<blockquote><cite>" + this.result.member + "</cite> " + this.result.content + "</blockquote>\n");
+			// Scroll to the reply box if the user isn't holding down shift.
+			window.scroll(0, top);
+			if (!Conversation.multiQuote) Conversation.scrollTo("reply");
+		},
+		"post": "action=getPost&postId=" + postId
+	});
+},
+
+// Add text to the reply area at the very end, and move the cursor to the very end.
+insertText: function(textarea, text) {
+	textarea.focus();
+	textarea.value += text;
+	textarea.focus();
+	// Trigger the textarea's keyup to emulate typing.
+	getById("reply-textarea").onkeyup();
+},
+
+// Add text to the reply area, with the options of wrapping it around a selection and selecting a part of it when it's
+// inserted.
+wrapText: function(textarea, tagStart, tagEnd, selectArgument, defaultArgumentValue) {
+	
+	// Save the scroll position of the textarea.
+	var scrollTop = textarea.scrollTop;
+	
+	// Work out what text is currently selected.
+	if (typeof textarea.selectionStart != "undefined") {
+		var start = textarea.selectionStart, end = textarea.selectionEnd;
+		// Trim a space off either side.
+		if (textarea.value.substring(start, start + 1) == " ") start++;
+		if (textarea.value.substring(end - 1, end) == " ") end--;
+		var selection = textarea.value.substring(start, end);
+		var selectionStart = start;
+	} else if (document.selection.createRange) {
+		var selection = document.selection.createRange().text;
+		var selectionStart = 0;
+	}
+	
+	// Work out the text to insert over the selection.
+	selection = selection ? selection : (defaultArgumentValue ? defaultArgumentValue : "");
+	var text = tagStart + selection + (typeof tagEnd != "undefined" ? tagEnd : tagStart);
+	
+	// Replace the textarea's value (or the selection's value in IE's case).
+	if (typeof textarea.selectionStart != "undefined")
+		textarea.value = textarea.value.substr(0, start) + text + textarea.value.substr(end);
+	else if (document.selection && document.selection.createRange) {
+		textarea.focus();
+		range = document.selection.createRange();
+		range.text = text.replace(/\r?\n/g, "\r\n");
+		range.select();
+	} else textarea.value += text;
+	// Scroll back down and refocus on the textarea.
+	textarea.scrollTop = scrollTop;
+	textarea.focus();
+	
+	// If a selectArgument was passed, work out where it is and select it. Otherwise, select the text that was selected
+	// before this function was called.
+	// IE - move the cursor position relatively (from the end of the endTag).
+	if (typeof textarea.setSelectionRange == "undefined") {
+		range = document.selection.createRange();
+		tagEndLength = (typeof tagEnd != "undefined" ? tagEnd : tagStart).length;
+		if (selectArgument) {
+			argStart = tagStart.indexOf(selectArgument);
+			argEnd = argStart + selectArgument.length;
+			range.moveStart("character", -tagEndLength - selection.length - selectArgument.length - tagStart.length + argEnd);
+			range.moveEnd("character", -tagEndLength - selection.length - tagStart.length + argEnd);
+		} else {
+			range.moveStart("character", -tagEndLength - selection.length);
+			range.moveEnd("character", -tagEndLength);
+		}
+		range.select();
+	// Good browsers - move the cursor position easily.
+	} else {
+		if (selectArgument) {
+			newStart = selectionStart + tagStart.indexOf(selectArgument);
+			newEnd = newStart + selectArgument.length;
+		} else {
+			newStart = selectionStart + tagStart.length;
+			newEnd = newStart + selection.length;
+		}
+		textarea.setSelectionRange(newStart, newEnd);
+	}
+
+	// Trigger the textarea's keyup to emulate typing.
+	getById("reply-textarea").onkeyup();
+},
+
+// Toggle preview on an editing area.
+togglePreview: function(id, preview) {
+	
+	// If the preview box is checked...
+	if (preview) {
+		
+		// Hide the formatting buttons.
+		hide(getElementsByClassName(getById(id), "formattingButtons")[0]);
+		getById(id + "-preview").innerHTML = "";
+		
+		// Get the formatted post and show it.
+		Ajax.request({
+			"url": esoTalk.baseURL + "ajax.php?controller=conversation",
+			"success": function() {
+
+				// Keep the minimum height - won't work in IE. :(
+				getById(id + "-preview").style.minHeight = getById(id + "-textarea").offsetHeight + "px";
+				
+				// Hide the textarea, and show the preview.
+				hide(getById(id + "-textarea"));
+				show(getById(id + "-preview"));
+				getById(id + "-preview").innerHTML = this.result;
+			},
+			"post": "action=getPostFormatted&content=" + encodeURIComponent(getById(id + "-textarea").value)
+		});
+	}
+	
+	// The preview box isn't checked...
+	else {
+		// Show the formatting buttons and the textarea; hide the preview area.
+		show(getElementsByClassName(getById(id), "formattingButtons")[0]);
+		show(getById(id + "-textarea"));
+		hide(getById(id + "-preview"));
+	}
+}
+
+};
+
+
+
+// Search JavaScript
+
+var Search = {
+
+currentSearch: "", // The current search string.
+negativeGambit: false, // A flag which determines whether gambits should be added negatively when clicked on.
+updateCurrentResultsTimeout: null,
+checkForNewResultsTimeout: null,
+
+init: function() {
+
+	// Add an onclick handler to the search button.
+	getById("submit").getElementsByTagName("input")[0].onclick = function onclick() {
+		Search.search(getById("searchText").value);
+		return false;
+	};
+	// Add an onkeydown handler for when you press enter/escape in the search input.
+	getById("searchText").onkeydown = function onkeydown(e) {
+		if (!e) e = window.event;
+		if (e.keyCode == 13) { // Enter: perform a search.
+			Search.search(getById("searchText").value);
+			return false;
+		} else if (e.keyCode == 27) { // Escape: clear the search.
+			if (getById("searchText").value != "") setTimeout(function(){Search.search("");}, 1);
+			return false;
+		}
+	};
+	// Add an onclick handler to the reset link.
+	getById("reset").onclick = function onclick() {
+		Search.search("");
+		return false;
+	};
+
+	// Set an interval to check for changes to the URL hash
+	setInterval(function() {
+		var hash = window.location.hash.replace("#", "");
+		if (hash.length < 1) return;
+		var newSearch = decodeURIComponent(hash.substr(7));
+		if (Search.currentSearch != newSearch) {Search.search(newSearch);}
+	}, 500);
+	
+	// Initialise timeouts to update current results and check for new results.
+	Search.resetUpdateCurrentResultsTimeout();
+	Search.resetCheckForNewResultsTimeout();
+	
+	// Add click and double click handlers to all the tags and gambits.
+	var t = getById("tags").getElementsByTagName("a");
+	for (var i = 0; i < t.length; i++) {
+		t[i].onclick = function onclick() {Search.tag(Search.desanitize(this.innerHTML)); return false;};
+		t[i].ondblclick = function ondblclick() {Search.search((Search.negativeGambit ? "!" : "") + esoTalk.language["tag:"] + Search.desanitize(this.innerHTML)); return false;};
+	}
+	var g = getById("gambits").getElementsByTagName("a");
+	for (var i = 0; i < g.length; i++) {
+		g[i].onclick = function onclick() {Search.gambit(Search.desanitize(this.innerHTML)); return false;};
+		g[i].ondblclick = function ondblclick() {Search.search((Search.negativeGambit ? "!" : "") + Search.desanitize(this.innerHTML)); return false;};
+	}
+	
+	// Add events to tell whether the shift key is being held down. If so, set a flag to negate all gambit clicks.
+	document.onkeydown = function(e) {
+		if (!e) e = window.event;
+		if (e.keyCode == 16) Search.negativeGambit = true;
+	};
+	document.onkeyup = function(e) {
+		if (!e) e = window.event;
+		if (e.keyCode == 16) Search.negativeGambit = false;
+	};
+
+},
+
+// Set a timeout to update current results.
+resetUpdateCurrentResultsTimeout: function() {
+	if (!esoTalk.updateCurrentResultsInterval) return;
+	if (this.updateCurrentResultsTimeout) clearInterval(this.updateCurrentResultsTimeout);
+	this.updateCurrentResultsTimeout = setInterval(function() {Search.updateCurrentResults();}, esoTalk.updateCurrentResultsInterval * 1000);
+},
+
+// Set a timeout to check for new results.
+resetCheckForNewResultsTimeout: function() {
+	if (!esoTalk.checkForNewResultsInterval) return;
+	if (this.checkForNewResultsTimeout) clearInterval(this.checkForNewResultsTimeout);
+	this.checkForNewResultsTimeout = setInterval(function() {Search.checkForNewResults();}, esoTalk.checkForNewResultsInterval * 1000);
+},
+
+// Get rid of HTML entities from tags and gambits.
+desanitize: function(value) {
+	return value.replace(/\u00a0|&nbsp;/gi, " ").replace(/&gt;/gi, ">").replace(/&lt;/gi, "<").replace(/&amp;/gi, "&");
+},
+
+// Perform a search.
+search: function(query, hideLoading) {
+	Search.currentSearch = getById("searchText").value = query;
+	window.location.hash = "search:" + (query ? encodeURIComponent(query) : "");
+	Search.resetUpdateCurrentResultsTimeout();
+	Search.resetCheckForNewResultsTimeout();
+		
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=search",
+		"post": "action=search&query=" + encodeURIComponent(query),
+		"background": hideLoading,
+		"success": function() {
+			if (this.messages) return;
+			// Display the new results.
+			getById("searchResults").innerHTML = this.result;
+			Messages.hideMessage("waitToSearch");
+		}
+	});
+},
+
+// Check for new results in the current search.
+checkForNewResults: function() {
+	
+	// Construct a list of the conversation IDs which are in the current resultset.
+	var conversationIds = "";
+	var rows = getById("conversations").getElementsByTagName("tr");
+	for (var i = 0; i < rows.length; i++) conversationIds += rows[i].id.substr(1) + ",";
+	
+	// Make an ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=search",
+		"post": "action=checkForNewResults&conversationIds=" + conversationIds + "&query=" + encodeURIComponent(Search.currentSearch),
+		"background": true,
+		"success": function() {
+			if (!this.result.newActivity) return;
+			// If there is new activity, show the 'new activity' message.
+			getById("newResults").style.display = "table-row";
+			show(getById("newResults").getElementsByTagName("div")[0], {animation: "verticalSlide"});
+			clearInterval(Search.checkForNewResultsTimeout);
+		}
+	});
+},
+
+// Update the current search results with new post counts, last post times, etc.
+updateCurrentResults: function() {
+	
+	// Construct a list of conversation IDs for which to get updated details.
+	var conversationIds = "";
+	var rows = getById("conversations").getElementsByTagName("tr");
+	var count = Math.min(rows.length, 20);
+	for (var i = 0; i < count; i++) conversationIds += rows[i].id.substr(1) + ",";
+	if (!conversationIds) return;
+	
+	// Make an ajax request.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=search",
+		"post": "action=updateCurrentResults&conversationIds=" + conversationIds,
+		"background": true,
+		"success": function() {
+			if (!this.result) return;
+			
+			// For each of the conversations...
+			for (var i in this.result.conversations) {
+				if (!getById("c" + i)) continue;
+				var row = getById("c" + i);
+				var data = this.result.conversations[i];
+				
+				// Update the last post member and time.
+				if (data.postCount > 1) {
+					getElementsByClassName(row, "lastPostMember")[0].innerHTML = data.lastPostMember;
+					getElementsByClassName(row, "lastPostTime")[0].innerHTML = data.lastPostTime;
+				}
+				
+				// Update the post count.
+				getElementsByClassName(row, "postCount")[0].innerHTML = data.postCount;
+				
+				// Mark the conversation title as read or unread.
+				row.getElementsByTagName("strong")[0].className = data.unread ? "" : "read";
+				
+				// Update the star.
+				var star, cell;
+				if ((cell = getElementsByClassName(row, "star")[0]) && (star = cell.getElementsByTagName("a")[0])) {
+					star.className = data.starred ? "star1" : "star0";
+					star.getElementsByTagName("span")[0].innerHTML = esoTalk.language[data.starred ? "Starred" : "Unstarred"];
+					row.className = data.starred ? "starred" : "";
+				}
+			}
+			
+			// Update forum statistics.
+			for (var i in this.result.statistics) {
+				if (getById("statistic-" + i)) getById("statistic-" + i).innerHTML = this.result.statistics[i];
+			}
+		}
+	});
+},
+
+// View more search results - just search with the "more results" gambit.
+viewMore: function() {
+	Search.search(getById("searchText").value + (getById("searchText").value ? " + " : "") + esoTalk.language["more results"]);
+},
+
+// Show new activity - an alias for reperforming the current search.
+showNewActivity: function() {
+	Search.search(Search.currentSearch);
+	Search.resetCheckForNewResultsTimeout();
+},
+
+// Add (or take away) a gambit from the search input.
+gambit: function(gambit) {
+	
+	// Get the initial length of the search text.
+	var initialLength = getById("searchText").value.length;
+	
+	// Make a regular expression to find any instances of the gambit already in there.
+	var safe = gambit.replace(/([?^():\[\]])/g, "\\$1");
+	var regexp = new RegExp(this.negativeGambit
+		? "( ?(- *|!)" + safe + " *$|^ *!" + safe + " *\\+ ?| ?(- *|!)" + safe + "|^ *!" + safe + " *$)"
+		: "( ?\\+ *" + safe + " *$|^ *" + safe + " *\\+ ?| ?\\+ *" + safe + "|^ *" + safe + " *$)"
+	, "i");
+	
+	// If there is an instance, take it out.
+	if (getById("searchText").value.match(regexp)) getById("searchText").value = getById("searchText").value.replace(regexp, "");
+	
+	// Otherwise, insert the gambit with a +, -, or ! before it.
+	else {
+		var insert = (getById("searchText").value ? (this.negativeGambit ? " - " : " + ") : (this.negativeGambit ? "!" : "")) + gambit;
+		getById("searchText").focus();
+		getById("searchText").value += insert;
+		
+		// If there is an instance of "?" or ":member" in the gambit, we want to select it so the user can type over it.
+		var placeholderIndex, placeholder;
+		if (insert.indexOf("?") != -1) {
+			placeholderIndex = insert.indexOf("?");
+			placeholder = "?";
+		} else if (insert.indexOf(":" + esoTalk.language["member"]) != -1) {
+			placeholderIndex = insert.indexOf(":" + esoTalk.language["member"]) + 1;
+			placeholder = esoTalk.language["member"];
+		}
+		if (placeholderIndex) {
+			// IE - move the cursor position relatively.
+			if (typeof getById("searchText").setSelectionRange == "undefined") {
+				var range = document.selection.createRange();
+				range.moveStart("character", -insert.length + placeholderIndex);
+				range.moveEnd("character", -insert.length + placeholderIndex + placeholder.length);
+				range.select();
+			// Good browsers - move the cursor position easily.
+			} else getById("searchText").setSelectionRange(initialLength + placeholderIndex, initialLength + placeholderIndex + placeholder.length);
+		}
+	}
+},
+
+// Add (or take away) a tag from the search input.
+tag: function(tag) {
+	Search.gambit(esoTalk.language["tag:"] + tag);
+}
+
+};
+
+
+
+// "Join this forum" JavaScript.
+var Join = {
+
+fieldsValidated: {}, // An array of fields and if they've been validated.
+timeouts: {},
+
+// Initialize: disable the join button and set up the fields so they will automatically validate when typed in.
+init: function() {
+	var disableButton = false;
+	for (var i in this.fieldsValidated) {
+		getById(i).onkeydown = Join.validateField;
+		if (!this.fieldsValidated[i]) disableButton = true;
+	}
+	if (disableButton) disable(getById("joinSubmit"));
+},
+
+// Validate a field with AJAX.
+validateField: function() {
+	var field = this;
+	clearTimeout(Join.timeouts[field.id]);
+	
+	// Set a timeout so that the validation will only take place after the user has finished typing.
+	Join.timeouts[field.id] = setTimeout(function() {
+		Ajax.request({
+			"url": esoTalk.baseURL + "ajax.php?controller=join",
+			"success": function() {
+				Join.fieldsValidated[field.id] = this.result.validated;
+
+				// Change the message next to the field.
+				message = getById(field.id + "-message");
+				message.innerHTML = this.result.message;
+				
+				// Are all fields in the form validated? If so, enable the submit button.
+				var formCompleted = true;
+				for (var j in Join.fieldsValidated) {
+					if (!Join.fieldsValidated[j]) formCompleted = false;
+				}
+				if (formCompleted) enable(getById("joinSubmit"));
+				else disable(getById("joinSubmit"));
+			},
+			"post": "action=validate&field=" + field.id + "&value=" + encodeURIComponent(field.value) +
+			// If we're validating the confirm password field, we'll need to know the password as well.
+			(field.id == "confirm" ? "&password=" + encodeURIComponent(getById("password").value) : "")
+		});
+			
+		// If we're validating the password field, validate the confirm password field too.
+		if (field.id == "password") getById("confirm").onkeydown();
+	}, 500);			
+}
+
+};
+
+
+
+// Settings JavaScript.
+var Settings = {
+
+// Change the user's color.
+changeColor: function(color) {
+	
+	// If the user's color is already set to this, we don't need to do anything!
+	if ((new RegExp("c" + color + "$")).test(getById("preview").className)) return;
+	
+	// Make an AJAX request to change the color.
+	Ajax.request({
+		"url": esoTalk.baseURL + "ajax.php?controller=settings",
+		"success": function() {
+			if (this.messages) return;
+			
+			// Loop through the colors in the palette and "unselect" them.
+			var colors = getById("palette").getElementsByTagName("a");
+			for (var i = 0, c; c = colors[i]; i++) c.className = c.className.replace("selected", "");
+			
+			// Change the classes of the selected color and the preview post.
+			getById("color-" + color).className += " selected";
+			getById("preview").className = getById("preview").className.replace(/c\d+/, "c" + color);
+			
+		},
+		"post": "action=changeColor&color=" + color,
+		"background": false
+	});
+},
+
+// Toggle the visibility of a fieldset. The fieldset contents must have id='{id}Form'.
+toggleFieldset: function(id) {
+	toggle(getById(id + "Form"), {animation: "verticalSlide"});
+	getById(id).className = getById(id + "Form").showing ? "" : "hidden";
+},
+
+// Hide a fieldset (without animation). The fieldset contents must have id='{id}Form'.
+hideFieldset: function(id) {
+	hide(getById(id + "Form"));
+	getById(id).className = "hidden";
+}
+
+};
