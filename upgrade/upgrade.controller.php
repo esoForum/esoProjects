@@ -125,7 +125,7 @@ function warning($msg)
 	$_SESSION["warnings"][] = $msg;	
 }
 
-// 1.0.0 beta 1 -> 1.0.0 beta 2
+// 1.0 beta 1 -> 1.0 release
 function upgrade_100b2()
 {
 	global $config;
@@ -134,7 +134,7 @@ function upgrade_100b2()
 	$this->query("ALTER TABLE {$config["tablePrefix"]}members MODIFY COLUMN cookieIP int unsigned default NULL");	
 }
 
-// 1.0.0 alpha 5 -> 1.0.0 beta 1
+// 1.0 alpha 5 -> 1.0 beta 1
 function upgrade_100b1()
 {
 	global $config;
