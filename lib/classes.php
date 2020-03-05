@@ -139,6 +139,12 @@ function getView($view)
 	return empty($this->views[$view]) ? "views/$view" : $this->views[$view];
 }
 
+function getForumLogo()
+{
+	global $config;
+	return !empty($config["forumLogo"]) ? $config["forumLogo"] : "skins/{$config["skin"]}/logo.gif";
+}
+	
 }
 
 ?>
