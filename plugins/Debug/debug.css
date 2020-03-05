@@ -14,6 +14,7 @@
 @media only screen and (max-width:740px) {
 #debugSetting {clear:left; float:none; padding-top:5px}
 #debug h2 small, #debugSetting input {margin-left:0}
+#debugHdr small {margin-left:10px!important}
 }
 
 @media only screen and (max-width:570px) {
