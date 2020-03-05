@@ -85,7 +85,7 @@ $esoTalk->esoTalk =& $esoTalk;
 if (isset($_POST["new"]) and !defined("AJAX_REQUEST")) redirect("conversation", "new");
 
 // Include the language file.
-$esoTalk->language = sanitizeFileName((isset($_SESSION["user"]["language"]) and file_exists("languages/{$_SESSION["user"]["language"]}.php")) ? $_SESSION["user"]["language"] : $config["language"]);
+$esoTalk->language = sanitizeFileName((!empty($_SESSION["user"]["language"]) and file_exists("languages/{$_SESSION["user"]["language"]}.php")) ? $_SESSION["user"]["language"] : $config["language"]);
 if (file_exists("languages/$esoTalk->language.php")) include "languages/$esoTalk->language.php";
 // If we haven't got a working language, show an error!
 if (empty($language)) $esoTalk->fatalError("esoProjects can't find a language file to use. Please make sure <code>languages/$esoTalk->language.php</code> exists or change the default language by adding <code>\"language\" => \"YourLanguage\",</code> to <code>config/config.php</code>.", "language");
