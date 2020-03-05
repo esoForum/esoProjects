@@ -106,7 +106,7 @@ $queries[] = "CREATE TABLE {$config["tablePrefix"]}searches (
 // Create the account for the administrator.
 $color = rand(1, 27);
 $queries[] = "INSERT INTO {$config["tablePrefix"]}members (memberId, name, email, password, color, account) VALUES 
-(1, '{$_SESSION["install"]["adminUser"]}', '{$_SESSION["install"]["adminEmail"]}', '" . md5($config["salt"] . $_SESSION["install"]["adminPass"]) . "', $color, 'Administrator', '{$_SESSION["install"]["language"]}')";
+(1, '{$_SESSION["install"]["adminUser"]}', '{$_SESSION["install"]["adminEmail"]}', '" . md5($config["salt"] . $_SESSION["install"]["adminPass"]) . "', $color, 'Administrator')";
 
 // Create default conversations.
 $time = time();
