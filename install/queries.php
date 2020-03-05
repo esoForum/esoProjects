@@ -71,7 +71,7 @@ $queries[] = "CREATE TABLE {$config["tablePrefix"]}members (
 	password char(32) NOT NULL,
 	color tinyint unsigned NOT NULL default '1',
 	account enum('Administrator','Moderator','Member','Suspended','Unvalidated') NOT NULL default 'Unvalidated',
-	language varchar(31) NOT NULL,
+	language varchar(31) default '',
 	avatarAlignment enum('alternate','right','left') NOT NULL default 'alternate',
 	avatarFormat enum('jpg','png','gif') default NULL,
 	emailOnPrivateAdd tinyint(1) NOT NULL default '1',
