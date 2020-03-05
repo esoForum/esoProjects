@@ -295,7 +295,7 @@ function checkForUpdates()
 	fclose($handle);
 	
 	// Compare the installed version and the latest version. Show a message if there is a new version.
-	if (version_compare(ESOTALK_VERSION, $latestVersion) == -1) $this->message("updatesAvailable", false, $latestVersion);
+	if (version_compare(ESOTALK_VERSION, $latestVersion) == -1) $latestVersion;
 }
 
 // Check the first parameter of the URL against $name, and instigate the controller it refers to if they match.
