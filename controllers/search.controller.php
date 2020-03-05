@@ -128,8 +128,9 @@ function init()
 	if (!defined("AJAX_REQUEST")) {
 	
 		// Assign the latest search to a session variable.
-		if (isset($_GET["q"])) $_GET["q2"] = $_GET["q"];
-		$this->searchString = $_SESSION["search"] = @$_GET["q2"];
+		if (isset($_GET["q"])) $this->searchString = $_GET["q"];
+ 		elseif (@$_GET["q1"] == "search") $this->searchString = $_GET["q2"];
+ 		$_SESSION["search"] = $this->searchString;
 		
 		// Add JavaScript language definitions and variables.
 		$this->esoTalk->addLanguageToJS("Starred", "Unstarred", array("gambits", "member"), array("gambits", "tag:"), array("gambits", "more results"));
