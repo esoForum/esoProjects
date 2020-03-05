@@ -142,7 +142,7 @@ function getView($view)
 function getForumLogo()
 {
 	global $config;
-	return !empty($config["forumLogo"]) ? $config["forumLogo"] : "skins/{$config["skin"]}/logo.gif";
+	return !empty($config["forumLogo"]) ? $config["forumLogo"] : "skins/{$config["skin"]}/logo.svg";
 }
 	
 }
