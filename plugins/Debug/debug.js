@@ -1,1 +1,46 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5.E=k;5.1=c(1){8(!1||0.T)f b;8(!1.e)1.e=c(){};8(!1.n)1.n=1.e;1.e=c(){0.n();8(!5.E&&0.S)f;8(R 0.3.z=="Q")f;4("U").6=0.3.z;4("V").6=0.3.Y;4("P").6=0.3.X;4("G").6=0.3.G;4("K").6=0.3.K;4("w").6=0.3.w;4("q").6=0.3.q;4("o").6=0.3.o;8(0.3.I)l.i("W","9","<2 J=\'t:s;u-v:r\'>"+0.3.I+"</2>",b)};0.H.Z(1);0.M()};5.L=c(1){0.O=k;1.N=k;0.d=1;0.H=[];l.i("C","1l",1k.1j["C"],b);l.i("1i","9","<a 1g=\'#\' 1h=\'5.y(0);f b\'>x j 9</a><2 1m=\'m\' J=\'1s:10;t:s;u-v:r\'><D 1r=\'1q\'>"+"<h><7>1n p 1o</7><2>"+5.d.A.p+"</2>"+"<h><7>1p 1f</7><2>"+5.d.1e+"</2>"+"<h><7>15 16</7><2>"+5.d.14+"</2>"+"<h><7>13 11</7><2>"+5.d.A.12.B(/</g,"&17;").B(/>/g,"&18;")+"</2>"+"</D></2>",b)};5.y=c(F){1d(4("m"),{1c:"1b"});F.6=!4("m").19?"x j 9":"1a j 9"};',62,91,'this|request|div|json|getById|Ajax|innerHTML|label|if|info||false|function|disconnectedRequest|success|return||li|showMessage|debug|true|Messages|debugInfo|_success|debugCookie|status|debugSession|400px|auto|overflow|max|height|debugFiles|show|toggleDebugInfo|queries|http|replace|ajaxDisconnected|ul|debugUpdateBackground|link|debugPost|queue|log|style|debugGet|disconnect|doNextRequest|repeat|disconnected|debugLoadTime|undefined|typeof|background|beenLoggedOut|debugQueries|debugQueriesCount|debugLog|loadTime|queriesCount|push|none|text|responseText|Response|post|POST|data|lt|gt|showing|hide|verticalSlide|animation|toggle|url|URL|href|onclick|disconnectedInfo|language|esoTalk|warning|id|HTTP|code|Request|form|class|display'.split('|'),0,{}))
+Ajax.debugUpdateBackground = true;
+
+// Override all ajax request success methods to parse debug information from the json result.
+Ajax.request = function(request) {
+	if (!request || this.beenLoggedOut) return false;
+	if (!request.success) request.success = function() {};
+	if (!request._success) request._success = request.success;
+	request.success = function() {
+		this._success();
+		if (!Ajax.debugUpdateBackground && this.background) return;
+		if (typeof this.json.queries == "undefined") return;
+		getById("debugQueries").innerHTML = this.json.queries;
+		getById("debugQueriesCount").innerHTML = this.json.queriesCount;
+		getById("debugLoadTime").innerHTML = this.json.loadTime;
+		getById("debugPost").innerHTML = this.json.debugPost;
+		getById("debugGet").innerHTML = this.json.debugGet;
+		getById("debugFiles").innerHTML = this.json.debugFiles;
+		getById("debugSession").innerHTML = this.json.debugSession;
+		getById("debugCookie").innerHTML = this.json.debugCookie;
+		getById("debugHooks").innerHTML = this.json.hookedFunctions;
+		if (this.json.log) Messages.showMessage("debugLog", "info", "<div style='overflow:auto;max-height:400px'>" + this.json.log + "</div>", false);
+	};
+	this.queue.push(request);
+	this.doNextRequest();
+};
+
+// Override the disconnect function to show debug information when there's a fatal error.
+Ajax.disconnect = function(request) {
+	this.disconnected = true;
+	request.repeat = true;
+	this.disconnectedRequest = request;
+	this.queue = [];
+	Messages.showMessage("ajaxDisconnected", "warning", esoTalk.language["ajaxDisconnected"], false);
+	Messages.showMessage("disconnectedInfo", "info", "<a href='#' onclick='Ajax.toggleDebugInfo(this);return false'>show debug info</a><div id='debugInfo' style='display:none;overflow:auto;max-height:400px'><ul class='form'>" +
+		"<li><label>HTTP status code</label><div>" + Ajax.disconnectedRequest.http.status + "</div>" +
+		"<li><label>Request URL</label><div>" + Ajax.disconnectedRequest.url + "</div>" +
+		"<li><label>POST data</label><div>" + Ajax.disconnectedRequest.post + "</div>" +
+		"<li><label>Response text</label><div>" + Ajax.disconnectedRequest.http.responseText.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "</div>" +
+		"</ul></div>", false);
+};
+
+// Toggle the debug information in the ajax disconnected message.
+Ajax.toggleDebugInfo = function(link) {
+	toggle(getById("debugInfo"), {animation: "verticalSlide"});
+	link.innerHTML = !getById("debugInfo").showing ? "show debug info" : "hide debug info";
+};
