@@ -21,7 +21,7 @@ if(!defined("IN_ESOTALK"))exit;?>
 <div id='hdrbarpack'>
 
 <div id='hdr'>
-<h1><a href='' title='<?php echo $config["forumTitle"];?>'><img src='<?php echo !empty($config["forumLogo"])?$config["forumLogo"]:"skins/{$config["skin"]}/logo.svg";?>' data-fallback='<?php echo !empty($config["forumLogo"])?$config["forumLogo"]:"skins/{$config["skin"]}/logo.png";?>' alt=''/> <span id='forumTitle'><?php echo $config["forumTitle"];?></span></a></h1>
+<h1><a href='' title='<?php echo $config["forumTitle"];?>'><img src='<?php echo $this->skin->getForumLogo(); ?>' data-fallback='<?php echo !empty($config["forumLogo"])?$config["forumLogo"]:"skins/{$config["skin"]}/logo.png";?>' alt=''/> <span id='forumTitle'><?php echo $config["forumTitle"];?></span></a></h1>
 <?php if($this->action=="search"):?>
 <p id='stats'>
 <?php foreach($this->getStatistics() as $k=>$v):?>
