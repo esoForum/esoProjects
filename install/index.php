@@ -65,7 +65,7 @@ case "fatalChecks": ?>
 <ul>
 <?php foreach ($install->errors as $error) echo "<li>$error</li>"; ?>
 </ul>
-<p>If you run into any other problems or just want some help with the installation, feel free to ask for assistance on <a href='https://esotalk.net/'>esoForum</a> where a bunch of friendly people will be happy to help you out.</p>
+<p>If you run into any other problems or just want some help with the installation, feel free to <a href='https://github.com/esoForum/esoProjects/issues/new'>open an issue</a> where a bunch of friendly people will be happy to help you out.</p>
 <hr/>
 <p id='footer'><input class='button' value='Try again' type='submit'/></p>
 <?php break;
@@ -74,12 +74,12 @@ case "fatalChecks": ?>
 // Warning checks.
 case "warningChecks": ?>
 <h1><img src='logo.svg' data-fallback='logo.png' alt='esoForum logo'/>Warning!</h1>
-<p>The following errors were found with your esoProjects setup. You can continue the esoProjects install without resolving them, but some esoForum functionality may be limited.</p>
+<p>The following errors were found with your esoProjects setup. You can continue the esoProjects install without resolving them, but some functionality may be limited.</p>
 <hr/>
 <ul>
 <?php foreach ($install->errors as $error) echo "<li>$error</li>"; ?>
 </ul>
-<p>If you run into any other problems or just want some help with the installation, feel free to ask for assistance at <a href='https://esotalk.net/'>esoForum</a> where a bunch of friendly people will be happy to help you out.</p>
+<p>If you run into any other problems or just want some help with the installation, feel free to <a href='https://github.com/esoForum/esoProjects/issues/new'>open an issue</a> where a bunch of friendly people will be happy to help you out.</p>
 <hr/>
 <p id='footer'><input class='button' value='Next step &#155;' type='submit' name='next'/></p>
 <?php break;
@@ -89,7 +89,7 @@ case "warningChecks": ?>
 case "info": ?>
 <h1><img src='logo.svg' alt=''/>Specify setup information</h1>
 <p>Welcome to the esoProjects installer! We need a few details from you so we can get your forum set up and ready to go.</p>
-<p>If you have any trouble, get help on <a href='https://esotalk.net/'>esoForum</a>!</p>
+<p>If you have any trouble, get help on the <a href='https://github.com/esoForum/esoProjects'>project repository</a>!</p>
 <hr/>
 
 <ul class='form'>
@@ -179,7 +179,7 @@ case "install": ?>
 <ul>
 <li><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</li>
 <li><strong>Go back and check your settings.</strong> In particular, make sure your database information is correct.</li>
-<li><strong>Get help.</strong> Go on <a href='https://esotalk.net/' title='Don&#039;t worry, we&#039;re friendly!'>esoForum</a> and <a href='https://esotalk.net/search/tag:installation'>search</a> to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</li>
+<li><strong>Get help.</strong> Go on the <a href='https://github.com/esoForum/esoProjects/issues'>project repository</a> to see if anyone else is having the same problem as you are. If not, open a new issue, including the error details below.</li>
 </ul>
 
 <a href='#' onclick='toggleError();return false'>Show error information</a>
