@@ -93,12 +93,6 @@ function init()
 				"html" => "<label for='disableJSEffects' class='checkbox'>{$language["disableJSEffects"]}</label> <input id='disableJSEffects' type='checkbox' class='checkbox' name='disableJSEffects' value='1' " .  (!empty($this->esoTalk->user["disableJSEffects"]) ? "checked='checked' " : "") . "/>",
 				"databaseField" => "disableJSEffects",
 				"checkbox" => true
-			),
-			600 => array(
-				"id" => "useDarkMode",
-				"html" => "<label for='useDarkMode' class='checkbox'>{$language["useDarkMode"]}</label> <input id='useDarkMode' type='checkbox' class='checkbox' name='useDarkMode' value='1' " .  (!empty($this->esoTalk->user["useDarkMode"]) ? "checked='checked' " : "") . "/>",
-				"databaseField" => "useDarkMode",
-				"checkbox" => true
 			)
 		)
 		
