@@ -275,6 +275,21 @@ blockquote p {margin-bottom:.75em}
 #palette table#tblfirst a.selected {margin-top:-3px}
 #palette table#tblsecond a.selected {height:37px}
 
+/* Admin */
+#admin {border-left:175px solid #eee; margin:-15px -25px; background:#fff;}
+#admin .menu {float:left; width:175px; margin:0; margin-left:-175px; padding:10px 0; border-right:1px solid #ccc;}
+#admin .menu li {list-style-type:none; margin:0; padding:0; display:block}
+#admin .menu li a {display:block; margin-left:15px; padding:10px 15px; font-size:120%;}
+#admin .menu li.active a {background:#fff; border:solid #ccc; border-width:1px 0 1px 1px; margin-right:-1px; color:#000; font-weight:bold;}
+#admin .inner {padding:15px 25px; padding-bottom:2px; margin-bottom:15px; border-left:1px solid #ccc;}
+#admin .stats label {font-weight:normal; text-align:left; width:30%}
+#admin .stats div {float:none; font-size:115%; margin-left:35%}
+#admin .stats li {border-bottom:1px solid #ddd; padding-left:10px}
+#admin .settingsForm input.text, #admin .settingsForm select {font-size:140%;}
+#admin .logoForm label, #admin .settingsForm label {width:20em;}
+#admin input.checkbox {margin:3px 5px 5px 0}
+#admin .clear {display:none}
+  
 /* Plugins */
 #plugins .controls {float:right}
 #plugins .controls a, #plugins small {margin-left:10px}
@@ -334,6 +349,7 @@ legend {color:#000; font-size:140%; font-weight:bold; padding:5px 10px 10px}
 fieldset legend a {color:#000}
 fieldset.hidden {border-width:1px 0 0; padding:0 16px 0}
 fieldset.hidden legend a {color:#666}
+fieldset li:last-child {border-bottom:none!important; margin-bottom:0!important}
 
 /* Structured forms */
 .form label {float:left; line-height:1.5; margin:0 1em 1px 0; text-align:right; width:12em}
