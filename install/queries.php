@@ -13,7 +13,7 @@ $queries[] = "DROP TABLE IF EXISTS {$config["tablePrefix"]}conversations";
 $queries[] = "CREATE TABLE {$config["tablePrefix"]}conversations (
 	conversationId int unsigned NOT NULL auto_increment,
 	title varchar(63) NOT NULL,
-	slug varchar(63) NOT NULL default '-',
+	slug varchar(63) default NULL,
 	sticky tinyint(1) NOT NULL default '0',
 	locked tinyint(1) NOT NULL default '0',
 	private tinyint(1) NOT NULL default '0',
