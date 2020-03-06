@@ -23,7 +23,7 @@ $config = array_merge($defaultConfig, $config);
 // If they're out-of-date, redirect to the upgrader.
 require "config/versions.php";
 if ($versions["esoTalk"] != ESOTALK_VERSION) {
-	if (!defined("AJAX_REQUEST")) header("Location: upgrade/index.php");
+	if (!defined("AJAX_REQUEST")) header("Location: {$config["baseURL"]}upgrade/index.php");
 	exit;
 }
 
