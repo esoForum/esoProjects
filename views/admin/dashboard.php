@@ -7,11 +7,7 @@
 if (!defined("IN_ESOTALK")) exit;
 ?>
 
-<?php if ($latestVersion = $this->esoTalk->checkForUpdates() or $latestVersion = "1000") echo $this->esoTalk->htmlMessage("updatesAvailable", $latestVersion); ?>
-
 <?php if (file_exists("install/")) echo $this->esoTalk->htmlMessage("removeFileWarning", "install/"); ?>
-
-<?php if (file_exists("upgrade/")) echo $this->esoTalk->htmlMessage("removeFileWarning", "upgrade/"); ?>
 
 <fieldset>
 	<legend>Forum statistics!</legend>
@@ -40,7 +36,7 @@ if (!defined("IN_ESOTALK")) exit;
 	<li><label>Active members<br/><small>Members with more than 10 posts in the past month</small></label>
 	<div><?php echo $this->stats["activeMembers"]; ?></div></li>
 	
-	<?php $this->fireEvent("forumStatistics"); ?>
+	<?php $this->callHook("forumStatistics"); ?>
 
 	
 	</ul>
@@ -62,7 +58,7 @@ if (!defined("IN_ESOTALK")) exit;
 	<li><label>MySQL version</label>
 	<div><?php echo $this->server["mysqlVersion"]; ?></div></li>
 
-	<?php $this->fireEvent("aboutServer"); ?>
+	<?php $this->callHook("aboutServer"); ?>
 
 	
 	</ul>
