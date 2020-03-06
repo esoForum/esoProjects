@@ -52,7 +52,7 @@ function dashboardInit(&$adminController)
 		"Members" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}members", 0),
  		"Conversations" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}conversations", 0),
  		"Posts" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}posts", 0),
- 		"New members in the past week" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}members WHERE UNIX_TIMESTAMP()-60*60*24*7<joinTime", 0),
+ 		"New members in the past week" => "TODO: add join date column to members table",//$this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}members WHERE UNIX_TIMESTAMP()-60*60*24*7<joinTime", 0)
  		"New conversations in the past week" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}conversations WHERE UNIX_TIMESTAMP()-60*60*24*7<startTime", 0),
  		"New posts in the past week" => $this->esoTalk->db->result("SELECT COUNT(*) FROM {$config["tablePrefix"]}posts WHERE UNIX_TIMESTAMP()-60*60*24*7<time", 0)	
 	);
