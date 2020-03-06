@@ -63,7 +63,7 @@ function dashboardInit(&$adminController)
  		"MySQL version" => $this->esoTalk->db->result("SELECT VERSION()", 0)
 	);
 	
-	$this->fireEvent("dashboardInit");
+	$this->callHook("dashboardInit");
 }
 
 function dashboardAjax(&$adminController)
