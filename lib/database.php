@@ -13,10 +13,10 @@ var $esoTalk;
 var $link;
 
 // Connect to a MySQL server and database.
-function connect($host, $user, $password, $db)
+function connect($host, $user, $password, $db, $encoding = "utf8")
 {
-	global $language, $config;
 	if (!($this->link = @mysql_connect($host, $user, $password)) or !@mysql_select_db($db, $this->link)) return false;
+	$this->query("SET NAMES '$encoding'");
 	return true;
 }
 
