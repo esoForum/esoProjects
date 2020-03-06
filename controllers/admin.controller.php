@@ -206,10 +206,10 @@ function changeLogo()
 	// ...and get its dimensions.
 	list($curWidth, $curHeight) = getimagesize($file);
 	
-	if (!empty($_POST["resizeLogo"])) {
+	//if (!empty($_POST["resizeLogo"])) {
 		//$newWidth = 30;
 		$newHeight = 32;
-	}
+	//}
 	
 
 		
