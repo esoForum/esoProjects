@@ -276,7 +276,7 @@ blockquote p {margin-bottom:.75em}
 #palette table#tblsecond a.selected {height:37px}
 
 /* Admin */
-#admin {border-left:175px solid #eee; margin:-15px -25px; background:#fff;}
+#admin {border-left:175px solid #eee; border-image:linear-gradient(180deg, #eee, #fff); border-image-slice:1; margin:-15px -25px; background:#fff;}
 #admin .menu {float:left; width:175px; margin:0; margin-left:-175px; padding:10px 0; border-right:1px solid #ccc;}
 #admin .menu li {list-style-type:none; margin:0; padding:0; display:block}
 #admin .menu li a {display:block; margin-left:15px; padding:10px 15px; font-size:120%;}
@@ -289,6 +289,7 @@ blockquote p {margin-bottom:.75em}
 #admin .logoForm label, #admin .settingsForm label {width:20em;}
 #admin input.checkbox {margin:3px 5px 5px 0}
 #admin .clear {display:none}
+.form.logoForm img {border:1px dashed #bbb; padding:5px}
   
 /* Plugins */
 #plugins .controls {float:right}
