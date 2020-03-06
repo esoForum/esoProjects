@@ -628,7 +628,7 @@ function gambitDraft(&$search, $term, $negate)
 // Posts gambit: get conversations with a particular number of posts.
 function gambitHasNPosts(&$search, $term, $negate)
 {
-	$search->matches["a"] = (!$search->matches["a"]) ? "=" : htmlspecialchars_decode($this->matches["a"]);
+	$search->matches["a"] = (!$search->matches["a"]) ? "=" : desanitize($this->matches["a"]);
 	if ($negate) {
 		switch ($search->matches["a"]) {
 			case "<": $search->matches["a"] = ">="; break;
