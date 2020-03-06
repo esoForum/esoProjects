@@ -321,6 +321,7 @@ blockquote p {margin-bottom:.75em}
 .profile .form div {float:none; font-size:115%; margin-left:35%}
 .profile .form li {border-bottom:1px solid #ddd; padding-left:10px}
 .profile div.about {margin:0 0 1em 0}
+.p.profile {margin-bottom:0}
 
 /* Members online */
 #membersOnline .p {border-style:solid; border-width:2px; margin-bottom:2px}
