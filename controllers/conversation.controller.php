@@ -91,7 +91,7 @@ function init()
 	// Discard a draft.
 	if (isset($_POST["discardDraft"])) {
 		// If the conversation doesn't exist, just redirect to the new conversation page.
-		if (!$this->conversation["id"]) redirect("conversation", "new");
+ 		if (!$this->conversation["id"]) redirect("conversation", "new");
 		
 		// If there are no other posts in the conversation, just delete the conversation.
 		if (!$this->conversation["postCount"] and $this->deleteConversation()) {
