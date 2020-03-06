@@ -11,7 +11,7 @@ class esoTalk extends Controller {
 var $db;
 var $user;
 var $action;
-var $allowedActions = array("conversation", "feed", "forgot-password", "join", "online", "plugins", "post", "profile", "search", "settings", "skins");
+var $allowedActions = array("admin," "conversation", "feed", "forgot-password", "join", "online", "post", "profile", "search", "settings");
 var $controller;
 var $view = "wrapper.php";
 var $language;
@@ -102,10 +102,8 @@ function init()
                         $this->addToBar("left", "<a href='" . makeLink("conversation", "new") . "' id='nav-conv'>{$language["Start a conversation"]}</a>", 400);
                         $this->addToBar("left", "<a href='" . makeLink("settings") . "' id='nav-sett'>{$language["My settings"]}</a>", 500);
                         $this->addToBar("left", "<a href='" . makeLink("logout") . "' id='nav-exit'>{$language["Log out"]}</a>", 1100);
-                        if ($this->user["admin"]) {
-                                $this->addToBar("left", "<a href='" . makeLink("skins") . "' id='nav-skin'>{$language["Skins"]}</a>", 800);
-                                $this->addToBar("left", "<a href='" . makeLink("plugins") . "' id='nav-plgn'>{$language["Plugins"]}</a>", 900);
-			}
+                        if ($this->user["admin"])
+  				$this->addToBar("left", "<a href='" . makeLink("admin") . "'>{$language["Administration"]}</a>", 700);
 		}
 		
 		// Set up some default JavaScript files and language definitions.
@@ -255,6 +253,22 @@ function getStatistics()
 	return $result;
 }
 
+// Get an array of language packs from the languages/ directory.
+function getLanguages()
+{
+	$languages = array();
+	if ($handle = opendir("languages")) {
+	    while (false !== ($v = readdir($handle))) {
+			if (!in_array($v, array(".", "..")) and substr($v, -4) == ".php" and $v[0] != ".") {
+				$v = substr($v, 0, strrpos($v, "."));
+				$languages[] = $v;
+			}
+		}
+	}
+	sort($languages);
+	return $languages;
+}
+	
 // Check for updates to the esoTalk software.
 function checkForUpdates()
 {
@@ -269,7 +283,7 @@ function checkForUpdates()
 	fclose($handle);
 	
 	// Compare the installed version and the latest version. Show a message if there is a new version.
-	if (version_compare(ESOTALK_VERSION, $latestVersion) == -1) $this->message("updatesAvailable", false, $latestVersion);
+	if (version_compare(ESOTALK_VERSION, $latestVersion) == -1) $latestVersion;
 }
 
 // Check the first parameter of the URL against $name, and instigate the controller it refers to if they match.
