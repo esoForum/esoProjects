@@ -471,6 +471,17 @@ td.author, td.lastPost, td.star {display:none}
 .p .body img {max-width:100%}
 #name-message, #email-message, #password-message, #confirm-message {clear:left; padding-left:146px}
 }
+  
+@media only screen and (max-width:860px) {
+.form.settingsForm li {margin-bottom:10px}
+.form.settingsForm li label {text-align:left; width:auto}
+.form.settingsForm li div {clear:left}
+.form.settingsForm li .checkbox {margin-left:20px}
+.form.settingsForm li:last-child {width:20em}
+.form.settingsForm li:last-child label {width:20em!important}
+.form.settingsForm li:nth-last-child(2) div {position:absolute; padding-left:2px} 
+#admin .logoForm label, #admin .settingsForm label {width:auto}
+}
 
 @media only screen and (max-width:735px) {
 #settingsOtherForm label {text-align:left; width:auto}
@@ -489,9 +500,8 @@ select#language, select#avatarAlignment {max-width:20em; width:96%}
 #settingsAvatar label.radio {width:auto}
 #settingsAvatar .button {margin-left:-1px}
 #appearance .form li {margin-bottom:10px}
-fieldset#appearance {padding:0 15px 5px}
 }
-
+  
 @media only screen and (max-width:710px) {
 #nav-fgpw, #rss {display:none}
 #fgtpasftr {display:inherit}
