@@ -481,6 +481,12 @@ td.author, td.lastPost, td.star {display:none}
 .form.settingsForm li:last-child label {width:20em!important}
 .form.settingsForm li:nth-last-child(2) div {position:absolute; padding-left:2px} 
 #admin .logoForm label, #admin .settingsForm label {width:auto}
+.form.logoForm li {margin-bottom:10px}
+.form.logoForm li label {text-align:left}
+.form.logoForm li input {clear:left; max-width:20em}
+.form.logoForm li:last-child {width:20em}
+.form.logoForm li:last-child label {width:20em!important}
+.form.logoForm li div {clear:left}
 }
 
 @media only screen and (max-width:735px) {
