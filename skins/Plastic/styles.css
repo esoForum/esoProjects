@@ -555,7 +555,6 @@ blockquote {margin:0 0 1em}
 #settingsPasswordForm label {text-align:left}
 #settingsPasswordForm .button {margin-left:-1px; margin-top:5px}
 #settingsPasswordForm input.text {clear:left; max-width:20em; width:96%}
-fieldset#settingsPassword {padding:0 15px 5px}
 #forgot-password .form label {text-align:right; width:auto}
 #forgot-password input#email {clear:left; max-width:20em; width:96%}
 label#lbl-fgps {width:12em; display:none}
@@ -565,10 +564,6 @@ label#lbl-fgps {width:12em; display:none}
 #forgot-pass-reset input {clear:left; max-width:20em; width:96%}
 label#lbl-fgcf {width:12em; display:none}
 #forgot-pass-reset .button {margin-top:2px; margin-left:-1px}
-}
-
-@media only screen and (max-width:485px) {
-#settingsOther {padding:0 15px 5px}
 }
 
 @media only screen and (max-width:450px) {
