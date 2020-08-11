@@ -1,6 +1,6 @@
 <?php
 if(!defined("IN_ESOTALK"))exit;?>
-<fieldset>
+<fieldset id="fieldmembers">
 <legend><?php echo $language["Online members"];?></legend>
 
 <?php
