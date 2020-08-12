@@ -220,9 +220,9 @@ hr {display:none}
 
 /* Reply to a conversation */
 .p .edit {padding:5px 0 10px 0}
-.r .edit {padding:5px 10px 10px 0}
+.r .edit {padding:5px 10px 10px 0; padding-left:10px}
 .l .edit {padding:5px 0 10px 10px}
-.p .body textarea {height:25em; width:99.5%}
+.p .body textarea {height:25em; width:fill-available; width:-webkit-fill-available; width:-moz-available}
 .p .editButtons {margin-top:5px; text-align:right}
 #discardDraft, #submitPost {margin-left:5px}
 
@@ -292,6 +292,7 @@ form#settingsAvatar {padding-bottom:8px}
 #admin input.checkbox {margin:3px 5px 5px 0}
 #admin .clear {display:none}
 .form.logoForm img {border:1px dashed #bbb; padding:5px}
+.form.logoForm li:last-child {margin-top:-20px}
   
 /* Plugins */
 #plugins .controls {float:right}
@@ -486,7 +487,7 @@ td.author, td.lastPost, td.star {display:none}
 .form.logoForm li {margin-bottom:10px}
 .form.logoForm li label {text-align:left}
 .form.logoForm li input {clear:left; max-width:20em}
-.form.logoForm li:last-child {width:20em}
+.form.logoForm li:last-child {width:20em; margin-top:0}
 .form.logoForm li:last-child label {width:20em!important}
 .form.logoForm li div {clear:left}
 }
@@ -588,16 +589,20 @@ label#lbl-fgcf {width:12em; display:none}
 
 @media only screen and (max-width:300px) {
 #stats {display:none}
+input#reply-previewCheckbox {margin-right:0}
 }
 
 @media only screen and (max-width:320px) {
 #nav-skin, #nav-plgn {display:none}
 }
+  
+@media only screen and (max-width:340px) {
+#discardDraft {clear:left; margin:5px 0 0 0}
+}
 
 @media only screen and (max-width:308px) {
 #hdr {border-bottom:1px solid #ababab; box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.02)}
 #bar {display:none}
-#discardDraft {clear:left; margin:5px 0 0 0}
 #reply .hdr {padding:5px 0; height:18px}
 #reply .formattingButtons {margin-left:0}
 #reply .controls label {margin-left:-2px; padding-right:3px}
