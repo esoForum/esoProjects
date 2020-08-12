@@ -262,7 +262,9 @@ blockquote p {margin-bottom:.75em}
 #settings .post {margin:0}
 #settings .submit {margin-bottom:30px}
 #preview .body {overflow:visible}
+form#settingsAvatar {padding-bottom:8px}
 #settingsAvatar label {width:20em}
+#settingsAvatar li:last-child {margin-top:-20px}
 #settingsPassword label {width:12em}
 #settingsOther label {width:32em}
 #settingsOther input.checkbox, #settingsOther input.radio {margin:3px 5px 5px 0}
@@ -503,8 +505,9 @@ select#language, select#avatarAlignment {max-width:20em; width:96%}
 @media only screen and (max-width:735px) {
 #lbl-avt {display:none}
 #upl-ava, #upl-url {clear:left; max-width:20em; width:96%}
+#settingsAvatar li:last-child {margin-top:0}
 #settingsAvatar label.radio {width:auto}
-#settingsAvatar .button {margin-left:-1px}
+/* #settingsAvatar .button {margin-left:-1px} */
 #appearance .form li {margin-bottom:10px}
 }
   
@@ -542,6 +545,8 @@ blockquote {margin:0 0 1em}
 #cHdr {margin:10px 0 14px}
 #preview {margin-bottom:0}
 #appearance .p .body {padding:5px 0 0}
+form#settingsAvatar {padding-left:10px; padding-right:10px}
+#palette {margin-left:2px; margin-right:0}
 #settingsOtherForm input {left:26px}
 .profile .form li, #report {padding-left:0}
 }
@@ -552,7 +557,7 @@ blockquote {margin:0 0 1em}
 #settingsPassword .form li {margin-bottom:10px}
 #settingsPassword fieldset, fieldset#forgot-pass {padding:0 15px 5px}
 #settingsPasswordForm label {text-align:left}
-#settingsPasswordForm .button {margin-left:-1px; margin-top:5px}
+#settingsPasswordForm .button {margin-top:5px}
 #settingsPasswordForm input.text {clear:left; max-width:20em; width:96%}
 #forgot-password .form label {text-align:right; width:auto}
 #forgot-password input#email {clear:left; max-width:20em; width:96%}
