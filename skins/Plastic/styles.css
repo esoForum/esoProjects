@@ -133,7 +133,7 @@ a.star0:active, a.star1:active {color:#e4b600}
 .c strong {font-size:120%; font-weight:bold}
 .c .read {font-weight:normal}
 .c strong a {color:#000; margin:0}
-.c a {margin-left:10px}
+.c a {margin-left:10px; margin-bottom:-5px}
 .c .author a, .c .lastPost a {color:#000; margin:0}
 .c td.avatar {padding:4px 10px 4px 6px; width:32px; text-align:center}
 .c td.avatar img {width:30px; height:30px; object-fit:cover; vertical-align:middle; border:1px solid #ddd}
@@ -152,12 +152,13 @@ a.star0:active, a.star1:active {color:#e4b600}
 #searchResults tbody > tr:nth-of-type(even) {background-color:#f4f4f4}
 
 /* Conversation header */
-#cHdr {margin:10px 0 30px 0; overflow:hidden}
+#cHdr {margin:0 0 10px; overflow:hidden; padding:10px; border:1px solid #bbb}
 /* Info and title (left part) */
 #cInfo {float:left; overflow:hidden; width:60%}
-#cInfo .star1, #cInfo .star0 {float:left; margin:2px 13px 0 2px}
+#cInfo .star1, #cInfo .star0 {float:left; margin:2px 13px 0 2px; padding-top:7px; text-shadow:#fe7 0 0 2px}
 #cInfo h2 {font-size:100%; margin:0; overflow:hidden}
 #cInfo #cTitle {font-size:180%; font-weight:normal; margin:0.15em 0 0 0}
+#cTitle {display:block; padding-top:3px; padding-bottom:5px}
 #cInfo .editable {box-shadow:none}
 #cInfo .text {width:75%}
 #cInfo .editable {background:none; border-width:0; padding:3px}
@@ -229,7 +230,8 @@ hr {display:none}
 /* Formatting buttons */
 .p .controls {margin:-1px 0 -3px 0}
 .formattingButtons {overflow:hidden; display:block; float:left}
-.p .controls .formattingButtons a {background-image:url(icons/icons.svg); background-repeat:no-repeat; height:18px; margin:0 3px 0 0; width:18px; vertical-align:top; float:left}
+.p .controls .formattingButtons a {height:18px; margin:0; vertical-align:top; float:left; margin-left:10px}
+.p .controls .formattingButtons a p {text-align:center; margin-top:2px}
 .p .controls .formattingButtons a span {display:none}
 .p .controls .formattingButtons a:hover {background-color:#fff; text-decoration:none}
 .p .controls .formattingButtons a:active {background-color:#888}
