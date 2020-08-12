@@ -161,7 +161,7 @@ function init()
 		$this->esoTalk->addToHead("<meta name='twitter:description' content='" . sprintf($language["forumDescription"], $config["forumTitle"], implode(", ", $tags), $lastTag) . "'/>");
 		if (!$this->esoTalk->user) $this->esoTalk->addToFooter("<a id='fgtpasftr' href='" . makeLink("forgot-password") . "'>{$language["Forgot your password"]}</a>");
 		if ($this->esoTalk->user) $this->esoTalk->addToFooter("<a id='markasread' href='" . makeLink("?markAsRead") . "'>{$language["Mark all conversations as read"]}</a>");
-		if ($this->esoTalk->user) $this->esoTalk->addToFooter("<a id='startaconv' href='" . makeLink("/conversation/new/") . "'>{$language["Start a conversation"]}</a>");
+		if ($this->esoTalk->user) $this->esoTalk->addToFooter("<a id='startaconv' href='" . makeLink("conversation/new") . "'>{$language["Start a conversation"]}</a>");
 		
 		// If this is not technically the homepage (if it's a search page) the we don't want it to be indexed.
 		if (@$_GET["q1"] == "search") $this->esoTalk->addToHead("<meta name='robots' content='noindex, noarchive'/>");
